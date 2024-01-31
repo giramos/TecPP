@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaEnlazada", "ListaEnlazada\ListaEnlazada.csproj", "{57685D74-E782-46D6-A127-8AADFCC276EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListaEnlazada", "ListaEnlazada\ListaEnlazada.csproj", "{57685D74-E782-46D6-A127-8AADFCC276EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{EA56BABE-63B9-4D1C-AA5B-7580CD39BBE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Main", "Main\Main.csproj", "{EA56BABE-63B9-4D1C-AA5B-7580CD39BBE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{89934A01-0CCC-4397-9CF1-859578A21F7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{89934A01-0CCC-4397-9CF1-859578A21F7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

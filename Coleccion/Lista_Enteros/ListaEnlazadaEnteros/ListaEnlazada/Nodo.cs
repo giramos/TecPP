@@ -4,7 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 /// <summary>
-/// Lista enlazada
+/// Germán Iglesias Ramos
+/// UO202549
+/// Lista enlazada enteros
+/// TPP2024
 /// </summary>
 namespace ListaEnlazada
 {
