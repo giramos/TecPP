@@ -315,7 +315,7 @@ namespace ListaEnlazadaObjetos
             {
                 for (int i = 0; i < NumElementos; i++)
                 {
-                    if (valor == GetElemento(i))
+                    if (valor.Equals(GetElemento(i))) // Cuidado con el == -> identidad vs ref
                     {
                         return true;
                     }
@@ -324,13 +324,23 @@ namespace ListaEnlazadaObjetos
             return false;
         }
 
+        public void VaciarLista()
+        {
+            if (!ListaVacia())
+            {
+                Inicial = null;
+                _numElmentos = 0;
+            }
+
+        }
+
         /// <summary>
         /// Metodo redefinido ToString()
         /// </summary>
         /// <returns>Devuelve una lista con el valor de todos los nodos</returns>
         public override string ToString()
         {
-            string str = "Lista Enlazada:";     
+            string str = "Lista Enlazada:";
             Nodo nuevo = Inicial;
             while (nuevo != null)
             {

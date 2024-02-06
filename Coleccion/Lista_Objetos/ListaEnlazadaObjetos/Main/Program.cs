@@ -35,6 +35,17 @@ namespace Main
             listaGrande.AñadirFinal(1);
             Console.WriteLine("Uso del getElemento(posicion 50): " + listaGrande.GetElemento(50));
             Console.WriteLine("Uso del getPoscion(elemento 1): " + listaGrande.GetPosicion(1));
+
+            Lista listaMiscelanea = new Lista();
+            listaMiscelanea.Añadir(1);
+            listaMiscelanea.Añadir('a');
+            listaMiscelanea.Añadir(1.5);
+            listaMiscelanea.Añadir("german");
+            Console.WriteLine("Lista miscelanea :" + listaMiscelanea.ToString());
+            Console.WriteLine($"¿Contiene la lista el 1? {listaMiscelanea.Contiene(1)}");
+            Console.WriteLine($"¿Contiene la lista el 1.5? {listaMiscelanea.Contiene(1.5)}");
+            Console.WriteLine($"¿Contiene la lista el 'a'? {listaMiscelanea.Contiene('a')}");
+            Console.WriteLine($"¿Contiene la lista el german? {listaMiscelanea.Contiene("german")}");
         }
     }
 }

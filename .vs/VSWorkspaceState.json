@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Coleccion",
-    "\\Coleccion\\Lista_Enteros"
+    "\\Coleccion\\Lista_Enteros",
+    "\\Coleccion\\Lista_Objetos",
+    "\\Coleccion\\Lista_Objetos\\ListaEnlazadaObjetos"
   ],
-  "SelectedNode": "\\Coleccion\\Lista_Objetos",
+  "SelectedNode": "\\Coleccion\\Lista_Objetos\\ListaEnlazadaObjetos\\ListaEnlazadaObjetos.sln",
   "PreviewInSolutionExplorer": false
 }
