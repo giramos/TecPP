@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "TPP01": {
-      "commandName": "Project",
-      "commandLineArgs": "OK\r\nhola"
-    }
-  }
-}
