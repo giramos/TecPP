@@ -2,6 +2,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ListaEnlazadaObjetos;
 using System;
 using ConjuntoObjetos;
+using System.Runtime.InteropServices;
 
 /// <summary>
 /// Germán Iglesias Ramos
@@ -21,6 +22,7 @@ namespace Tests
         Lista listaDouble = new Lista();
         Lista listaString = new Lista();
         Lista listaMiscelanea = new Lista();
+        Lista listaNull = new Lista();
 
         [TestInitialize]
         public void Inicio()
@@ -62,6 +64,9 @@ namespace Tests
             listaMiscelanea.Añadir('a');
             listaMiscelanea.Añadir(1.5);
             listaMiscelanea.Añadir("german");
+
+            // Lista con null
+            for(int i=0; i < 5; i++) { listaNull.Añadir(null); }
 
 
         }
@@ -459,6 +464,61 @@ namespace Tests
 
             // Al añadir un elemento repetido debe de lanzar una excepcion
             set.Añadir('a');
+        }
+
+        [TestMethod]
+        public void TestNull()
+        {
+            // Comprobar que nuestra lista null tiene 5 elementos
+            Assert.IsTrue(listaNull.NumElementos == 5);
+            // Comprobar exactamente que nuestro toString muestra los null
+            Assert.AreEqual("[null - null - null - null - null - ]", listaNull.ToString());
+            // Añadimos un caracter
+            listaNull.AñadirFinal('a');
+            // Añadimos otro caracter al inicio
+            listaNull.AñadirInicio('a');
+            // Añadimos un numero en la pos 2
+            listaNull.Añadir(1, 2);
+            // Comprobar exactamente que nuestro toString muestra los null
+            Assert.AreEqual("[a - null - 1 - null - null - null - null - a - ]", listaNull.ToString());
+            // Borramos un null (va a ser el primero)
+            listaNull.Borrar(null);
+            // Comprobar exactamente que nuestro toString muestra los null
+            Assert.AreEqual("[a - 1 - null - null - null - null - a - ]", listaNull.ToString());
+            // Borramos un null (va a ser el primero)
+            listaNull.Borrar(null);
+            // Comprobar exactamente que nuestro toString muestra los null
+            Assert.AreEqual("[a - 1 - null - null - null - a - ]", listaNull.ToString()); 
+            // Borramos el ultimo caracter a
+            listaNull.BorrarFinal('a');
+            // Comprobar exactamente que nuestro toString muestra los null
+            Assert.AreEqual("[a - 1 - null - null - null - ]", listaNull.ToString());
+            // Añadimos al inicio un null
+            listaNull.AñadirInicio(null);
+            // Comprobar exactamente que nuestro toString muestra los null
+            Assert.AreEqual("[null - a - 1 - null - null - null - ]", listaNull.ToString());
+            // Añadimos el null de la posicion 2
+            listaNull.Añadir(null, 2);
+            // Comprobar exactamente que nuestro toString muestra los null
+            Assert.AreEqual("[null - a - null - 1 - null - null - null - ]", listaNull.ToString());
+            //// Borramos el ultimo null
+            //listaNull.BorrarFinal(null);
+            // Comprobar exactamente que nuestro toString muestra los null
+            Assert.AreEqual("[null - a - null - 1 - null - null - null - ]", listaNull.ToString());
+            // Añadimos un null 
+            listaNull.Añadir(null);
+            // Comprobar exactamente que nuestro toString muestra los null
+            Assert.AreEqual("[null - a - null - 1 - null - null - null - null - ]", listaNull.ToString());
+            // Añadimos al final un null
+            listaNull.BorrarFinal(null);
+            // Comprobar exactamente que nuestro toString muestra los null
+            Assert.AreEqual("[null - a - null - 1 - null - null - null - ]", listaNull.ToString());
+            // Comprobamos que el elemento de la posicion 2 es un null
+            Assert.IsTrue(listaNull.GetElemento(2) == null);
+            // Comprobamos que el primer elemento es un null
+            Assert.IsTrue(listaNull.GetPosicion(null) == 0);
+
+
         }
     }
 }

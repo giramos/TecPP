@@ -61,8 +61,15 @@ namespace Main
             Console.WriteLine($"¿Contiene 1 la lista? {listaInt.Contiene(1)}");
             Console.WriteLine($"¿Contiene 3 la lista? {listaInt.Contiene(3)}");
             Console.WriteLine($"¿Contiene null la lista? {listaInt.Contiene(null)}");
+            //listaInt.Borrar(null);
+            //Console.WriteLine(listaInt.ToString());
+            //Console.WriteLine();
+            Console.WriteLine($"¿Contiene null la lista? {listaInt.Contiene(null)}");
             Console.WriteLine($"¿Contiene 4 la lista? {listaInt.Contiene(4)}");
             Console.WriteLine("[GetElemento]");
+            listaInt.Añadir(null);
+            Console.WriteLine(listaInt.ToString());
+            Console.WriteLine();
             Console.WriteLine($"¿Que hay en la pos 0? {listaInt.GetElemento(0)}");
             Console.WriteLine($"¿Que hay en la pos 6? {listaInt.GetElemento(6)}");
             Console.WriteLine($"¿Que hay en la pos 4? {listaInt.GetElemento(4)}");
@@ -72,6 +79,29 @@ namespace Main
             Console.WriteLine($"¿En que posicion esta el null? {listaInt.GetPosicion(null)}");
             Console.WriteLine($"¿En que posicion esta german? {listaInt.GetPosicion("german")}");
             Console.WriteLine($"¿En que posicion esta el 3? {listaInt.GetPosicion(3)}");
+            Console.WriteLine(listaInt.ToString());
+            Console.WriteLine();
+            Console.WriteLine("[Borrar null]");
+            listaInt.Borrar(null);
+            Console.WriteLine(listaInt.ToString());
+            listaInt.AñadirFinal(null);
+            Console.WriteLine(listaInt.ToString());
+            listaInt.AñadirInicio(null);
+            Console.WriteLine(listaInt.ToString());
+            listaInt.Añadir(null,3);
+            Console.WriteLine(listaInt.ToString());
+            listaInt.BorrarFinal(null);
+            Console.WriteLine(listaInt.ToString());
+            listaInt.AñadirFinal(9);
+            Console.WriteLine(listaInt.ToString());
+            listaInt.AñadirFinal(9);
+            Console.WriteLine(listaInt.ToString());
+            listaInt.BorrarFinal(9);
+            Console.WriteLine(listaInt.ToString());
+            listaInt.AñadirInicio(null);
+            Console.WriteLine(listaInt.ToString());
+            listaInt.BorrarInicio(null);
+            Console.WriteLine(listaInt.ToString());
 
         }
     }

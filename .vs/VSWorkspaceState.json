@@ -1,15 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Coleccion",
+    "\\Coleccion\\Conjunto_Objetos",
     "\\Coleccion\\Conjunto_Objetos\\ListaEnlazadaObjetos",
-    "\\Coleccion\\Conjunto_Objetos\\ListaEnlazadaObjetos\\Tests",
-    "\\Laboratorios",
+    "\\Coleccion\\Conjunto_Objetos\\ListaEnlazadaObjetos\\Main",
     "\\Laboratorios\\lab03",
     "\\Laboratorios\\lab03\\TPP03_2324_HechoEnClase",
     "\\Laboratorios\\lab03\\TPP03_2324_HechoEnClase\\TPP03_2324",
     "\\Laboratorios\\lab03\\TPP03_2324_HechoEnClase\\TPP03_2324\\TPP3",
     "\\Laboratorios\\lab03\\TPP03_2324_HechoEnClase\\TPP03_2324\\TPP3\\TrabajoEnClase"
   ],
-  "SelectedNode": "\\Laboratorios\\lab03\\TPP03_2324_HechoEnClase\\TPP03_2324\\TPP3\\TrabajoEnClase\\IFacturable.cs",
+  "SelectedNode": "\\Coleccion\\Conjunto_Objetos\\ListaEnlazadaObjetos\\Tests\\Prueba.cs",
   "PreviewInSolutionExplorer": false
 }

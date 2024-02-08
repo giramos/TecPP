@@ -157,7 +157,9 @@ namespace ListaEnlazadaObjetos
             //{
             if (ListaVacia())
                 throw new Exception("La lista está vacía, no hay nada que borrar");
-            else if (Inicial.Valor.Equals(valor))
+            else if (Inicial.Valor == null && valor == null)
+                Inicial = Inicial.Siguiente;
+            else if (Inicial.Valor != null && Inicial.Valor.Equals(valor))
                 Inicial = Inicial.Siguiente;
             else
                 throw new ArgumentException("El valor debe ser igual al nodo inicial");
@@ -186,17 +188,20 @@ namespace ListaEnlazadaObjetos
 
                 while (nuevo.Siguiente != null)
                 {
-                    if (nuevo.Siguiente.Valor.Equals(valor))
+                    if ((nuevo.Siguiente.Valor == null && valor == null) || (nuevo.Siguiente.Valor != null && nuevo.Siguiente.Valor.Equals(valor)))
                     {
-                        nodoABorrar = nuevo.Siguiente;
-                        nuevo.Siguiente = nuevo.Siguiente.Siguiente;
-                        _numElmentos--;
+                        nodoABorrar = nuevo;
                     }
-                    else
-                        nuevo = nuevo.Siguiente;
+                    nuevo = nuevo.Siguiente;
                 }
                 if (nodoABorrar == null)
                     throw new ArgumentException("No hay un nodo final con ese valor");
+                if (nodoABorrar.Siguiente.Siguiente == null)
+                {
+                    nodoABorrar.Siguiente = null;
+                }
+
+                _numElmentos--;
             }
             //}
         }
@@ -225,7 +230,7 @@ namespace ListaEnlazadaObjetos
                     Nodo nuevo = Inicial;
                     while (nuevo.Siguiente != null)
                     {
-                        if (nuevo.Siguiente.Valor.Equals(valor))
+                        if ((nuevo.Siguiente.Valor == null && valor == null) || (nuevo.Siguiente.Valor != null && nuevo.Siguiente.Valor.Equals(valor)))
                         {
                             nuevo.Siguiente = nuevo.Siguiente.Siguiente;
                             _numElmentos--;
@@ -263,7 +268,7 @@ namespace ListaEnlazadaObjetos
                     }
                 }
             }
-            return nuevo.Valor ?? "null";
+            return nuevo.Valor;
         }
 
         /// <summary>
@@ -284,7 +289,7 @@ namespace ListaEnlazadaObjetos
                 {
                     for (int i = 0; i < NumElementos; i++)
                     {
-                        if (GetElemento(i).Equals(valor))
+                        if (GetElemento(i) != null && GetElemento(i).Equals(valor))
                         {
                             pos = i;
                             break;
@@ -302,7 +307,7 @@ namespace ListaEnlazadaObjetos
                 {
                     for (int i = 0; i < NumElementos; i++)
                     { 
-                        if (GetElemento(i).Equals("null"))
+                        if (GetElemento(i) == null)
                         {
                             pos = i;
                             break;
@@ -340,7 +345,7 @@ namespace ListaEnlazadaObjetos
             {
                 for (int i = 0; i < NumElementos; i++)
                 {
-                    if (GetElemento(i) == null)
+                    if (GetElemento(i)==null)
                     {
                         return true;
                     }

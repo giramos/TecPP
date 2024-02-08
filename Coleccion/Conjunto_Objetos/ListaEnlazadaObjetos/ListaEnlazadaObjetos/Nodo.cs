@@ -21,7 +21,11 @@ namespace ListaEnlazadaObjetos
         object _valor; // es el valor o el dato que tiene el Nodo
         Nodo _siguiente; // referencia o apunta al nodo siguiente
 
-        public object Valor { get; set; }
+        public object Valor
+        {
+            get { return _valor; }
+            set { _valor = value; }
+        }
         public Nodo Siguiente { get; set; }
 
         /// <summary>;
