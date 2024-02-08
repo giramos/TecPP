@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "HerenciaPolimorfismo/1.0.0": {
+        "dependencies": {
+          "Modelo": "1.0.0",
+          "TrabajoEnClase": "1.0.0"
+        },
+        "runtime": {
+          "HerenciaPolimorfismo.dll": {}
+        }
+      },
+      "Modelo/1.0.0": {
+        "runtime": {
+          "Modelo.dll": {}
+        }
+      },
+      "TrabajoEnClase/1.0.0": {
+        "runtime": {
+          "TrabajoEnClase.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HerenciaPolimorfismo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Modelo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TrabajoEnClase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

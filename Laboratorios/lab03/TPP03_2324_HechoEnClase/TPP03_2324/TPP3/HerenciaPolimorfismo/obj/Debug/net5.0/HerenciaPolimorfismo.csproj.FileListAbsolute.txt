@@ -1,0 +1,41 @@
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\HerenciaPolimorfismo.exe
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\HerenciaPolimorfismo.deps.json
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\HerenciaPolimorfismo.runtimeconfig.json
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\HerenciaPolimorfismo.runtimeconfig.dev.json
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\HerenciaPolimorfismo.dll
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\HerenciaPolimorfismo.pdb
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\Modelo.dll
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\Modelo.pdb
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.csproj.AssemblyReference.cache
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.AssemblyInfoInputs.cache
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.AssemblyInfo.cs
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.csproj.CoreCompileInputs.cache
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.csproj.CopyComplete
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.dll
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\refint\HerenciaPolimorfismo.dll
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.pdb
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.genruntimeconfig.cache
+C:\Users\UO202549\Downloads\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\ref\HerenciaPolimorfismo.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\HerenciaPolimorfismo.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\HerenciaPolimorfismo.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\HerenciaPolimorfismo.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\HerenciaPolimorfismo.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\HerenciaPolimorfismo.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\HerenciaPolimorfismo.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\Modelo.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\TrabajoEnClase.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\Modelo.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\bin\Debug\net5.0\TrabajoEnClase.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.csproj.AssemblyReference.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.csproj.CopyComplete
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\refint\HerenciaPolimorfismo.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\HerenciaPolimorfismo.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab03\TPP03_2324_HechoEnClase\TPP03_2324\TPP3\HerenciaPolimorfismo\obj\Debug\net5.0\ref\HerenciaPolimorfismo.dll

@@ -1,0 +1,6 @@
+is -> cuando no se usa posteriormente el objeto
+
+as -> cuando si vas a manaejar o utilizar el objeto
+
+getHashCode -> ¿?que atributo¿? el identificador ID
+

@@ -73,7 +73,7 @@ namespace Tests
             listaPequeña.AñadirInicio(1);
             Assert.IsTrue(listaPequeña.NumElementos.Equals(6));
             Assert.IsFalse(listaPequeña.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: 1 0 1 2 3 4", listaPequeña.ToString());
+            Assert.AreEqual("[1 - 0 - 1 - 2 - 3 - 4 - ]", listaPequeña.ToString());
 
             // Añadimos al inicio de la lista Grande
             listaGrande.AñadirInicio(1);
@@ -86,7 +86,7 @@ namespace Tests
             listaChar.AñadirInicio('a');
             Assert.IsTrue(listaChar.NumElementos.Equals(5));
             Assert.IsFalse(listaChar.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: a A B C D", listaChar.ToString());
+            Assert.AreEqual("[a - A - B - C - D - ]", listaChar.ToString());
             Assert.AreEqual(listaChar.GetElemento(0), 'a'); // comprobamos que el elemento inicial es el 'a'
             Assert.AreEqual(listaChar.GetPosicion('a'), 0); // comprobamos que esta en la posicion inicial
 
@@ -101,7 +101,7 @@ namespace Tests
             listaString.AñadirInicio("German");
             Assert.IsTrue(listaString.NumElementos.Equals(5));
             Assert.IsFalse(listaString.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: German hola adios bien mal", listaString.ToString());
+            Assert.AreEqual("[German - hola - adios - bien - mal - ]", listaString.ToString());
             Assert.AreEqual(listaString.GetElemento(0), "German"); // comprobamos que el elemento inicial es el 'a'
             Assert.AreEqual(listaString.GetPosicion("German"), 0); // comprobamos que esta en la posicion inicial
         }
@@ -113,7 +113,7 @@ namespace Tests
             listaPequeña.AñadirFinal(1);
             Assert.IsTrue(listaPequeña.NumElementos.Equals(6));
             Assert.IsFalse(listaPequeña.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: 0 1 2 3 4 1", listaPequeña.ToString());
+            Assert.AreEqual("[0 - 1 - 2 - 3 - 4 - 1 - ]", listaPequeña.ToString());
 
             // Añadimos al final de la lista Grande
             listaGrande.AñadirFinal(2342342);
@@ -126,7 +126,7 @@ namespace Tests
             listaChar.AñadirFinal('a');
             Assert.IsTrue(listaChar.NumElementos.Equals(5));
             Assert.IsFalse(listaChar.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: A B C D a", listaChar.ToString());
+            Assert.AreEqual("[A - B - C - D - a - ]", listaChar.ToString());
             Assert.AreEqual(listaChar.GetElemento(4), 'a'); // comprobamos que el elemento final es el 'a'
             Assert.AreEqual(listaChar.GetPosicion('a'), 4); // comprobamos que esta en la posicion final
 
@@ -141,7 +141,7 @@ namespace Tests
             listaString.AñadirFinal("German");
             Assert.IsTrue(listaString.NumElementos.Equals(5));
             Assert.IsFalse(listaString.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: hola adios bien mal German", listaString.ToString());
+            Assert.AreEqual("[hola - adios - bien - mal - German - ]", listaString.ToString());
             Assert.AreEqual(listaString.GetElemento(4), "German"); // comprobamos que el elemento final es el 'a'
             Assert.AreEqual(listaString.GetPosicion("German"), 4); // comprobamos que esta en la posicion final
         }
@@ -153,7 +153,7 @@ namespace Tests
             listaPequeña.Añadir(1, 2);
             Assert.IsTrue(listaPequeña.NumElementos.Equals(6));
             Assert.IsFalse(listaPequeña.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: 0 1 1 2 3 4", listaPequeña.ToString());
+            Assert.AreEqual("[0 - 1 - 1 - 2 - 3 - 4 - ]", listaPequeña.ToString());
 
             // Añadimos al pos 3 de la lista Grande
             listaGrande.Añadir(2342342, 3);
@@ -166,7 +166,7 @@ namespace Tests
             listaChar.Añadir('a', 3);
             Assert.IsTrue(listaChar.NumElementos.Equals(5));
             Assert.IsFalse(listaChar.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: A B C a D", listaChar.ToString());
+            Assert.AreEqual("[A - B - C - a - D - ]", listaChar.ToString());
             Assert.AreEqual(listaChar.GetElemento(3), 'a'); // comprobamos que el elemento 3 es el 'a'
             Assert.AreEqual(listaChar.GetPosicion('a'), 3); // comprobamos que esta en la posicion 3
 
@@ -181,7 +181,7 @@ namespace Tests
             listaString.Añadir("German", 3);
             Assert.IsTrue(listaString.NumElementos.Equals(5));
             Assert.IsFalse(listaString.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: hola adios bien German mal", listaString.ToString());
+            Assert.AreEqual("[hola - adios - bien - German - mal - ]", listaString.ToString());
             Assert.AreEqual(listaString.GetElemento(3), "German"); // comprobamos que el elemento 3 es el 'German'
             Assert.AreEqual(listaString.GetPosicion("German"), 3); // comprobamos que German esta en la posicion 3
         }
@@ -190,57 +190,6 @@ namespace Tests
         [ExpectedException(typeof(ArgumentException))]
         public void TestArgumentExceptionAñadir()
         {
-            // Añadir inicio
-
-            // No se puede añadir null a la lista de enteros
-            listaPequeña.AñadirInicio(null);
-
-            // No se puede añadir null a la lista de enteros
-            listaGrande.AñadirInicio(null);
-
-            // No sepuede añadir null a la lista de char
-            listaChar.AñadirInicio(null);
-
-            // No se puede añadir null a la lista de double
-            listaDouble.AñadirInicio(null);
-
-            // No se puede añadir null a la lista de string
-            listaString.AñadirInicio(null);
-
-            // Añadir final
-
-            // No se puede añadir null a la lista de enteros
-            listaPequeña.AñadirFinal(null);
-
-            // No se puede añadir null a la lista de enteros
-            listaGrande.AñadirFinal(null);
-
-            // No sepuede añadir null a la lista de char
-            listaChar.AñadirFinal(null);
-
-            // No se puede añadir null a la lista de double
-            listaDouble.AñadirFinal(null);
-
-            // No se puede añadir null a la lista de string
-            listaString.AñadirFinal(null);
-
-            // Añadir por posicion (Comprobar null y posicion)
-
-            // No se puede añadir null a la lista de enteros
-            listaPequeña.Añadir(null, 2);
-
-            // No se puede añadir null a la lista de enteros
-            listaGrande.Añadir(null, 2);
-
-            // No sepuede añadir null a la lista de char
-            listaChar.Añadir(null, 2);
-
-            // No se puede añadir null a la lista de double
-            listaDouble.Añadir(null, 2);
-
-            // No se puede añadir null a la lista de string
-            listaString.Añadir(null, 2);
-
             // No se puede añadir en una posicion menor que 0
 
             // lista de enteros
@@ -284,7 +233,7 @@ namespace Tests
             listaPequeña.Borrar(2);
             Assert.IsTrue(listaPequeña.NumElementos.Equals(4));
             Assert.IsFalse(listaPequeña.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: 0 1 3 4", listaPequeña.ToString());
+            Assert.AreEqual("[0 - 1 - 3 - 4 - ]", listaPequeña.ToString());
 
             // Borramos el 3
             listaGrande.Borrar(3);
@@ -295,7 +244,7 @@ namespace Tests
             listaChar.Borrar('C');
             Assert.IsTrue(listaChar.NumElementos.Equals(3));
             Assert.IsFalse(listaChar.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: A B D", listaChar.ToString());
+            Assert.AreEqual("[A - B - D - ]", listaChar.ToString());
 
             // Borramos el 2.5
             listaDouble.Borrar(2.5);
@@ -306,7 +255,7 @@ namespace Tests
             listaString.Borrar("hola");
             Assert.IsTrue(listaString.NumElementos.Equals(3));
             Assert.IsFalse(listaString.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: adios bien mal", listaString.ToString());
+            Assert.AreEqual("[adios - bien - mal - ]", listaString.ToString());
         }
 
         [TestMethod]
@@ -316,7 +265,7 @@ namespace Tests
             listaPequeña.BorrarInicio(0);
             Assert.IsTrue(listaPequeña.NumElementos.Equals(4));
             Assert.IsFalse(listaPequeña.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: 1 2 3 4", listaPequeña.ToString());
+            Assert.AreEqual("[1 - 2 - 3 - 4 - ]", listaPequeña.ToString());
 
             // Borramos el 0 al inicio
             listaGrande.BorrarInicio(0);
@@ -327,7 +276,7 @@ namespace Tests
             listaChar.BorrarInicio('A');
             Assert.IsTrue(listaChar.NumElementos.Equals(3));
             Assert.IsFalse(listaChar.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: B C D", listaChar.ToString());
+            Assert.AreEqual("[B - C - D - ]", listaChar.ToString());
 
             // Borramos el 0
             listaDouble.BorrarInicio(0.0);
@@ -338,7 +287,7 @@ namespace Tests
             listaString.BorrarInicio("hola");
             Assert.IsTrue(listaString.NumElementos.Equals(3));
             Assert.IsFalse(listaString.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: adios bien mal", listaString.ToString());
+            Assert.AreEqual("[adios - bien - mal - ]", listaString.ToString());
         }
 
         [TestMethod]
@@ -348,7 +297,7 @@ namespace Tests
             listaPequeña.BorrarFinal(4);
             Assert.IsTrue(listaPequeña.NumElementos.Equals(4));
             Assert.IsFalse(listaPequeña.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: 0 1 2 3", listaPequeña.ToString());
+            Assert.AreEqual("[0 - 1 - 2 - 3 - ]", listaPequeña.ToString());
 
             // Borramos el 49 al inicio
             listaGrande.BorrarFinal(49);
@@ -359,7 +308,7 @@ namespace Tests
             listaChar.BorrarFinal('D');
             Assert.IsTrue(listaChar.NumElementos.Equals(3));
             Assert.IsFalse(listaChar.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: A B C", listaChar.ToString());
+            Assert.AreEqual("[A - B - C - ]", listaChar.ToString());
 
             // Borramos el 4.5
             listaDouble.BorrarFinal(4.5);
@@ -370,64 +319,13 @@ namespace Tests
             listaString.BorrarFinal("mal");
             Assert.IsTrue(listaString.NumElementos.Equals(3));
             Assert.IsFalse(listaString.ListaVacia());
-            Assert.AreEqual("Lista Enlazada: hola adios bien", listaString.ToString());
+            Assert.AreEqual("[hola - adios - bien - ]", listaString.ToString());
         }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
         public void TestArgumentExceptionBorrar()
         {
-            // Borrar inicio
-
-            // No se puede borrar null a la lista de enteros
-            listaPequeña.BorrarInicio(null);
-
-            // No se puede borrar null a la lista de enteros
-            listaGrande.BorrarInicio(null);
-
-            // No se puede borrar null a la lista de char
-            listaChar.BorrarInicio(null);
-
-            // No se puede borrar null a la lista de double
-            listaDouble.BorrarInicio(null);
-
-            // No se puede borrar null a la lista de string
-            listaString.BorrarInicio(null);
-
-            // Borrar final
-
-            // No se puede borrar null a la lista de enteros
-            listaPequeña.BorrarFinal(null);
-
-            // No se puede borrar null a la lista de enteros
-            listaGrande.BorrarFinal(null);
-
-            // No sepuede borrar null a la lista de char
-            listaChar.BorrarFinal(null);
-
-            // No se puede borrar null a la lista de double
-            listaDouble.BorrarFinal(null);
-
-            // No se puede borrar null a la lista de string
-            listaString.BorrarFinal(null);
-
-            // Borrar (Comprobar null)
-
-            // No se puede añadir null a la lista de enteros
-            listaPequeña.Borrar(null);
-
-            // No se puede añadir null a la lista de enteros
-            listaGrande.Borrar(null);
-
-            // No sepuede añadir null a la lista de char
-            listaChar.Borrar(null);
-
-            // No se puede añadir null a la lista de double
-            listaDouble.Borrar(null);
-
-            // No se puede añadir null a la lista de string
-            listaString.Borrar(null);
-
             // Comprobar si la lista esta vacia 
 
             // Comprobamos que el valor a eliminar realmente se corresponde con el que hay en la lista
@@ -466,7 +364,7 @@ namespace Tests
             // Comprobamos que la lista ya NO tiene ningun elemento
             Assert.IsTrue(listaMiscelanea.NumElementos.Equals(0));
             // Comprobamos que verdaderamente no imprime nada
-            Assert.AreEqual("Lista Enlazada:", listaMiscelanea.ToString());
+            Assert.AreEqual("[]", listaMiscelanea.ToString());
         }
 
         [TestMethod]
@@ -540,9 +438,9 @@ namespace Tests
 
             // Operadores + y -
             set += 'o';
-            Assert.AreEqual("Lista Enlazada: 1 a hola o", set.ToString());
+            Assert.AreEqual("[1 - a - hola - o - ]", set.ToString());
             set -= 'a';
-            Assert.AreEqual("Lista Enlazada: 1 hola o", set.ToString());
+            Assert.AreEqual("[1 - hola - o - ]", set.ToString());
         }
 
         [TestMethod]

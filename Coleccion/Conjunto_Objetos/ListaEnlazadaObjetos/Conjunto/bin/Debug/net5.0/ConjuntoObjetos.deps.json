@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ConjuntoObjetos/1.0.0": {
+        "dependencies": {
+          "ListaEnlazadaObjetos": "1.0.0"
+        },
+        "runtime": {
+          "ConjuntoObjetos.dll": {}
+        }
+      },
+      "ListaEnlazadaObjetos/1.0.0": {
+        "runtime": {
+          "ListaEnlazadaObjetos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConjuntoObjetos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ListaEnlazadaObjetos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
