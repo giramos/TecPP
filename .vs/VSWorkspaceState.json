@@ -1,15 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Coleccion\\Conjunto_Objetos\\ListaEnlazadaObjetos\\Main",
-    "\\Laboratorios",
     "\\Laboratorios\\lab01",
     "\\Laboratorios\\lab01\\INGLES",
-    "\\Laboratorios\\lab03\\TPP03_2324_HechoEnClase",
-    "\\Laboratorios\\lab03\\TPP03_2324_HechoEnClase\\TPP03_2324",
-    "\\Laboratorios\\lab03\\TPP03_2324_HechoEnClase\\TPP03_2324\\TPP3",
-    "\\Laboratorios\\lab03\\TPP03_2324_HechoEnClase\\TPP03_2324\\TPP3\\TrabajoEnClase"
+    "\\Laboratorios\\lab02\\INGLES"
   ],
-  "SelectedNode": "\\Laboratorios\\lab01\\INGLES",
+  "SelectedNode": "\\Laboratorios",
   "PreviewInSolutionExplorer": false
 }
