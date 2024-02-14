@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Coleccion\Pila\Practica03_ING\Laboratorio03\bin\Debug\net5.0\Laboratorio03.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Coleccion\Pila\Practica03_ING\Laboratorio03\bin\Debug\net5.0\Laboratorio03.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Coleccion\Pila\Practica03_ING\Laboratorio03\bin\Debug\net5.0\Laboratorio03.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Coleccion\Pila\Practica03_ING\Laboratorio03\bin\Debug\net5.0\Laboratorio03.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Coleccion\Pila\Practica03_ING\Laboratorio03\bin\Debug\net5.0\Laboratorio03.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Coleccion\Pila\Practica03_ING\Laboratorio03\bin\Debug\net5.0\Laboratorio03.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Coleccion\Pila\Practica03_ING\Laboratorio03\obj\Debug\net5.0\Laboratorio03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Coleccion\Pila\Practica03_ING\Laboratorio03\obj\Debug\net5.0\Laboratorio03.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Coleccion\Pila\Practica03_ING\Laboratorio03\obj\Debug\net5.0\Laboratorio03.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Coleccion\Pila\Practica03_ING\Laboratorio03\obj\Debug\net5.0\Laboratorio03.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Coleccion\Pila\Practica03_ING\Laboratorio03\obj\Debug\net5.0\Laboratorio03.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Coleccion\Pila\Practica03_ING\Laboratorio03\obj\Debug\net5.0\Laboratorio03.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Coleccion\Pila\Practica03_ING\Laboratorio03\obj\Debug\net5.0\refint\Laboratorio03.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Coleccion\Pila\Practica03_ING\Laboratorio03\obj\Debug\net5.0\Laboratorio03.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Coleccion\Pila\Practica03_ING\Laboratorio03\obj\Debug\net5.0\Laboratorio03.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Coleccion\Pila\Practica03_ING\Laboratorio03\obj\Debug\net5.0\ref\Laboratorio03.dll

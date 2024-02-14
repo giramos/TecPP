@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Coleccion"
+    "\\Coleccion",
+    "\\Laboratorios",
+    "\\Laboratorios\\lab02\\INGLES",
+    "\\Laboratorios\\lab02\\INGLES\\Practica02_ING",
+    "\\Laboratorios\\lab03"
   ],
-  "SelectedNode": "\\Coleccion\\Pila",
+  "SelectedNode": "\\Laboratorios\\lab03\\INGLES",
   "PreviewInSolutionExplorer": false
 }
