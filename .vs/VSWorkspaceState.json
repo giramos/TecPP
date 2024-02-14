@@ -2,11 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\Coleccion",
+    "\\Coleccion\\Pila",
     "\\Laboratorios",
-    "\\Laboratorios\\lab02\\INGLES",
-    "\\Laboratorios\\lab02\\INGLES\\Practica02_ING",
-    "\\Laboratorios\\lab03"
+    "\\Laboratorios\\lab04",
+    "\\Laboratorios\\lab04\\TPP04_2122",
+    "\\Laboratorios\\lab04\\TPP04_2122\\TPP04",
+    "\\Laboratorios\\lab04\\TPP04_2122\\TPP04\\Genericidad"
   ],
-  "SelectedNode": "\\Laboratorios\\lab03\\INGLES",
+  "SelectedNode": "\\Laboratorios\\lab04\\TPP04_2122\\TPP04\\Genericidad\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
