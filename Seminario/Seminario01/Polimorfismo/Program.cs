@@ -32,6 +32,19 @@ namespace Polimorfismo
             Sort(vec); Console.WriteLine("Sort del array ...");
             foreach (var item in vec) { Console.WriteLine(item); }
 
+            Console.WriteLine("");
+
+            Console.WriteLine("Sort");
+            Console.WriteLine("A ver...");
+            ICompara[] mis = new ICompara[] { new Persona("Ger"), new Persona("Bea"), new Persona("Herni"), new Angulo(), new Persona("Toni"), new Persona("Ger", "Igl", 12, "11111111111"), new Persona("Ger", "Rams", 33, "3333333"), new Persona("bea"), new Persona("Bea"), new Persona("Bea", "Igl", 22, "22222"),
+            new Angulo(), new Angulo(8.8), new Angulo(12.0), new Angulo(0.3),
+            new Angulo(13.2), new Angulo(0.75), new Angulo(1), new Angulo(), new Angulo(12.75)};
+
+            Console.WriteLine("array de miscelanea: ");
+            foreach (var item in mis) { Console.WriteLine(item); }
+            Sort(mis); Console.WriteLine("Sort del array ...");
+            foreach (var item in mis) { Console.WriteLine(item); }
+
 
         }
 
@@ -66,7 +79,7 @@ namespace Polimorfismo
 
         public override string ToString() => $"Angulo => radianes: {Radianes}";
 
-        public int Compara(object otro)
+        public int Compara(ICompara otro)
         {
             Angulo a = otro as Angulo;
             if(a != null)
@@ -76,7 +89,7 @@ namespace Polimorfismo
                 {
                     return 0;
                 }
-            throw new ArgumentNullException("");
+            return 0;
         }
 
     }
@@ -111,7 +124,7 @@ namespace Polimorfismo
             NIF = nIF;
         }
 
-        public int Compara(object otro)
+        public int Compara(ICompara otro)
         {
             Persona p = otro as Persona;
             if (p != null)
@@ -122,8 +135,7 @@ namespace Polimorfismo
                     if (this.Apellidos.CompareTo(p.Apellidos) > 0) { return 1; }
                     else if (this.Apellidos.CompareTo(p.Apellidos) < 0) { return -1; }
                     else { return 0; }
-                }
-            throw new ArgumentException("Error");
+                }return 0;
         }
 
         public override string ToString()
@@ -134,6 +146,6 @@ namespace Polimorfismo
 
     interface ICompara
     {
-        int Compara(object otro);
+        int Compara(ICompara otro);
     }
 }
