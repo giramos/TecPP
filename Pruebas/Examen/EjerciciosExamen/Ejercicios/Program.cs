@@ -7,6 +7,7 @@ using System.Runtime.CompilerServices;
 using static System.Net.Mime.MediaTypeNames;
 using System.Runtime.Intrinsics.X86;
 using System.Runtime.ConstrainedExecution;
+using System.Security.Cryptography;
 
 namespace Ejercicios
 {
@@ -134,6 +135,31 @@ namespace Ejercicios
             //                (por defecto para int es 0, por lo tanto, el primer 2 es precedido por 0).
             //                Utiliza los datos proporcionados con un predicado adecuado en la llamada, muestra el resultado.
 
+            // Ejercicio 4 => Extensor de INT
+
+            Console.WriteLine();
+            Console.WriteLine("Ejercicio 4 => Extensor de INT");
+            Console.WriteLine();
+
+            var arr = new Func<int, int>[]
+            {
+                 a => a + 10,
+                 b => b + 10,
+                 c => c + 10
+            };
+
+            var res4 = 10.ExtensorInt(arr, 50);
+            Console.Write(res4);
+
+            // Ejercicio 5 => Currifica el metodo anterior
+
+            Console.WriteLine();
+            Console.WriteLine("Ejercicio 5 => curry ");
+            Console.WriteLine();
+
+            var res5 = ExtensorIntCurry(10);
+            Console.WriteLine(res5(arr, 50));
+            
 
         }
 
@@ -226,6 +252,21 @@ namespace Ejercicios
             return dicc;
         }
 
+        public static Func<Func<int, int>[], int, int> ExtensorIntCurry(Int32 entero)
+        {
+            int res = 0;
+            return (array,maximo) => 
+            {
+                res = entero;
+                foreach (var p in array)
+                {
+                    res += p(res);
+                    if (res > maximo) break;
+                }
+                return res;
+            };
+        }
+
     }
 
     public static class Extensor
@@ -269,5 +310,29 @@ namespace Ejercicios
             lista.Add(u);
             return lista;
         }
+
+        //        Ejercicio 1. Implemente un método extensor Aplicacion de la clase Int32 que reciba:
+        // Array de funciones con parámetro y retorno de tipo int.
+        // Una variable “máximo” de tipo int.
+        //La función deberá devolver el resultado de ir aplicando cada una de las funciones al resultado
+        //de haber aplicado la anterior(a la primera función se le pasará el propio número). Si durante el
+        //proceso se supera el valor de la variable “máximo”, se devolverá el resultado acumulado hasta
+        //el momento.Pruébese el funcionamiento del método con 3 funciones más o menos simples
+        //(1,75 puntos).
+        //Basándose en la misma funcionalidad del anterior y partiendo de un método
+        //AplicacionCurrificada que recibirá los 3 parámetros anteriores(contando el propio número)
+        //impleméntese la versión currificada y realícense las pruebas que se consideren adecuadas para
+        //demostrar la utilidad de la currificación(0,75 puntos).
+        public static int ExtensorInt(this Int32 entero, Func<int, int>[] array, int maximo)
+        {
+            int res = entero;
+            foreach (var p in array)
+            {
+                res += p(res);
+                if (res > maximo) break;
+            }
+            return res;
+        }
+
     }
 }
