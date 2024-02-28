@@ -52,7 +52,17 @@ namespace Lab06
                 column1 = 0;
                 row1++;
             });
-
+            Console.WriteLine("fibonacci cierre");
+            var fi = FiboCierre();
+            Console.WriteLine(fi());
+            Console.WriteLine(fi());
+            Console.WriteLine(fi());
+            Console.WriteLine(fi());
+            Console.WriteLine(fi());
+            Console.WriteLine(fi());
+            Console.WriteLine(fi());
+            Console.WriteLine(fi());
+            Console.WriteLine(fi());
 
         }
 
@@ -98,5 +108,35 @@ namespace Lab06
                 WhileLoop(condition, body); // recursion to iterate
             }
         }
+
+        static int Fibo(int numero)
+        {
+            return numero <= 2 ? 1 : Fibo(numero - 2) + Fibo(numero - 1);
+        }
+        static Func<int> FiboCierre1(int numero)
+        {
+            return () => numero <= 2 ? 1 : Fibo(numero - 2) + Fibo(numero - 1);
+        }
+
+        static Func<int> FiboCierre()
+        {
+            int first = 0, second = 1;
+            bool isFirst = true; // Flag para indicar si es el primer número de la secuencia
+
+            return () =>
+            {
+                if (isFirst)
+                {
+                    isFirst = false; // Desactiva la bandera después de la primera secuencia
+                    return 1;
+                }
+
+                int n = first + second;
+                first = second;
+                second = n;
+                return n;
+            };
+        }
+
     }
 }
