@@ -9,16 +9,45 @@ namespace Ejercicio3
     {
         static void Main()
         {
-            Random random = new Random();
-            Console.WriteLine($"Aleatorio entre [1, 10) : {random.Next(1, 10)}.");
-
-            string[] autorias = new[] { "Amelia", "Amelio", "Faustina", "Faustino", "Gervasia", "Gervasio" };
-            string[] titulos = new[] { "Uno", "Dos", "Tres", "Cuatro", "Cinco" };
-            int[] años = new[] { 2017, 2018, 2019, 2020, 2021, 2022 };
-          
+            var palabras = new string[] { "casa", "perro", "gato", "mesa", "silla", "coche", "sol", "luna",
+            "ahora", "huida", "quieto"};
+            var res = palabras.Metodo();
+            foreach (var item in res) { Console.WriteLine(item); }
 
         }
 
-      
+        /// <summary>
+        /// Mas vocales que consonantes
+        /// </summary>
+        /// <param name="col"></param>
+        /// <returns></returns>
+
+        public static IEnumerable<string> Metodo(this IEnumerable<string> col)
+        {
+            IList<string> list = new List<string>();
+            string vocales = "AEIOUaeiou";
+
+            foreach (var item in col)
+            {
+                int contVocales = 0;
+                int contConsonantes = 0;
+                foreach (var i in item)
+                {
+
+                    if (vocales.Contains(i))
+                    {
+                        contVocales++;
+                    }
+                    else
+                    {
+                        contConsonantes++;
+                    }
+
+                }
+                if (contVocales > contConsonantes) { list.Add(item); }
+
+            }
+            return list;
+        }
     }
 }

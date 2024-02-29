@@ -71,5 +71,25 @@ namespace Modelo
         private static List<Employee> employees;
         private static List<Office> offices;
         private static List<PhoneCall> phoneCalls;
+        public static Random random = new Random();
+
+        public static string[] GenerarPalabras(int cantidad, int longitudMinima, int longitudMaxima)
+        {
+            const string caracteres = "abcdefghijklmnopqrstuvwxyz";
+            string[] palabras = new string[cantidad];
+
+            for (int i = 0; i < cantidad; i++)
+            {
+                int longitud = random.Next(longitudMinima, longitudMaxima + 1);
+                char[] palabra = new char[longitud];
+                for (int j = 0; j < longitud; j++)
+                {
+                    palabra[j] = caracteres[random.Next(caracteres.Length)];
+                }
+                palabras[i] = new string(palabra);
+            }
+
+            return palabras;
+        }
     }
 }
