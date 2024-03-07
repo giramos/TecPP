@@ -12,7 +12,7 @@ namespace TPP07
         static void Main()
         {
 
-            IEnumerable<int> valores = Enumerable.Range(1, 9);
+            IEnumerable<int> valores = Enumerable.Range(1, 10);
 
             Console.WriteLine("Colecciones de enteros.");
 
@@ -109,16 +109,62 @@ namespace TPP07
 
         }
 
-        public static IEnumerable<(T, Q)> MetodoZipLazy<T, Q>(this IEnumerable<T> col1, IEnumerable<Q> col2)
+        public static IEnumerable<(T, Q)> MetodoZipLazy<T, Q>(this IEnumerable<T> col1, IEnumerable<Q> col2, T uno = default(T), Q dos = default(Q))
         {
             IList<(T, Q)> lista = new List<(T, Q)>();
             IEnumerator<T> enum1 = col1.GetEnumerator();
             IEnumerator<Q> enum2 = col2.GetEnumerator();
             while (enum1.MoveNext() && enum2.MoveNext())
             {
-                yield return (enum1.Current, enum2.Current);
+                yield return (enum1.Current , enum2.Current);
             }
 
+        }
+
+        public static IEnumerable<(T, Q)> ZipLongest<T, Q>(this IEnumerable<T> seqLeft, IEnumerable<Q> seqRight, T defLeft = default, Q defRight = default)
+        {
+            using (var enumeratorLeft = seqLeft.GetEnumerator())
+            using (var enumeratorRight = seqRight.GetEnumerator())
+            {
+                bool leftHasNext = true;
+                bool rightHasNext = true;
+
+                while (leftHasNext || rightHasNext)
+                {
+                    leftHasNext = enumeratorLeft.MoveNext();
+                    rightHasNext = enumeratorRight.MoveNext();
+
+                    yield return (
+                        leftHasNext ? enumeratorLeft.Current : defLeft,
+                        rightHasNext ? enumeratorRight.Current : defRight
+                    );
+                }
+            }
+        }
+
+        public static IEnumerable<(T, Q)> ZipLongest<T, Q>(IEnumerable<T> seqLeft, IEnumerable<Q> seqRight, T defLeft = default, Q defRight = default)
+        {
+            var result = new List<(T, Q)>();
+
+            using (var enumeratorLeft = seqLeft.GetEnumerator())
+            using (var enumeratorRight = seqRight.GetEnumerator())
+            {
+                bool leftHasNext = true;
+                bool rightHasNext = true;
+
+                while (leftHasNext || rightHasNext)
+                {
+                    leftHasNext = enumeratorLeft.MoveNext();
+                    rightHasNext = enumeratorRight.MoveNext();
+
+                    result.Add((
+                        leftHasNext ? enumeratorLeft.Current : defLeft,
+                        rightHasNext ? enumeratorRight.Current : defRight
+                    ));
+                }
+            }
+
+            return result;
         }
 
 
