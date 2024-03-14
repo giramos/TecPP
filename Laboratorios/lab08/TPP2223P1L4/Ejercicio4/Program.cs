@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -24,7 +25,12 @@ namespace Ejercicio4
             //ConsultaK();
             //ConsultaL();
             //ConsultaM();
-            ConsultaN();
+            //ConsultaN();
+            //ConsultaÑ();
+            //ConsultaOO();
+            //ConsultaOOO();
+            //ConsultaO();
+            ConsultaP();
         }
 
         //Obtener las llamadas de más de 15 segundos de duración
@@ -230,6 +236,121 @@ namespace Ejercicio4
                 }).Max(a=>a.dur);
             Console.WriteLine();
         }
+        //•	Para cada edificio, obtener la edad máxima, la edad mínima
+        //y el numero de empleados que tienen despacho en ese edificio.
+        private static void ConsultaÑ()
+        {
+            var res = modelo.Employees.GroupBy(e => e.Office.Building, (key, emp) => new
+            {
+                Edificio = key,
+                Numero = emp.Select(x => x.Name).Count(),
+                Minima = emp.Select(x => x.Age).Aggregate((acc, b) => acc < b ? acc : b),
+                Maxima = emp.Select(x => x.Age).Aggregate((acc, b) => acc > b ? acc : b)
+            });
+            Show(res);
+        }
+        //•	Mostrar las llamadas realizadas desde el edificio "Faculty of Science" al edificio "Polytechnical".
+        //Debe mostrarse por pantalla el número de origen, el número de destino y la duración de la llamada.
+        private static void ConsultaO()
+        {
+            var res = modelo.Employees.Join(modelo.PhoneCalls,
+                e => e.TelephoneNumber,
+                p => p.SourceNumber,
+                (em, ph) => new
+                {
+                    Empleado = em,
+                    Llamada = ph
+                })
+                .Join(modelo.Offices,
+                emp => emp.Empleado.Office.Number,
+                ofi => ofi.Number,
+                (empl, ofic) => new
+                {
+                    Origen = empl.Llamada.SourceNumber,
+                    Destino = empl.Llamada.DestinationNumber,
+                    Duracion = empl.Llamada.Seconds,
+                    Oficina = ofic.Building
+                })
+                ;
+            foreach (var llamada in res)
+            {
+                Console.WriteLine($"Origen: {llamada.Origen}, Destino: {llamada.Destino}, Duración: {llamada.Duracion} segundos");
+            }
+        }
+
+        private static void ConsultaOOO()
+        {
+            var res = modelo.Employees
+                .Join(modelo.PhoneCalls,
+                    e => e.TelephoneNumber,
+                    p => p.SourceNumber,
+                    (em, ph) => new
+                    {
+                        Empleado = em,
+                        Llamada = ph
+                    })
+                .Join(modelo.Offices,
+                    emp => emp.Empleado.Office.Number,
+                    ofi => ofi.Number,
+                    (empl, ofic) => new
+                    {
+                        Origen = empl.Llamada.SourceNumber,
+                        Destino = empl.Llamada.DestinationNumber,
+                        Duracion = empl.Llamada.Seconds,
+                        EdificioOrigen = modelo.Offices.FirstOrDefault(o => o.Number == empl.Empleado.Office.Number)?.Building,
+                        EdificioDestino = modelo.Offices.FirstOrDefault(o => o.Number == ofic.Number)?.Building
+                    })
+                .Where(llamada => llamada.EdificioOrigen == "Faculty of Science" && llamada.EdificioDestino == "Polytechnical");
+
+            foreach (var llamada in res)
+            {
+                Console.WriteLine($"Edificio de origen: {llamada.EdificioOrigen}, Número de origen: {llamada.Origen}, " +
+                                  $"Edificio de destino: {llamada.EdificioDestino}, Número de destino: {llamada.Destino}, " +
+                                  $"Duración: {llamada.Duracion} segundos");
+            }
+        }
+
+
+
+        // Mostrar las llamadas realizadas desde el edificio "Faculty of Science" al edificio "Polytechnical".
+        // Debe mostrarse por pantalla el número de origen, el número de destino y la duración de la llamada.
+        private static void ConsultaOO()
+        {
+            var llamadas = modelo.PhoneCalls
+                .Join(modelo.Employees, // Unir con la información de los empleados
+                    call => call.SourceNumber, // Clave de la llamada
+                    emp => emp.TelephoneNumber, // Clave del empleado
+                    (call, emp) => new // Seleccionar la llamada junto con la información del empleado
+                    {
+                        Llamada = call,
+                        Empleado = emp
+                    })
+                .Join(modelo.Offices, // Unir con la información de los edificios
+                    combined => combined.Empleado.Office.Number, // Clave del empleado combinada con el edificio
+                    office => office.Number, // Clave del edificio
+                    (combined, office) => new // Seleccionar la llamada junto con la información del edificio
+                    {
+                        combined.Llamada.SourceNumber, // Número de origen de la llamada
+                        combined.Llamada.DestinationNumber, // Número de destino de la llamada
+                        combined.Llamada.Seconds // Duración de la llamada
+                    })
+                .Where(call => call.SourceNumber.StartsWith("985") && call.DestinationNumber.StartsWith("2.1")); // Filtrar las llamadas del edificio "Faculty of Science" al "Polytechnical"
+
+            Show(llamadas);
+        }
+
+        //lista de empleados que no realizan ninguna llamada saliente.
+        private static void ConsultaP()
+        {
+            var numerosDeTelefonoSalientes = modelo.PhoneCalls.Select(call => call.SourceNumber).Distinct();
+
+            var empleadosSinLlamadasSalientes = modelo.Employees
+                .Where(emp => !numerosDeTelefonoSalientes.Contains(emp.TelephoneNumber))
+                .Select(emp => emp.Name);
+
+            Show(empleadosSinLlamadasSalientes);
+        }
+
 
         private static void Show<T>(IEnumerable<T> colección)
         {
