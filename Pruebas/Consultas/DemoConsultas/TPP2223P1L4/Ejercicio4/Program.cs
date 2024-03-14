@@ -12,24 +12,15 @@ namespace Linq
 
         static void Main()
         {
+            
 
-
-            //Consulta1();
-            //Consulta2();
-            //Consulta3();
-            //Consulta4();
-            //Consulta5();
-            //Consulta6();
+            Consulta1();
+            Consulta2();
+            Consulta3();
+            Consulta4();
+            Consulta5();
+            Consulta6();
             Consulta7();
-            ConsultaK();
-            ConsultaL();
-            ConsultaM();
-            ConsultaÑ();
-            ConsultaO();
-            ConsultaP();
-            ConsultaQ();
-            ConsultaR();
-            ConsultaS();
 
 
         }
@@ -38,8 +29,6 @@ namespace Linq
         private static void Consulta1()
         {
             // Modificar la consulta para mostrar los empleados cuyo nombre empieza por F.
-            var res = modelo.Employees.Where(e => e.Name.StartsWith('F')).Select(e => e.Name);
-            Show(res);
 
             //El resultado esperado es: Felipe
         }
@@ -49,9 +38,6 @@ namespace Linq
 
             //Mostrar Nombre y fecha de nacimiento de los empleados de Cantabria con el formato:
             // Nombre=<Nombre>,Fecha=<Fecha>
-            Console.WriteLine("Consulta2");
-            var res = modelo.Employees.Where(e => e.Province.Equals("Cantabria")).Select(e => $"{e.Name} {e.DateOfBirth}");
-            Show(res);
 
             /*El resultado esperado es:
               Alvaro 19/10/1945 0:00:00
@@ -68,9 +54,8 @@ namespace Linq
 
             //Mostrar los nombres de los departamentos que tengan más de un empleado mayor de edad.
 
-            var res = modelo.Departments.Where(e => e.Employees.Where(e => e.Age >= 18).Count() > 1).Select(d => d.Name);
-            Console.WriteLine("Consulta 3:");
-            Show(res);
+
+
 
             /*El resultado esperado es:
                 Computer Science
@@ -82,10 +67,8 @@ namespace Linq
             //Muestre los nombres de los departamentos que tengan más de un empleado mayor de edad
             //y
             //que el despacho (Office.Number) COMIENCE por "2.1"
-            res = modelo.Departments.Where(e => e.Employees.Where(e => e.Age >= 18 && e.Office.Number.StartsWith("2.1")).Count() > 1).Select(d => d.Name);
-            Console.WriteLine("Consulta 3 bis:");
-            Show(res);
-
+            
+            
             //El resultado esperado es: Medicine
 
         }
@@ -93,12 +76,8 @@ namespace Linq
         private static void Consulta4()
         {
 
-            //El nombre de los departamentos donde ningún empleado tenga despacho
-            //en el Building "Faculty of Science".
-
-            var res = modelo.Departments.Where(e => e.Employees.Where(e => e.Office.Building.ToLower().Equals("faculty of science")).Count() < 1);
-            Console.WriteLine("Consulta 4:");
-            Show(res);
+            //El nombre de los departamentos donde ningún empleado tenga despacho en el Building "Faculty of Science".
+  
             //Resultado esperado: [Department: Mathematics]
         }
 
@@ -106,21 +85,11 @@ namespace Linq
         {
 
 
-            // Mostrar las llamadas de teléfono de más de 5 segundos de duración para cada empleado
-            // que tenga más de 50 años
+            // Mostrar las llamadas de teléfono de más de 5 segundos de duración para cada empleado que tenga más de 50 años
             //Cada línea debería mostrar el nombre del empleado y la duración de la llamada en segundos.
             //El resultado debe estar ordenado por duración de las llamadas (de más a menos).
-            
-            var res = modelo.Employees.Join(modelo.PhoneCalls,
-                e => e.TelephoneNumber,
-                p => p.SourceNumber,
-                (em, ph) => new
-                {
-                    Empleado = em,
-                    Llamada = ph.Seconds
-                }).Where(e=> e.Empleado.Age > 50 && e.Llamada > 5 );
-            Show(res);
 
+            
 
             /*
                 { Nombre = Eduardo, Duracion = 23 }
@@ -136,23 +105,7 @@ namespace Linq
         {
             //Mostrar la llamada realizada más larga para cada profesor, mostrando por pantalla: Nombre_profesor : duracion_llamada_mas_larga
 
-            var res = modelo.Employees.Join(modelo.PhoneCalls,
-                e => e.TelephoneNumber,
-                p => p.SourceNumber,
-                (em, ph) => new
-                {
-                    Empleado = em,
-                    Llamada = ph
-                }).GroupBy(e => e.Empleado, (key, llam) => new
-                {
-                    Nombre = key.Name,
-                    Maxima = llam.Select(l => l.Llamada.Seconds).Aggregate(0, (acc, b) => acc > b ? acc : b)
-                }).Select(e => new
-                {
-                    e.Nombre,
-                    e.Maxima
-                });
-            Show(res);
+           
 
 
             /* ¡OJO NO ESTÁ APLICADO EL FORMATO 
@@ -169,12 +122,7 @@ namespace Linq
             // Mostrar, agrupados por provincia, el nombre de los empleados
             //Tanto la provincia como los empleados deben estar ordenados alfabéticamente
 
-            var res = modelo.Employees.GroupBy(e => e.Province, (key, em) => new
-            {
-                Provincia = key,
-                Nombre = em.Select(e=>e.Name).Aggregate("", (acc, b) => acc + " " + b)
-            }).OrderBy(a=>a.Provincia).Select(e => $"{e.Provincia} : {e.Nombre}");
-            Show(res);
+           
 
             /*Resultado esperado:
                 Alicante : Carlos
@@ -186,26 +134,10 @@ namespace Linq
         }
         //Mostrar, ordenados por edad, los nombres de los empleados pertenecientes al
         //departamento de “Computer Science” que tienen un despacho en la “Faculty of Science” y
-        //que han hecho llamadas con duración superior a 1 minuto. 
+        //que han hecho llamadas con duración superior a 1 minuto.
         private static void ConsultaK()
         {
-            var emp = modelo.Employees.Where(e => e.Department.Name.Equals("Computer Science") && e.Office.Building.Equals("Faculty of Science"));
-            var llam = modelo.PhoneCalls.Where(p => p.Seconds > 60);
-            var res = emp.Join(llam,
-                e => e.TelephoneNumber,
-                l => l.SourceNumber,
-                (em, ll) => new
-                {
-                    Nombre = em.Name,
-                    Llamada = ll.Seconds,
-                    Edad = em.Age
-                }).OrderBy(e => e.Edad).Select(e => new
-                {
-                    e.Nombre,
-                    e.Llamada,
-                    e.Edad
-                });
-            Show(res);
+            
 
         }
 
@@ -213,20 +145,7 @@ namespace Linq
         //de “Computer Science”
         private static void ConsultaL()
         {
-            var em = modelo.Employees.Where(e => e.Department.Name.Equals("Computer Science"));
-            var res = em.Join(modelo.PhoneCalls,
-                e => e.TelephoneNumber,
-                p => p.SourceNumber,
-                (em, ph) => new
-                {
-                    Empleado = em,
-                    Llamada = ph
-                }).GroupBy(e => e.Empleado.Department.Name, (key, lla) => new
-                {
-                    Departamento = key,
-                    Suma = lla.Select(l => l.Llamada.Seconds).Sum()
-                });
-            Show(res);
+            
 
         }
 
@@ -235,7 +154,7 @@ namespace Linq
         // “Departamento=<Nombre>, Duración=<Segundos>”
         private static void ConsultaM()
         {
-
+            
         }
 
         // Mostrar el departamento que tenga la mayor duración de llamadas telefónicas (en
@@ -244,26 +163,26 @@ namespace Linq
         // suponerse que solo hay un departamento que cumplirá esta condición.
         private static void ConsultaN()
         {
-
+            
         }
         //•	Para cada edificio, obtener la edad máxima, la edad mínima
         //y el numero de empleados que tienen despacho en ese edificio.
         private static void ConsultaÑ()
         {
-
+            
         }
-
+        
         // Mostrar las llamadas realizadas desde el edificio "Faculty of Science" al edificio "Polytechnical".
         // Debe mostrarse por pantalla el número de origen, el número de destino y la duración de la llamada.
         private static void ConsultaO()
         {
-
+            
         }
 
         //lista de empleados que no realizan ninguna llamada saliente.
         private static void ConsultaP()
         {
-
+            
         }
         // Mostrar la edad media de los empleados. Por cada departamento
         private static void ConsultaQ()
@@ -279,10 +198,6 @@ namespace Linq
         }
 
         // Numero de llamadas por cada provincia
-        private static void ConsultaS()
-        {
-
-        }
         private static void Show<T>(IEnumerable<T> colección)
         {
             foreach (var item in colección)
