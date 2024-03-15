@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Modelo;
@@ -20,10 +21,11 @@ namespace Linq
             //Consulta4();
             //Consulta5();
             //Consulta6();
-            Consulta7();
-            ConsultaK();
-            ConsultaL();
+            //Consulta7();
+            //ConsultaK();
+            //ConsultaL();
             ConsultaM();
+            ConsultaN();
             ConsultaÑ();
             ConsultaO();
             ConsultaP();
@@ -110,7 +112,7 @@ namespace Linq
             // que tenga más de 50 años
             //Cada línea debería mostrar el nombre del empleado y la duración de la llamada en segundos.
             //El resultado debe estar ordenado por duración de las llamadas (de más a menos).
-            
+
             var res = modelo.Employees.Join(modelo.PhoneCalls,
                 e => e.TelephoneNumber,
                 p => p.SourceNumber,
@@ -118,7 +120,7 @@ namespace Linq
                 {
                     Empleado = em,
                     Llamada = ph.Seconds
-                }).Where(e=> e.Empleado.Age > 50 && e.Llamada > 5 );
+                }).Where(e => e.Empleado.Age > 50 && e.Llamada > 5);
             Show(res);
 
 
@@ -172,8 +174,8 @@ namespace Linq
             var res = modelo.Employees.GroupBy(e => e.Province, (key, em) => new
             {
                 Provincia = key,
-                Nombre = em.Select(e=>e.Name).Aggregate("", (acc, b) => acc + " " + b)
-            }).OrderBy(a=>a.Provincia).Select(e => $"{e.Provincia} : {e.Nombre}");
+                Nombre = em.Select(e => e.Name).Aggregate("", (acc, b) => acc + " " + b)
+            }).OrderBy(a => a.Provincia).Select(e => $"{e.Provincia} : {e.Nombre}");
             Show(res);
 
             /*Resultado esperado:
@@ -235,6 +237,26 @@ namespace Linq
         // “Departamento=<Nombre>, Duración=<Segundos>”
         private static void ConsultaM()
         {
+            var res = modelo.Employees.Join(modelo.PhoneCalls,
+                e => e.TelephoneNumber,
+                p => p.SourceNumber,
+                (em, ph) => new
+                {
+                    Empleado = em,
+                    Llamada = ph
+                }).GroupBy(d => d.Empleado.Department, (key, llam) => new
+                {
+                    Departamento = key.Name,
+                    Duracion = llam.Select(l => l.Llamada.Seconds).Aggregate("", (acc, b) => acc + " " + b)
+                }).OrderBy(d => d.Departamento);
+            Show(res);
+
+            //Salida:
+            //{ Departamento = Medicine, Duracion = 2 15 5 10 }
+            //{ Departamento = Computer Science, Duracion = 63 7 32 }
+            //{ Departamento = Mathematics, Duracion = 23 22 3 }
+            //{ Departamento = Physics, Duracion = 7 }
+            //Elementos en la colección: 4.
 
         }
 
@@ -244,13 +266,64 @@ namespace Linq
         // suponerse que solo hay un departamento que cumplirá esta condición.
         private static void ConsultaN()
         {
+            var res = modelo.Employees.Join(modelo.PhoneCalls,
+                e => e.TelephoneNumber,
+                p => p.SourceNumber,
+                (em, ph) => new
+                {
+                    Empleado = em,
+                    Llamada = ph
+                }).GroupBy(d => d.Empleado.Department, (key, llam) => new
+                {
+                    Departamento = key.Name,
+                    Duracion = llam.Select(l => l.Llamada.Seconds).Sum()
+                }).Min(e => $"{e.Departamento} = {e.Duracion} segundos totales");
+            Console.WriteLine(res);
 
+            //Salida:
+            //Computer Science = 102 segundos totales
+
+            var res1 = modelo.Employees
+        .Join(modelo.PhoneCalls,
+            e => e.TelephoneNumber,
+            p => p.SourceNumber,
+            (em, ph) => new
+            {
+                Empleado = em,
+                Llamada = ph
+            })
+        .GroupBy(d => d.Empleado.Department, (key, llam) => new
+        {
+            Departamento = key.Name,
+            Duracion = llam.Select(l => l.Llamada.Seconds).Sum()
+        })
+        .OrderByDescending(e => e.Duracion) // Ordenar por duración en orden descendente
+        .First(); // Tomar el primero, que será el que tenga la mayor duración
+
+            Console.WriteLine($"{res1.Departamento} = {res1.Duracion} segundos totales");
+
+
+            //Salida:
+            //Computer Science = 102 segundos totales
         }
         //•	Para cada edificio, obtener la edad máxima, la edad mínima
         //y el numero de empleados que tienen despacho en ese edificio.
         private static void ConsultaÑ()
         {
+            var res = modelo.Employees.GroupBy(e => e.Office.Building, (key, emp) => new
+            {
+                Edificio = key,
+                EdadMaxima = emp.Select(e => e.Age).Max(),
+                EdadMinima = emp.Select(e => e.Age).Min(),
+                Numero = emp.Count()
+            });
+            Show(res);
 
+            //Salida:
+            //{ Edificio = Faculty of Science, EdadMaxima = 78, EdadMinima = 50, Numero = 3 }
+            //{ Edificio = Headquarters, EdadMaxima = 54, EdadMinima = 54, Numero = 1 }
+            //{ Edificio = Polytechnical, EdadMaxima = 79, EdadMinima = 50, Numero = 2 }
+            //Elementos en la colección: 3.
         }
 
         // Mostrar las llamadas realizadas desde el edificio "Faculty of Science" al edificio "Polytechnical".
@@ -263,24 +336,123 @@ namespace Linq
         //lista de empleados que no realizan ninguna llamada saliente.
         private static void ConsultaP()
         {
+            var emp = modelo.Employees.Join(modelo.PhoneCalls, e => e.TelephoneNumber, p => p.SourceNumber,
+            (emp, ph) => new
+            {
+                Empleado = emp,
+                Llamada = ph.SourceNumber
+            }).Select(e => e.Empleado).Distinct();
+            var res = modelo.Employees.Except(emp);
 
+            Show(res);
+
+            //Salida:
+            //[Employee: Carlos]
+            //[Employee: Dario]
+
+            // Obtener una lista de todos los números de teléfono usados como origen en las llamadas salientes
+            var numerosLlamadasSalientes = modelo.PhoneCalls.Select(call => call.SourceNumber).Distinct();
+
+            // Seleccionar los empleados cuyo número de teléfono no está en la lista de números de llamadas salientes
+            var empleadosSinLlamadasSalientes = modelo.Employees
+                .Where(emp => !numerosLlamadasSalientes.Contains(emp.TelephoneNumber));
+
+            Show(empleadosSinLlamadasSalientes);
+
+            //Salida:
+            //[Employee: Carlos]
+            //[Employee: Dario]
         }
+
         // Mostrar la edad media de los empleados. Por cada departamento
         private static void ConsultaQ()
         {
+            var res = modelo.Employees.GroupBy(d => d.Department.Name, (key, emp) => new
+            {
+                Departamento = key,
+                Media = emp.Select(e => e.Age).Average()
+            });
+            Show(res);
 
+            //salida:
+            //{ Departamento = Medicine, Media = 64 }
+            //{ Departamento = Computer Science, Media = 52 }
+            //{ Departamento = Mathematics, Media = 79 }
+            //{ Departamento = Physics, Media = 74 }
+
+            var res1 = modelo.Employees.GroupBy(d => d.Department.Name, (key, emp) => new
+            {
+                Departamento = key,
+                Media = emp.Select(e => e.Age).Aggregate((acc, b) => acc + b)/emp.Count()
+            });
+            Show(res1);
+
+            //salida:
+            //{ Departamento = Medicine, Media = 64 }
+            //{ Departamento = Computer Science, Media = 52 }
+            //{ Departamento = Mathematics, Media = 79 }
+            //{ Departamento = Physics, Media = 74 }
         }
         //Mostrar los departamentos con el empleado más joven, además del nombre dicho
         //empleado más joven y su edad.Tened en cuenta que puede existir más de un empleado más
         //joven.
         private static void ConsultaR()
         {
+            var res = modelo.Employees.GroupBy(e => e.Department.Name, (key, emp) => new
+            {
+                Departamento = key,
+                Joven = emp.Select(e => e.Age).Min(),
+                Empleados = emp.Aggregate("" ,(acc,b)=>acc+ " " +b.Name),
+                
+            }).Aggregate((acc,b)=> acc.Joven<b.Joven?acc:b);
+
+            Console.WriteLine(res);
+
+            //salida:
+            //{ Departamento = Computer Science, Joven = 50, Empleados = Bernardo Carlos }
+
+            var empleadosMasJovenesPorDepartamento = modelo.Employees
+                .GroupBy(emp => emp.Department, (dep, empGroup) => new
+                {
+                    Departamento = dep.Name,
+                    EdadMasJoven = empGroup.Min(emp => emp.Age)
+                });
+
+            var edadMasJovenGlobal = empleadosMasJovenesPorDepartamento.Min(dep => dep.EdadMasJoven);
+
+            var departamentosConEmpleadosMasJovenes = empleadosMasJovenesPorDepartamento
+                .Where(dep => dep.EdadMasJoven == edadMasJovenGlobal);
+
+            Show(departamentosConEmpleadosMasJovenes);
+
+            //Salida:
+            //{ Departamento = Medicine, EdadMasJoven = 50 }
+            //{ Departamento = Computer Science, EdadMasJoven = 50 }
+            //Elementos en la colección: 2.
 
         }
 
         // Numero de llamadas por cada provincia
         private static void ConsultaS()
         {
+            var res = modelo.Employees.Join(modelo.PhoneCalls, e => e.TelephoneNumber, p => p.SourceNumber,
+                (em, ph) => new
+                {
+                    Empleado = em,
+                    Llamada = ph
+                }).GroupBy(e => e.Empleado.Province, (key, llama) => new
+                {
+                    Provincia = key,
+                    Numero = llama.Select(e => e.Llamada).Count()
+
+                }) ;
+            Show(res);
+
+            //Salida: 
+            //{ Provincia = Cantabria, Numero = 4 }
+            //{ Provincia = Asturias, Numero = 4 }
+            //{ Provincia = Granada, Numero = 3 }
+            //Elementos en la colección: 3.
 
         }
         private static void Show<T>(IEnumerable<T> colección)
