@@ -24,14 +24,15 @@ namespace Linq
             //Consulta7();
             //ConsultaK();
             //ConsultaL();
-            ConsultaM();
-            ConsultaN();
-            ConsultaÑ();
-            ConsultaO();
-            ConsultaP();
-            ConsultaQ();
-            ConsultaR();
-            ConsultaS();
+            //ConsultaM();
+            //ConsultaN();
+            //ConsultaÑ();
+            //ConsultaO();
+            //ConsultaP();
+            //ConsultaQ();
+            //ConsultaR();
+            //ConsultaS();
+            ConsultaT();
 
 
         }
@@ -454,6 +455,21 @@ namespace Linq
             //{ Provincia = Granada, Numero = 3 }
             //Elementos en la colección: 3.
 
+        }
+
+        // Suma de las edaddes pertenecierntes a Comuter Science y que sean de Asturias
+        private static void ConsultaT()
+        {
+            //Resultado esperado: 50
+
+            var emp = modelo.Employees.Where(e => e.Department.Name.ToLower().Equals("computer science") && e.Province.ToLower().Equals("asturias"));
+            var suma = emp.Aggregate(0, (acc, edad) => acc + edad.Age);
+            Show(emp);
+            var res = emp.Select(e => new
+            {
+                Suma = e.Age
+            }).Aggregate(0,(acc, b) => acc + b.Suma);
+            Console.WriteLine("Suma de las edades: " + res);
         }
         private static void Show<T>(IEnumerable<T> colección)
         {
