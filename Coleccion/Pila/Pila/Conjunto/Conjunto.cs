@@ -15,7 +15,7 @@ namespace ConjuntoObjetos
     {
         public Conjunto() : base() { }
 
-        public override void Añadir(object valor)
+        public void AñadirConjunto(object valor)
         {
             if (base.Contiene(valor))
                 throw new InvalidOperationException("No se pueden añadir en el conjunto elementos repetidos");
@@ -25,7 +25,7 @@ namespace ConjuntoObjetos
 
         public static Conjunto operator +(Conjunto set, object valor)
         {
-            set.Añadir(valor); return set;
+            set.AñadirConjunto(valor); return set;
         }
 
         public static Conjunto operator -(Conjunto set, object valor)

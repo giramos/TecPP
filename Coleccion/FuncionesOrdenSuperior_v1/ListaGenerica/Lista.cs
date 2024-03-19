@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 
 /// <summary>
@@ -114,7 +113,7 @@ namespace ListaGenerica
         /// Metodo que añade un valor a la lista. Se va añadiendo los elementos en orden ascendente (0-1-...)
         /// </summary>
         /// <param name="valor">Valor que deseamos añadir a la lista</param>
-        public virtual void Añadir(T valor)
+        public void Añadir(T valor)
         {
             if (ListaVacia())
             {
@@ -490,7 +489,7 @@ namespace ListaGenerica
         public static IEnumerable<T> Invertir<T>(this IEnumerable<T> coleccion)
         {
             Lista<T> col = new Lista<T>();
-            foreach(var i in coleccion)
+            foreach (var i in coleccion)
             {
                 col.Añadir(i, 0);
             }

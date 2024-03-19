@@ -439,9 +439,9 @@ namespace Tests
         public void TestConjunto()
         {
             Conjunto set = new();
-            set.Añadir(1);
-            set.Añadir('a');
-            set.Añadir("hola");
+            set.AñadirConjunto(1);
+            set.AñadirConjunto('a');
+            set.AñadirConjunto("hola");
 
             // Comprobamos que funciona el metodo añadir
             Assert.IsTrue(set.NumElementos.Equals(3));
@@ -462,16 +462,16 @@ namespace Tests
         {
             // Comprobamos que nuestro conjunto no admite valores repetidos
             Conjunto set = new();
-            set.Añadir(1);
-            set.Añadir('a');
-            set.Añadir("hola");
+            set.AñadirConjunto(1);
+            set.AñadirConjunto('a');
+            set.AñadirConjunto("hola");
             Assert.IsTrue(set.NumElementos.Equals(3));
             Assert.IsTrue(set.Contiene(1));
             Assert.IsTrue(set.Contiene('a'));
             Assert.IsTrue(set.Contiene("hola"));
 
             // Al añadir un elemento repetido debe de lanzar una excepcion
-            set.Añadir('a');
+            set.AñadirConjunto('a');
         }
 
         [TestMethod]

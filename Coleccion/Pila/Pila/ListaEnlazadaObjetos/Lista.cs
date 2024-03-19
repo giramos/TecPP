@@ -124,7 +124,7 @@ namespace ListaEnlazadaObjetos
         /// Metodo que añade un valor a la lista. Se va añadiendo los elementos en orden ascendente (0-1-...)
         /// </summary>
         /// <param name="valor">Valor que deseamos añadir a la lista</param>
-        public virtual void Añadir(object valor)
+        public void Añadir(object valor)
         {
             //bool esDistintoNull = valor != null ? true : throw new ArgumentException("No está permitido añadir null a nuestra lista");
             //if (esDistintoNull)
