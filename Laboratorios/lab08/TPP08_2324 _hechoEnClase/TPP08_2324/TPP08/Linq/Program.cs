@@ -645,6 +645,22 @@ namespace Linq
 
             Show(empleadosSinLlamadasSalientes);
         }
+		
+		 private void Query6() 
+        {
+            var i = 0;
+            // Muestrame las llamadas ordenadas por duracion (mas a menos) con un ranking (por numeros)
+            ///var llamadas = model.PhoneCalls
+            /// .OrderByDescending(p => p.Seconds)
+            ///.Select(p => $"Rank: {i++}  Duration: {p.Seconds}");
+
+            var llamadas = model.PhoneCalls
+                .OrderByDescending(p => p.Seconds)
+                .Zip(Enumerable.Range(1, model.PhoneCalls.Count() + 1), 
+                    (c,i) => $"Rank: {i++}  p.Seconds)");
+            Console.WriteLine("Llamadas: ");
+            Show(llamadas);
+        }
 
         private static void Show<T>(IEnumerable<T> colección)
         {

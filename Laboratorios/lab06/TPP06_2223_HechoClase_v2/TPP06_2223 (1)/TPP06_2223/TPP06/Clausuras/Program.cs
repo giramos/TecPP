@@ -79,7 +79,7 @@ namespace Clausuras
             for (int i = 0; i < iteraciones; i++)
                 valorContador = contadorClausura();
 
-            Console.WriteLine($"[Contador Clausura] Valor actual del contador: {contador.Valor}");
+            Console.WriteLine($"[Contador Clausura] Valor actual del contador: {valorContador}");
 
 
             LimpiarPantalla();

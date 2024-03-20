@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab06\TPP06_2223_HechoClase_v2\TPP06_2223 (1)\TPP06_2223\TPP06\Clausuras\bin\Debug\net5.0\Clausuras.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab06\TPP06_2223_HechoClase_v2\TPP06_2223 (1)\TPP06_2223\TPP06\Clausuras\bin\Debug\net5.0\Clausuras.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab06\TPP06_2223_HechoClase_v2\TPP06_2223 (1)\TPP06_2223\TPP06\Clausuras\bin\Debug\net5.0\Clausuras.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab06\TPP06_2223_HechoClase_v2\TPP06_2223 (1)\TPP06_2223\TPP06\Clausuras\bin\Debug\net5.0\Clausuras.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab06\TPP06_2223_HechoClase_v2\TPP06_2223 (1)\TPP06_2223\TPP06\Clausuras\bin\Debug\net5.0\Clausuras.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab06\TPP06_2223_HechoClase_v2\TPP06_2223 (1)\TPP06_2223\TPP06\Clausuras\bin\Debug\net5.0\Clausuras.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab06\TPP06_2223_HechoClase_v2\TPP06_2223 (1)\TPP06_2223\TPP06\Clausuras\obj\Debug\net5.0\Clausuras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab06\TPP06_2223_HechoClase_v2\TPP06_2223 (1)\TPP06_2223\TPP06\Clausuras\obj\Debug\net5.0\Clausuras.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab06\TPP06_2223_HechoClase_v2\TPP06_2223 (1)\TPP06_2223\TPP06\Clausuras\obj\Debug\net5.0\Clausuras.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab06\TPP06_2223_HechoClase_v2\TPP06_2223 (1)\TPP06_2223\TPP06\Clausuras\obj\Debug\net5.0\Clausuras.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab06\TPP06_2223_HechoClase_v2\TPP06_2223 (1)\TPP06_2223\TPP06\Clausuras\obj\Debug\net5.0\Clausuras.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab06\TPP06_2223_HechoClase_v2\TPP06_2223 (1)\TPP06_2223\TPP06\Clausuras\obj\Debug\net5.0\Clausuras.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab06\TPP06_2223_HechoClase_v2\TPP06_2223 (1)\TPP06_2223\TPP06\Clausuras\obj\Debug\net5.0\refint\Clausuras.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab06\TPP06_2223_HechoClase_v2\TPP06_2223 (1)\TPP06_2223\TPP06\Clausuras\obj\Debug\net5.0\Clausuras.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab06\TPP06_2223_HechoClase_v2\TPP06_2223 (1)\TPP06_2223\TPP06\Clausuras\obj\Debug\net5.0\Clausuras.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab06\TPP06_2223_HechoClase_v2\TPP06_2223 (1)\TPP06_2223\TPP06\Clausuras\obj\Debug\net5.0\ref\Clausuras.dll
