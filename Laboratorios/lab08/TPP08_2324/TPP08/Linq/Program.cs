@@ -130,8 +130,8 @@ namespace Linq
         private static void Consulta1()
         {
             // Modificar la consulta para mostrar los empleados cuyo nombre empieza por F.
-            var resultado = modelo.Employees;
-
+			var empleados = modelo.Employees.Where(n => n.Name.StartsWith("F"));
+            Show(empleados);
             Show(resultado);
             //El resultado esperado es: Felipe
         }
@@ -141,7 +141,9 @@ namespace Linq
 
             //Mostrar Nombre y fecha de nacimiento de los empleados de Cantabria con el formato:
             // Nombre=<Nombre>,Fecha=<Fecha>
-
+			var emp = modelo.Employees.Where(pro => pro.Province.ToLower().Equals("cantabria")).Select((a) => 
+            $"{a.Name} {a.DateOfBirth}");
+            Show(emp);
             /*El resultado esperado es:
               Alvaro 19/10/1945 0:00:00
               Dario 16/12/1973 0:00:0066
@@ -155,27 +157,26 @@ namespace Linq
         private static void Consulta3()
         {
 
-            //Mostrar los nombres de los departamentos que tengan más de un empleado mayor de edad.
+            var empleados = modelo.Employees.Where(edad => edad.Age >= 18);
+            var depar = modelo.Departments.Where(a => a.Employees.Where(edad => edad.Age >= 18).Count()>1).Select(a => a.Name);            
+            
+            Show(depar);
 
-
-            /*El resultado esperado es:
-                Computer Science
-                Medicine
-            */
-
-
-            //Posteriormente, cree una nueva versión de la consulta para que:
+            //Posteriormente, modifica la consulta para que:
             //Muestre los nombres de los departamentos que tengan más de un empleado mayor de edad
             //y
             //que el despacho (Office.Number) COMIENCE por "2.1"
 
-            //El resultado esperado es: Medicine
+            var depar1 = modelo.Departments.Where(a => a.Employees.Where(edad => edad.Age >= 18 && edad.Office.Number.StartsWith("2.1")).Count() > 1);
+            Show(depar1);
         }
 
         private static void Consulta4()
         {
 
             //El nombre de los departamentos donde ningún empleado tenga despacho en el Building "Faculty of Science".
+			var depar1 = modelo.Departments.Where(d => d.Employees.Where(e => e.Office.Building.ToLower().Equals("faculty of science")).Count()<1);
+            Show(depar1);
             //Resultado esperado: [Department: Mathematics]
         }
 
@@ -186,6 +187,17 @@ namespace Linq
             // Mostrar las llamadas de teléfono de más de 5 segundos de duración para cada empleado que tenga más de 50 años
             //Cada línea debería mostrar el nombre del empleado y la duración de la llamada en segundos.
             //El resultado debe estar ordenado por duración de las llamadas (de más a menos).
+			var llamadas = modelo.PhoneCalls.Where(p => p.Seconds > 5);
+            var empleado = modelo.Employees.Where(e => e.Age > 50);
+            var res = llamadas.Join(empleado,
+                llama => llama.SourceNumber,
+                tele => tele.TelephoneNumber,
+                (llamada, empleado) => new
+                {
+                    Llamada = llamada.Seconds,
+                    Empleado = empleado.Name
+                }).OrderBy(l => l.Llamada);
+            Show(res);
             /*
                 { Nombre = Eduardo, Duracion = 23 }
                 { Nombre = Eduardo, Duracion = 22 }
@@ -201,6 +213,25 @@ namespace Linq
         private static void Consulta6()
         {
             //Mostrar la llamada realizada más larga para cada empleado, mostrando por pantalla: Nombre_empleado : duracion_llamada_mas_larga
+			var res = modelo.Employees.Join(modelo.PhoneCalls,
+                emp => emp.TelephoneNumber,
+                llam => llam.SourceNumber,
+                (e, l) => new
+                {
+                    Empleado = e.Name,
+                    Duracion = l.Seconds
+                });
+            var res1 = res.GroupBy(e => e.Empleado, (e, l) => new
+            {
+                Key = e,
+                Duracion = l.Max(e => e.Duracion)
+            }) ;
+            var res2 = res.GroupBy(e => e.Empleado, (e, l) => new
+            {
+                Key = e,
+                Duracion = l.Aggregate(0, (a, b) => a > b.Duracion ? a : b.Duracion)
+            }); ;
+            Show(res2);
             /* ¡OJO NO ESTÁ APLICADO EL FORMATO 
                 { Nombre = Alvaro, Maxima = 15 }
                 { Nombre = Bernardo, Maxima = 63 }
@@ -215,7 +246,12 @@ namespace Linq
             // Mostrar, agrupados por provincia, el nombre de los empleados
             //Tanto la provincia como los empleados de cada provicia seguirán un orden alfabético.
 
-
+			var emp = modelo.Employees.GroupBy(e => e.Province, (pro,nom) => new
+            {
+                key = pro,
+                nombre = nom.Select(a => a.Name).Aggregate("",(a,b)=> a + " " + b)
+            }).OrderBy(a => a.key);
+            Show(emp);
 
             /*Resultado esperado:
                 Alicante : Carlos
