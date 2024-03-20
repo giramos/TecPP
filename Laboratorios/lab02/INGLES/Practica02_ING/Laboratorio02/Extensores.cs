@@ -101,7 +101,7 @@ namespace Laboratorio02
             return (a * (int)Math.Pow(10, digitsCount)) + b;
         }
 
-        public static int Concatenate(this int a, int b)
+        public static int Concatenate1(this int a, int b)
         {
             return int.Parse(a.ToString() + Math.Abs(b));
         }
