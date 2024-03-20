@@ -3,23 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensores", "Extensores\Extensores.csproj", "{A18B9FF1-5470-4EDF-9BAB-756CE77DDC92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensores", "Extensores\Extensores.csproj", "{A18B9FF1-5470-4EDF-9BAB-756CE77DDC92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncionOrdenSuperior", "FuncionOrdenSuperior\FuncionOrdenSuperior.csproj", "{5D20E8BF-6971-4589-93E6-925A9BF9E73A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncionOrdenSuperior", "FuncionOrdenSuperior\FuncionOrdenSuperior.csproj", "{5D20E8BF-6971-4589-93E6-925A9BF9E73A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clausulas", "Clausulas\Clausulas.csproj", "{DCD8B08A-CA27-494E-AA6C-CF8B8374BDAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clausulas", "Clausulas\Clausulas.csproj", "{DCD8B08A-CA27-494E-AA6C-CF8B8374BDAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curry", "Curry\Curry.csproj", "{E3E49D0E-3462-4EEB-AFB0-C55786713641}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Curry", "Curry\Curry.csproj", "{E3E49D0E-3462-4EEB-AFB0-C55786713641}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerables", "Enumerables\Enumerables.csproj", "{CC00B1D8-5CE7-4E7B-BACF-8E48916F5B68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enumerables", "Enumerables\Enumerables.csproj", "{CC00B1D8-5CE7-4E7B-BACF-8E48916F5B68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultasSinLINQ", "ConsultasSinLINQ\ConsultasSinLINQ.csproj", "{FE151302-DE96-4417-B736-EEE2179E589A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsultasSinLINQ", "ConsultasSinLINQ\ConsultasSinLINQ.csproj", "{FE151302-DE96-4417-B736-EEE2179E589A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListaGenerica", "Prepare\FuncionesOrdenSuperior_v1\ListaGenerica\ListaGenerica.csproj", "{D321CBA4-00F0-457D-9012-4B48BCE46DC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generadores", "Generadores\Generadores.csproj", "{73B1F5BF-42F8-42F3-976F-3D20CC73B1A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generadores", "Generadores\Generadores.csproj", "{73B1F5BF-42F8-42F3-976F-3D20CC73B1A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memorizacion", "Memorizacion\Memorizacion.csproj", "{33835C8C-48C0-40D1-9450-8BE75544B20A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memorizacion", "Memorizacion\Memorizacion.csproj", "{33835C8C-48C0-40D1-9450-8BE75544B20A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio1", "Ejercicio1\Ejercicio1.csproj", "{E2CBA755-5987-4013-9DA5-660FAC907BD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{33835C8C-48C0-40D1-9450-8BE75544B20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33835C8C-48C0-40D1-9450-8BE75544B20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33835C8C-48C0-40D1-9450-8BE75544B20A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2CBA755-5987-4013-9DA5-660FAC907BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2CBA755-5987-4013-9DA5-660FAC907BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2CBA755-5987-4013-9DA5-660FAC907BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2CBA755-5987-4013-9DA5-660FAC907BD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
