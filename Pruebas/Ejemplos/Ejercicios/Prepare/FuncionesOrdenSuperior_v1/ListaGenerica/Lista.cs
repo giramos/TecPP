@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
+using System.Xml.Linq;
 
 /// <summary>
 /// Germán Iglesias Ramos
@@ -363,6 +364,67 @@ namespace ListaGenerica
         {
             return GetEnumerator();
         }
+        //        A tu implementación de List<T> realizada en clase, debes añadir un método
+        //DeleteIfFollowing.Ese método recibe como parámetro un delegado de tipo Func<T, T,
+        //bool>, el cual se aplicará a cada elemento de la lista (excepto el último) y su sucesor.Si devuelve 
+        //true, entonces se eliminará el sucesor y se volverá a probar con el nuevo sucesor.Este método
+        //debe modificar la lista actual.
+        //Dada una lista de enteros, prueba su funcionamiento eliminado(DeleteIfFollowing)
+        //elementos sin estos son mayores que el actual o cualquier otro criterio que se te ocurra.Para ello
+        //escribe un fragmento de código en el método Ejercicio3 del proyecto ejercicios
+        public void DeleteIfFollowing(Func<T, T, bool> p)
+        {
+            if (this._inicial == null)
+                return;
+            Nodo<T> current = this._inicial;
+            if (current.Siguiente == null)
+                return;
+            while (current.Siguiente != null)
+            {
+                bool res = p(current.Valor, current.Siguiente.Valor);
+                if (res)
+                    current.Siguiente = current.Siguiente.Siguiente;
+                else
+                    current = current.Siguiente;
+            }
+        }
+
+        public void Mix(IEnumerable<T> v)
+        {
+            this.Mix(v, x => x);
+        }
+
+        /*
+         * Implement a new Mix method to your List class. It must modify current List instance adding 
+all the elements of a collection in random positions. If the type of the collection elements is not 
+compatible with the list, a selector function must be passed as argument. Think carefully on how to 
+provide this behavior.
+Write some code to check this method with different arguments. You must use Exercise1
+method in exercises project.
+         */
+        public void Mix<K>(IEnumerable<K> v, Func<K, T> selector)
+        {
+            Random r = new Random();
+            foreach (var e in v)
+            {
+                Nodo<T> start = this._inicial;
+                Nodo<T> prev = null;
+                int position = r.Next(this.NumElementos + 1);
+                while (position > 0)
+                {
+                    prev = start;
+                    start = start.Siguiente;
+                    position -= 1;
+                }
+                Nodo<T> newElement = new Nodo<T>(selector(e));
+                if (prev == null)
+                    this._inicial = newElement;
+                else
+                    prev.Siguiente = newElement;
+
+                newElement.Siguiente = start;
+            }
+        }
     }
 
     public class MiListaTeEnumero<T> : IEnumerator<T>
@@ -499,7 +561,7 @@ namespace ListaGenerica
         public static T BuscarUltimo<T>(this IEnumerable<T> coleccion, Predicate<T> cond)
         {
             var listaInversa = coleccion.Invertir();
-            foreach(var i in listaInversa)
+            foreach (var i in listaInversa)
             {
                 if (cond(i))
                 {

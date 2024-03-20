@@ -60,6 +60,36 @@ namespace Extensores
             foreach(var i in encore) { Console.WriteLine(i); }
             var decore = encore.DecodeRLE();
             foreach (var i in decore) { Console.Write(i); }
+
+            Console.WriteLine();
+
+            // Ejemplo de uso
+            List<int> numbers = new List<int> { 10, 20, 30, 40, 50, 60, 70, 80, 90 };
+
+            // Obtener los elementos que están en una posición cuyo valor es par
+            var result = numbers.ElementsAtWhere((index, value) => index % 2 == 0 && value % 2 == 0);
+
+            // Imprimir el resultado
+            Console.WriteLine("Elementos en posición par y valor par:");
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine();
+
+            Console.WriteLine("Suma vectorial");
+            Console.WriteLine("--Exercise4--");
+            int[] a1 = { 2, 2, 3, 4, 5 };
+            int[] a2 = { -1, 0, 2, 1 };
+            Func<int, int, int> function = (x, y) => x + y;
+            var resulta = a1.MapTwo(a2, function);
+            //resulta.Last();
+            foreach (var e in resulta)
+            {
+                Console.WriteLine(e);
+            }
+                
         }
     }
 
@@ -286,6 +316,47 @@ namespace Extensores
                 }
             }
             return list;
+        }
+
+        //        Crear un método extensor para el interfaz IEnumerable<T> que
+        //devuelva los elementos de la colección que están en una posición cuyo valor
+        //cumple un predicado que se pasa como parámetro. Probar este método con
+        //cualquier colección.
+        public static IEnumerable<T> ElementsAtWhere<T>(this IEnumerable<T> source, Func<int, T, bool> predicate)
+        {
+            if (source == null)
+                throw new ArgumentNullException(nameof(source));
+            if (predicate == null)
+                throw new ArgumentNullException(nameof(predicate));
+
+            int index = 0;
+            foreach (var item in source)
+            {
+                if (predicate(index, item))
+                    yield return item;
+                index++;
+            }
+        }
+        // Metodo por ejemplo para hacer un select de dos colecciones
+        public static IEnumerable<TOutput> MapTwo<TInput1, TInput2, TOutput>(
+         this IEnumerable<TInput1> list1,
+         IEnumerable<TInput2> list2,
+         Func<TInput1, TInput2, TOutput> function)
+        {
+            if (list1 == null)
+                throw new ArgumentNullException(nameof(list1));
+            if (list2 == null)
+                throw new ArgumentNullException(nameof(list2));
+            if (function == null)
+                throw new ArgumentNullException(nameof(function));
+
+            using var enumerator1 = list1.GetEnumerator();
+            using var enumerator2 = list2.GetEnumerator();
+
+            while (enumerator1.MoveNext() && enumerator2.MoveNext())
+            {
+                yield return function(enumerator1.Current, enumerator2.Current);
+            }
         }
     }
 }
