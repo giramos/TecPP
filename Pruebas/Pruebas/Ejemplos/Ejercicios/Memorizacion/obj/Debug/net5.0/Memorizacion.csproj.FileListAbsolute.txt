@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Memorizacion\obj\Debug\net5.0\Memorizacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Memorizacion\obj\Debug\net5.0\Memorizacion.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Memorizacion\obj\Debug\net5.0\Memorizacion.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Memorizacion\obj\Debug\net5.0\Memorizacion.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Memorizacion\obj\Debug\net5.0\Memorizacion.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Memorizacion\bin\Debug\net5.0\Memorizacion.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Memorizacion\bin\Debug\net5.0\Memorizacion.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Memorizacion\bin\Debug\net5.0\Memorizacion.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Memorizacion\bin\Debug\net5.0\Memorizacion.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Memorizacion\bin\Debug\net5.0\Memorizacion.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Memorizacion\bin\Debug\net5.0\Memorizacion.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Memorizacion\obj\Debug\net5.0\Memorizacion.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Memorizacion\obj\Debug\net5.0\refint\Memorizacion.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Memorizacion\obj\Debug\net5.0\Memorizacion.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Memorizacion\obj\Debug\net5.0\Memorizacion.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Memorizacion\obj\Debug\net5.0\ref\Memorizacion.dll

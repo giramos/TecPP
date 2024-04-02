@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Enumerables\bin\Debug\net5.0\Enumerables.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Enumerables\bin\Debug\net5.0\Enumerables.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Enumerables\bin\Debug\net5.0\Enumerables.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Enumerables\bin\Debug\net5.0\Enumerables.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Enumerables\bin\Debug\net5.0\Enumerables.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Enumerables\bin\Debug\net5.0\Enumerables.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Enumerables\obj\Debug\net5.0\Enumerables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Enumerables\obj\Debug\net5.0\Enumerables.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Enumerables\obj\Debug\net5.0\Enumerables.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Enumerables\obj\Debug\net5.0\Enumerables.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Enumerables\obj\Debug\net5.0\Enumerables.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Enumerables\obj\Debug\net5.0\Enumerables.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Enumerables\obj\Debug\net5.0\refint\Enumerables.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Enumerables\obj\Debug\net5.0\Enumerables.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Enumerables\obj\Debug\net5.0\Enumerables.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Enumerables\obj\Debug\net5.0\ref\Enumerables.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ConsultasSinLINQ/1.0.0": {
+        "dependencies": {
+          "ListaGenerica": "1.0.0"
+        },
+        "runtime": {
+          "ConsultasSinLINQ.dll": {}
+        }
+      },
+      "ListaGenerica/1.0.0": {
+        "runtime": {
+          "ListaGenerica.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsultasSinLINQ/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ListaGenerica/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

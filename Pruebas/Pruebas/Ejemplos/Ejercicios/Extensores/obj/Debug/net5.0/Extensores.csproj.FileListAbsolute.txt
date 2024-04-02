@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Extensores\bin\Debug\net5.0\Extensores.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Extensores\bin\Debug\net5.0\Extensores.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Extensores\bin\Debug\net5.0\Extensores.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Extensores\bin\Debug\net5.0\Extensores.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Extensores\bin\Debug\net5.0\Extensores.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Extensores\bin\Debug\net5.0\Extensores.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Extensores\obj\Debug\net5.0\Extensores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Extensores\obj\Debug\net5.0\Extensores.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Extensores\obj\Debug\net5.0\Extensores.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Extensores\obj\Debug\net5.0\Extensores.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Extensores\obj\Debug\net5.0\Extensores.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Extensores\obj\Debug\net5.0\Extensores.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Extensores\obj\Debug\net5.0\refint\Extensores.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Extensores\obj\Debug\net5.0\Extensores.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Extensores\obj\Debug\net5.0\Extensores.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Extensores\obj\Debug\net5.0\ref\Extensores.dll

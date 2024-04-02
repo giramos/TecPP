@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Clausulas\bin\Debug\net5.0\Clausulas.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Clausulas\bin\Debug\net5.0\Clausulas.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Clausulas\bin\Debug\net5.0\Clausulas.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Clausulas\bin\Debug\net5.0\Clausulas.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Clausulas\bin\Debug\net5.0\Clausulas.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Clausulas\bin\Debug\net5.0\Clausulas.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Clausulas\obj\Debug\net5.0\Clausulas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Clausulas\obj\Debug\net5.0\Clausulas.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Clausulas\obj\Debug\net5.0\Clausulas.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Clausulas\obj\Debug\net5.0\Clausulas.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Clausulas\obj\Debug\net5.0\Clausulas.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Clausulas\obj\Debug\net5.0\Clausulas.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Clausulas\obj\Debug\net5.0\refint\Clausulas.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Clausulas\obj\Debug\net5.0\Clausulas.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Clausulas\obj\Debug\net5.0\Clausulas.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Clausulas\obj\Debug\net5.0\ref\Clausulas.dll

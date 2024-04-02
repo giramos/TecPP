@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Curry\bin\Debug\net5.0\Curry.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Curry\bin\Debug\net5.0\Curry.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Curry\bin\Debug\net5.0\Curry.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Curry\bin\Debug\net5.0\Curry.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Curry\bin\Debug\net5.0\Curry.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Curry\bin\Debug\net5.0\Curry.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Curry\obj\Debug\net5.0\Curry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Curry\obj\Debug\net5.0\Curry.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Curry\obj\Debug\net5.0\Curry.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Curry\obj\Debug\net5.0\Curry.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Curry\obj\Debug\net5.0\Curry.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Curry\obj\Debug\net5.0\Curry.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Curry\obj\Debug\net5.0\refint\Curry.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Curry\obj\Debug\net5.0\Curry.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Curry\obj\Debug\net5.0\Curry.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Pruebas\Ejemplos\Ejercicios\Curry\obj\Debug\net5.0\ref\Curry.dll
