@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ObligatoriaSesion10/1.0.0": {
+        "runtime": {
+          "ObligatoriaSesion10.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ObligatoriaSesion10/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

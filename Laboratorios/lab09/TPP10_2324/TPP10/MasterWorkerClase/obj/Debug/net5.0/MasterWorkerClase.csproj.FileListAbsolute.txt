@@ -1,0 +1,16 @@
+C:\Users\UO202549\Downloads\TPP10_2324\TPP10\MasterWorkerClase\bin\Debug\net5.0\MasterWorkerClase.exe
+C:\Users\UO202549\Downloads\TPP10_2324\TPP10\MasterWorkerClase\bin\Debug\net5.0\MasterWorkerClase.deps.json
+C:\Users\UO202549\Downloads\TPP10_2324\TPP10\MasterWorkerClase\bin\Debug\net5.0\MasterWorkerClase.runtimeconfig.json
+C:\Users\UO202549\Downloads\TPP10_2324\TPP10\MasterWorkerClase\bin\Debug\net5.0\MasterWorkerClase.runtimeconfig.dev.json
+C:\Users\UO202549\Downloads\TPP10_2324\TPP10\MasterWorkerClase\bin\Debug\net5.0\MasterWorkerClase.dll
+C:\Users\UO202549\Downloads\TPP10_2324\TPP10\MasterWorkerClase\bin\Debug\net5.0\MasterWorkerClase.pdb
+C:\Users\UO202549\Downloads\TPP10_2324\TPP10\MasterWorkerClase\obj\Debug\net5.0\MasterWorkerClase.csproj.AssemblyReference.cache
+C:\Users\UO202549\Downloads\TPP10_2324\TPP10\MasterWorkerClase\obj\Debug\net5.0\MasterWorkerClase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UO202549\Downloads\TPP10_2324\TPP10\MasterWorkerClase\obj\Debug\net5.0\MasterWorkerClase.AssemblyInfoInputs.cache
+C:\Users\UO202549\Downloads\TPP10_2324\TPP10\MasterWorkerClase\obj\Debug\net5.0\MasterWorkerClase.AssemblyInfo.cs
+C:\Users\UO202549\Downloads\TPP10_2324\TPP10\MasterWorkerClase\obj\Debug\net5.0\MasterWorkerClase.csproj.CoreCompileInputs.cache
+C:\Users\UO202549\Downloads\TPP10_2324\TPP10\MasterWorkerClase\obj\Debug\net5.0\MasterWorkerClase.dll
+C:\Users\UO202549\Downloads\TPP10_2324\TPP10\MasterWorkerClase\obj\Debug\net5.0\refint\MasterWorkerClase.dll
+C:\Users\UO202549\Downloads\TPP10_2324\TPP10\MasterWorkerClase\obj\Debug\net5.0\MasterWorkerClase.pdb
+C:\Users\UO202549\Downloads\TPP10_2324\TPP10\MasterWorkerClase\obj\Debug\net5.0\MasterWorkerClase.genruntimeconfig.cache
+C:\Users\UO202549\Downloads\TPP10_2324\TPP10\MasterWorkerClase\obj\Debug\net5.0\ref\MasterWorkerClase.dll
