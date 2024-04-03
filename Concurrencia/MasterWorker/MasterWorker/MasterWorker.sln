@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_MasterWorker", "01_MasterWorker\01_MasterWorker.csproj", "{7D07FE3E-4237-4E69-9A33-B699C0BD67D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_MasterWorker", "01_MasterWorker\01_MasterWorker.csproj", "{7D07FE3E-4237-4E69-9A33-B699C0BD67D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_MasterWorker_VectorContieneVector", "02_MasterWorker_VectorContieneVector\02_MasterWorker_VectorContieneVector.csproj", "{F4596781-3F5D-4831-88E5-5E344BF83E16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_MasterWorker_VectorContieneVector", "02_MasterWorker_VectorContieneVector\02_MasterWorker_VectorContieneVector.csproj", "{F4596781-3F5D-4831-88E5-5E344BF83E16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_MasterWorker_ColaPalabrasConsonates", "03_MasterWorker_ColaPalabrasConsonates\03_MasterWorker_ColaPalabrasConsonates.csproj", "{B1C9F149-2536-439C-86DB-0E5319BA578D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_MasterWorker_ColaPalabrasConsonates", "03_MasterWorker_ColaPalabrasConsonates\03_MasterWorker_ColaPalabrasConsonates.csproj", "{B1C9F149-2536-439C-86DB-0E5319BA578D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_MasterWorker_NumerosCosecutivos", "04_MasterWorker_NumerosCosecutivos\04_MasterWorker_NumerosCosecutivos.csproj", "{E5913AA3-E96B-4910-B0EA-CB6A332B760C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_MasterWorker_NumerosCosecutivos", "04_MasterWorker_NumerosCosecutivos\04_MasterWorker_NumerosCosecutivos.csproj", "{E5913AA3-E96B-4910-B0EA-CB6A332B760C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_MasterWorker_ComplementoVector", "05_MasterWorker_ComplementoVector\05_MasterWorker_ComplementoVector.csproj", "{3BBC1B4F-EDA7-47E1-8C9A-C3C5CF5E700B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_MasterWorker_InterserccionVectores", "06_MasterWorker_InterserccionVectores\06_MasterWorker_InterserccionVectores.csproj", "{04D47085-B78C-48C8-A6EB-6822785D7C5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_MasterWorker_SumaVectorialVectores", "07_MasterWorker_SumaVectorialVectores\07_MasterWorker_SumaVectorialVectores.csproj", "{D01FE683-0371-4826-8207-D8DFE181F1F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_MasterWorker_DistanciaVectores", "08_MasterWorker_DistanciaVectores\08_MasterWorker_DistanciaVectores.csproj", "{20A23C49-D432-43A5-BFD9-EE38AB2CBDB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{E5913AA3-E96B-4910-B0EA-CB6A332B760C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5913AA3-E96B-4910-B0EA-CB6A332B760C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5913AA3-E96B-4910-B0EA-CB6A332B760C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BBC1B4F-EDA7-47E1-8C9A-C3C5CF5E700B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBC1B4F-EDA7-47E1-8C9A-C3C5CF5E700B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBC1B4F-EDA7-47E1-8C9A-C3C5CF5E700B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBC1B4F-EDA7-47E1-8C9A-C3C5CF5E700B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D47085-B78C-48C8-A6EB-6822785D7C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D47085-B78C-48C8-A6EB-6822785D7C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D47085-B78C-48C8-A6EB-6822785D7C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D47085-B78C-48C8-A6EB-6822785D7C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D01FE683-0371-4826-8207-D8DFE181F1F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01FE683-0371-4826-8207-D8DFE181F1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01FE683-0371-4826-8207-D8DFE181F1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01FE683-0371-4826-8207-D8DFE181F1F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20A23C49-D432-43A5-BFD9-EE38AB2CBDB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A23C49-D432-43A5-BFD9-EE38AB2CBDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A23C49-D432-43A5-BFD9-EE38AB2CBDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A23C49-D432-43A5-BFD9-EE38AB2CBDB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

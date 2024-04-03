@@ -94,6 +94,7 @@ namespace _03_MasterWorker_ColaPalabrasConsonates
     internal class Worker
     {
         private ConcurrentQueue<string> cola;
+
         private ConcurrentQueue<string> palabrasConsonantes;
         private int indiceDesde, indiceHasta;
 

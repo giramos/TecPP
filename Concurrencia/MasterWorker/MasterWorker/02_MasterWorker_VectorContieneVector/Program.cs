@@ -72,7 +72,7 @@ namespace _02_MasterWorker_VectorContieneVector
         /// Número de trabajadores que se van a emplear en el cálculo.
         /// </summary>
         private int numeroHilos;
-        private readonly object obj = new();
+        private static readonly object obj = new();
 
         public Master(int[] vector1, int[] vector2, int numeroHilos)
         {
@@ -95,7 +95,7 @@ namespace _02_MasterWorker_VectorContieneVector
             for (int i = 0; i < this.numeroHilos; i++)
             {
                 int indiceDesde = i * this.vector1.Length / numeroHilos;
-                int indiceHasta = (i + 1) * (this.vector1.Length / numeroHilos) - this.vector2.Length;
+                int indiceHasta = (i + 1) * (this.vector1.Length / numeroHilos) - 1;
                 workers[i] = new Worker(this.vector1, this.vector2, indiceDesde, indiceHasta);
             }
             // * Iniciamos los hilos.
@@ -138,7 +138,7 @@ namespace _02_MasterWorker_VectorContieneVector
         private int resultado;
 
         //objeto bloqueador
-        private readonly object obj = new();
+        private static readonly object obj = new();
 
         internal int Resultado
         {
@@ -159,25 +159,28 @@ namespace _02_MasterWorker_VectorContieneVector
         internal void Calcular()
         {
             this.resultado = 0;
-            for (int i = this.indiceDesde; i <= this.indiceHasta; i++) // 1º vector
+            lock (obj)
             {
-                bool coincide = true;
-                for (int j = 0; j < this.vector2.Length; j++) // 2º vector
+                for (int i = this.indiceDesde; i <= this.indiceHasta; i++) // 1º vector
                 {
-                    // si el indice i+j esta fuera del rango del vector1 o los elementos no coinciden entre el v1 y v2
-                    if (i + j >= this.vector1.Length || this.vector1[i + j] != this.vector2[j])
+                    bool coincide = true;
+                    for (int j = 0; j < this.vector2.Length; j++) // 2º vector
                     {
-                        coincide = false;
-                        break;
+                        // si el indice i+j esta fuera del rango del vector1 o los elementos no coinciden entre el v1 y v2
+                        if (i + j >= this.vector1.Length || this.vector1[i + j] != this.vector2[j])
+                        {
+                            coincide = false;
+                            break;
+                        }
                     }
-                }
-                if (coincide)
-                {
-                    lock (obj)
+                    if (coincide)
                     {
-                        resultado++;
+                        lock (obj)
+                        {
+                            resultado++;
+                        }
+
                     }
-                        
                 }
             }
         }
