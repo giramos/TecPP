@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\MasterWorker\MasterWorker\01_MasterWorker\bin\Debug\net5.0\01_MasterWorker.exe
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\MasterWorker\MasterWorker\01_MasterWorker\bin\Debug\net5.0\01_MasterWorker.deps.json
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\MasterWorker\MasterWorker\01_MasterWorker\bin\Debug\net5.0\01_MasterWorker.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\MasterWorker\MasterWorker\01_MasterWorker\bin\Debug\net5.0\01_MasterWorker.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\MasterWorker\MasterWorker\01_MasterWorker\bin\Debug\net5.0\01_MasterWorker.dll
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\MasterWorker\MasterWorker\01_MasterWorker\bin\Debug\net5.0\01_MasterWorker.pdb
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\MasterWorker\MasterWorker\01_MasterWorker\obj\Debug\net5.0\01_MasterWorker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\MasterWorker\MasterWorker\01_MasterWorker\obj\Debug\net5.0\01_MasterWorker.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\MasterWorker\MasterWorker\01_MasterWorker\obj\Debug\net5.0\01_MasterWorker.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\MasterWorker\MasterWorker\01_MasterWorker\obj\Debug\net5.0\01_MasterWorker.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\MasterWorker\MasterWorker\01_MasterWorker\obj\Debug\net5.0\01_MasterWorker.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\MasterWorker\MasterWorker\01_MasterWorker\obj\Debug\net5.0\01_MasterWorker.dll
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\MasterWorker\MasterWorker\01_MasterWorker\obj\Debug\net5.0\refint\01_MasterWorker.dll
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\MasterWorker\MasterWorker\01_MasterWorker\obj\Debug\net5.0\01_MasterWorker.pdb
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\MasterWorker\MasterWorker\01_MasterWorker\obj\Debug\net5.0\01_MasterWorker.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\MasterWorker\MasterWorker\01_MasterWorker\obj\Debug\net5.0\ref\01_MasterWorker.dll

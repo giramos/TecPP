@@ -1,0 +1,32 @@
+* cómo recuperar procesos del sistema -> para el examen no importa
+
+* podemos ver las características del proceso y sus hilos
+
+* dos formas: usar hilos con OO o hilos de forma funcional
+
+* los hilos no deciden ellos cuándo entrar, lo decide el procesador
+
+* NO usar el sleep para intentar sincronizar hilos ni para esperar a otras cosas -> si se usa
+es -1 punto
+
+* siempre que inicializamos un hilo tenemos que pasarle el NOMBRE (no con paréntesis, que sino
+es un método) del action -> por ejemplo donde hace new Thread(expositores[i].Run);
+
+* por mucho que arranquemos antes un hilo y queremos que salga antes que otros -> no van a salir
+en orden -> no podemos decidir cuándo acaba antes uno u otro
+
+* en el enfoque funcional no tenemos los objetos
+
+* en funcional -> el action tiene que recibir si o si un action que recibe un único parámetro de
+tipo object o puede recibir 0 parámetros.
+
+* master worker se encarga de dividir las tareas e indicarle a cada worker lo que va a hacer
+
+* para el context switching -> ejecutamos una vez en modo release -> vamos a la carpeta del proyecto (click dcho - abrir carpeta en el explorador de archivos)
+-> carpeta bin -> carpeta release -> la carpeta de netcore -> abrimos ahí cmd -> ponemos ahí M y damos tabulador
+hasta que salga el .exe y le damos al intro -> para redirigirlo a un fichero a esa linea añadimos > nombre.txt
+Ejecutar en modo debug es un 0
+Abrimos el excel - abrir - examinar - donde lo tengo - poner todos los archivos abajo- coger
+el mío - ok - columnas separadas por ; (delimitados) - marcar mis datos tienen encabezados - siguiente - 
+el separador poner ; - siguiente - finalizar -> ahora hacemosl a gráfica - marco las dos columnas - insertar - gráficos
+recomendados - el de dispersión - poner el texto explicando
