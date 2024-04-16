@@ -1,0 +1,16 @@
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\03Interlocked\bin\Debug\net5.0\03Interlocked.exe
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\03Interlocked\bin\Debug\net5.0\03Interlocked.deps.json
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\03Interlocked\bin\Debug\net5.0\03Interlocked.runtimeconfig.json
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\03Interlocked\bin\Debug\net5.0\03Interlocked.runtimeconfig.dev.json
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\03Interlocked\bin\Debug\net5.0\03Interlocked.dll
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\03Interlocked\bin\Debug\net5.0\03Interlocked.pdb
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\03Interlocked\obj\Debug\net5.0\03Interlocked.csproj.AssemblyReference.cache
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\03Interlocked\obj\Debug\net5.0\03Interlocked.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\03Interlocked\obj\Debug\net5.0\03Interlocked.AssemblyInfoInputs.cache
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\03Interlocked\obj\Debug\net5.0\03Interlocked.AssemblyInfo.cs
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\03Interlocked\obj\Debug\net5.0\03Interlocked.csproj.CoreCompileInputs.cache
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\03Interlocked\obj\Debug\net5.0\03Interlocked.dll
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\03Interlocked\obj\Debug\net5.0\refint\03Interlocked.dll
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\03Interlocked\obj\Debug\net5.0\03Interlocked.pdb
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\03Interlocked\obj\Debug\net5.0\03Interlocked.genruntimeconfig.cache
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\03Interlocked\obj\Debug\net5.0\ref\03Interlocked.dll

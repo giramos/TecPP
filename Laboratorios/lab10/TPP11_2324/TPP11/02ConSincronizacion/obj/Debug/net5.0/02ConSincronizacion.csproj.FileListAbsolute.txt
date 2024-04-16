@@ -1,0 +1,16 @@
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\02ConSincronizacion\bin\Debug\net5.0\02ConSincronizacion.exe
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\02ConSincronizacion\bin\Debug\net5.0\02ConSincronizacion.deps.json
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\02ConSincronizacion\bin\Debug\net5.0\02ConSincronizacion.runtimeconfig.json
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\02ConSincronizacion\bin\Debug\net5.0\02ConSincronizacion.runtimeconfig.dev.json
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\02ConSincronizacion\bin\Debug\net5.0\02ConSincronizacion.dll
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\02ConSincronizacion\bin\Debug\net5.0\02ConSincronizacion.pdb
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\02ConSincronizacion\obj\Debug\net5.0\02ConSincronizacion.csproj.AssemblyReference.cache
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\02ConSincronizacion\obj\Debug\net5.0\02ConSincronizacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\02ConSincronizacion\obj\Debug\net5.0\02ConSincronizacion.AssemblyInfoInputs.cache
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\02ConSincronizacion\obj\Debug\net5.0\02ConSincronizacion.AssemblyInfo.cs
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\02ConSincronizacion\obj\Debug\net5.0\02ConSincronizacion.csproj.CoreCompileInputs.cache
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\02ConSincronizacion\obj\Debug\net5.0\02ConSincronizacion.dll
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\02ConSincronizacion\obj\Debug\net5.0\refint\02ConSincronizacion.dll
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\02ConSincronizacion\obj\Debug\net5.0\02ConSincronizacion.pdb
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\02ConSincronizacion\obj\Debug\net5.0\02ConSincronizacion.genruntimeconfig.cache
+C:\Users\UO202549\Downloads\TPP11_2324\TPP11\02ConSincronizacion\obj\Debug\net5.0\ref\02ConSincronizacion.dll
