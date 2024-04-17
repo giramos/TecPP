@@ -8,19 +8,24 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\UO202549\\.nuget\\packages\\": {}
+    "C:\\Users\\germa\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\UO202549\\Downloads\\TPP11_2324\\TPP11\\03Interlocked\\03Interlocked.csproj",
+      "projectUniqueName": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Laboratorios\\lab10\\TPP11_2324\\TPP11\\03Interlocked\\03Interlocked.csproj",
       "projectName": "03Interlocked",
-      "projectPath": "C:\\Users\\UO202549\\Downloads\\TPP11_2324\\TPP11\\03Interlocked\\03Interlocked.csproj",
-      "packagesPath": "C:\\Users\\UO202549\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\UO202549\\Downloads\\TPP11_2324\\TPP11\\03Interlocked\\obj\\",
+      "projectPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Laboratorios\\lab10\\TPP11_2324\\TPP11\\03Interlocked\\03Interlocked.csproj",
+      "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Laboratorios\\lab10\\TPP11_2324\\TPP11\\03Interlocked\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\UO202549\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\germa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

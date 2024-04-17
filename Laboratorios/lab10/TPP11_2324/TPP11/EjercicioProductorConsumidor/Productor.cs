@@ -9,7 +9,7 @@ namespace EjercicioProductorConsumidor
     class Productor
     {
 
-        private ConcurrentQueue<Producto> cola;
+        private Queue<Producto> cola;
         private int numeroProductosCreados;
 
 
@@ -18,17 +18,23 @@ namespace EjercicioProductorConsumidor
             Random random = new Random();
             while (true)
             {
-                Producto producto = new Producto(++numeroProductosCreados);
-                Console.WriteLine("+ Insertando {0}...", producto);
-                lock (cola)
-                    cola.Enqueue(producto);
-                Console.WriteLine("+ {0} insertado.", producto);
+
+                //Producto producto = new Producto(++numeroProductosCreados);
+                Producto producto = new Producto(Interlocked.Increment(ref numeroProductosCreados));
+                lock (producto)
+                {
+                    Console.WriteLine("+ Insertando {0}...", producto);
+                    lock (cola)
+                        cola.Enqueue(producto);
+                    Console.WriteLine("+ {0} insertado.", producto);
+                }
+                
                 Thread.Sleep(random.Next(500, 1000));
             }
         }
 
 
-        public Productor(ConcurrentQueue<Producto> cola)
+        public Productor(Queue<Producto> cola)
         {
             this.cola = cola;
         }

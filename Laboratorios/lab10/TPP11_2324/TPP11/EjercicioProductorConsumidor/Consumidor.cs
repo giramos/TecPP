@@ -9,9 +9,9 @@ namespace EjercicioProductorConsumidor
     class Consumidor
     {
 
-        private ConcurrentQueue<Producto> cola;
+        private Queue<Producto> cola;
 
-        public Consumidor(ConcurrentQueue<Producto> cola)
+        public Consumidor(Queue<Producto> cola)
         {
             this.cola = cola;
         }
@@ -23,14 +23,12 @@ namespace EjercicioProductorConsumidor
             {
                 Console.WriteLine("- Sacando producto...");
                 Producto producto = null;
-                lock (cola)
-                {
-                    //while (cola.Count == 0)
-                    if (cola.Count != 0)
-                        Thread.Sleep(100);
-
-                    producto = cola.TryDequeue();
-                }
+                
+                while (cola.Count == 0)
+                    Thread.Sleep(100);
+                lock(cola)
+                    producto = cola.Dequeue();
+                
                 Console.WriteLine("- Producto sacado: {0}.", producto);
                 Thread.Sleep(random.Next(300, 700));
             }

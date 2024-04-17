@@ -16,7 +16,7 @@ namespace EjercicioProductorConsumidor
         /// </summary>
         static void Main()
         {
-            ConcurrentQueue<Producto> cola = new ConcurrentQueue<Producto>();
+            Queue<Producto> cola = new Queue<Producto>();
             Productor productor = new Productor(cola);
             Consumidor consumidor = new Consumidor(cola);
             new Thread(productor.Run).Start();
