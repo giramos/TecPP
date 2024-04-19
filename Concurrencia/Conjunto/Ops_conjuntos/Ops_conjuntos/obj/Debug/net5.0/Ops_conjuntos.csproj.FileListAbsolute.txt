@@ -1,0 +1,15 @@
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\Conjunto\Ops_conjuntos\Ops_conjuntos\bin\Debug\net5.0\Ops_conjuntos.exe
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\Conjunto\Ops_conjuntos\Ops_conjuntos\bin\Debug\net5.0\Ops_conjuntos.deps.json
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\Conjunto\Ops_conjuntos\Ops_conjuntos\bin\Debug\net5.0\Ops_conjuntos.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\Conjunto\Ops_conjuntos\Ops_conjuntos\bin\Debug\net5.0\Ops_conjuntos.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\Conjunto\Ops_conjuntos\Ops_conjuntos\bin\Debug\net5.0\Ops_conjuntos.dll
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\Conjunto\Ops_conjuntos\Ops_conjuntos\bin\Debug\net5.0\Ops_conjuntos.pdb
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\Conjunto\Ops_conjuntos\Ops_conjuntos\obj\Debug\net5.0\Ops_conjuntos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\Conjunto\Ops_conjuntos\Ops_conjuntos\obj\Debug\net5.0\Ops_conjuntos.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\Conjunto\Ops_conjuntos\Ops_conjuntos\obj\Debug\net5.0\Ops_conjuntos.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\Conjunto\Ops_conjuntos\Ops_conjuntos\obj\Debug\net5.0\Ops_conjuntos.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\Conjunto\Ops_conjuntos\Ops_conjuntos\obj\Debug\net5.0\Ops_conjuntos.dll
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\Conjunto\Ops_conjuntos\Ops_conjuntos\obj\Debug\net5.0\refint\Ops_conjuntos.dll
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\Conjunto\Ops_conjuntos\Ops_conjuntos\obj\Debug\net5.0\Ops_conjuntos.pdb
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\Conjunto\Ops_conjuntos\Ops_conjuntos\obj\Debug\net5.0\Ops_conjuntos.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta (2)\TecPP\Concurrencia\Conjunto\Ops_conjuntos\Ops_conjuntos\obj\Debug\net5.0\ref\Ops_conjuntos.dll
