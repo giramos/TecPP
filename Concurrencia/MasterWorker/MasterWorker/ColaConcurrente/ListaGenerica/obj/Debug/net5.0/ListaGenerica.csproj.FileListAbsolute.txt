@@ -1,0 +1,12 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ColaConcurrente\ListaGenerica\bin\Debug\net5.0\ListaGenerica.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ColaConcurrente\ListaGenerica\bin\Debug\net5.0\ListaGenerica.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ColaConcurrente\ListaGenerica\bin\Debug\net5.0\ListaGenerica.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ColaConcurrente\ListaGenerica\obj\Debug\net5.0\ListaGenerica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ColaConcurrente\ListaGenerica\obj\Debug\net5.0\ListaGenerica.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ColaConcurrente\ListaGenerica\obj\Debug\net5.0\ListaGenerica.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ColaConcurrente\ListaGenerica\obj\Debug\net5.0\ListaGenerica.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ColaConcurrente\ListaGenerica\obj\Debug\net5.0\ListaGenerica.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ColaConcurrente\ListaGenerica\obj\Debug\net5.0\ListaGenerica.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ColaConcurrente\ListaGenerica\obj\Debug\net5.0\refint\ListaGenerica.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ColaConcurrente\ListaGenerica\obj\Debug\net5.0\ListaGenerica.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ColaConcurrente\ListaGenerica\obj\Debug\net5.0\ref\ListaGenerica.dll

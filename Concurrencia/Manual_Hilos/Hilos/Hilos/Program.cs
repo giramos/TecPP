@@ -39,24 +39,27 @@ namespace Hilos
 
             for (int i = 0; i < 4; i++)
             {
-                int copia = numero; // OPCION 1
+                int copia = numero; // OPCION 1 (variable)
                 //Sin parámetro                
                 hilos[i] = new Thread(
-                    () =>
+                    (parametro) => // OPCION 2 (Parametro)
+                    //() => // OPCION normal y OPCION 1 (variable) y OPCION 3
                     {
-                        //Console.WriteLine($"{numero} {numero + 1} ");
-                        //Console.WriteLine($"{Interlocked.Add(ref numero, 0)} {Interlocked.Add(ref numero, 1)} "); // OPCION 2
-                        Console.WriteLine($"{copia} {copia + 1} "); //OPCION 1
+                        //Console.WriteLine($"{numero} {numero + 1} "); // Normal
+                        //Console.WriteLine($"{Interlocked.Add(ref numero, 0)} {Interlocked.Add(ref numero, 1)} "); // OPCION 3
+                        //Console.WriteLine($"{copia} {copia + 1} "); //OPCION 1 (variable)
+                        Console.WriteLine($"{parametro} "); //OPCION 2 (Parametro)
                     }
                     );
-                hilos[i].Start();
-                numero++; // OPCION 1
+                //hilos[i].Start(); // OPCION 1 (variable)
+                hilos[i].Start($"{numero} {numero+1}"); // OPCION 2 (Parametros)
+                numero++; // OPCION 1 y OPCION 2
             }
 
-            foreach (var hilo in hilos)
-            {
-                hilo.Join();
-            }
+            //foreach (var hilo in hilos)
+            //{
+            //    hilo.Join();
+            //}
 
             //Ejercicio: Empleando un enfoque funcional, impleméntese el ejercicio Expositor de HilosPOO.
             Console.WriteLine("Ejercicio Expositores con un enfoque funcional");

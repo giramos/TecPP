@@ -6,4 +6,8 @@
     <RootNamespace>_03_MasterWorker_ColaPalabrasConsonates</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ColaConcurrente\ColaConcurrente\ColaConcurrente.csproj" />
+  </ItemGroup>
+
 </Project>

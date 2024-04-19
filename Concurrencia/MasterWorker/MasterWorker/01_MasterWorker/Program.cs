@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.IO;
 using System.Threading;
 
@@ -82,15 +83,15 @@ namespace _01_MasterWorker
         {
             // Creamos los workers
             Worker[] workers = new Worker[this.numeroHilos]; // Se crea un array de objetos Worker,
-			//	donde cada Worker representa un hilo que realizará parte del cálculo de	l módulo del vector.
+                                                             //	donde cada Worker representa un hilo que realizará parte del cálculo de	l módulo del vector.
             int numElementosPorHilo = this.vector.Length / numeroHilos; // Esta línea calcula cuántos elementos del vector serán procesados por cada hilo.
-				// Divide la longitud total del vector entre el número de hilos (numeroHilos) para determinar cuántos elementos debe procesar cada hilo.
+                                                                        // Divide la longitud total del vector entre el número de hilos (numeroHilos) para determinar cuántos elementos debe procesar cada hilo.
             for (int i = 0; i < this.numeroHilos; i++) // La variable i representa el índice del hilo actual.
             {
                 int indiceDesde = i * numElementosPorHilo; // Calcula el índice de inicio para el segmento del vector que será procesado por el hilo actual. 
-				// Multiplica el número de elementos por hilo por el índice del hilo para obtener el índice de inicio del segmento.
+                                                           // Multiplica el número de elementos por hilo por el índice del hilo para obtener el índice de inicio del segmento.
                 int indiceHasta = (i + 1) * numElementosPorHilo - 1; // Calcula el índice de finalización para el segmento del vector que será procesado por el hilo actual.
-				// Multiplica el número de elementos por hilo por el siguiente índice de hilo y resta 1 para obtener el índice de finalización del segmento.
+                                                                     // Multiplica el número de elementos por hilo por el siguiente índice de hilo y resta 1 para obtener el índice de finalización del segmento.
                 if (i == this.numeroHilos - 1) //el último hilo, llega hasta el final del vector.
                 {
                     indiceHasta = this.vector.Length - 1;
@@ -164,4 +165,6 @@ namespace _01_MasterWorker
         }
 
     }
+
+
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("08_MasterWorker_DistanciaVectores")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+720660fc8e44544d1e0d7eca103ed45e6ae759cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9771e548c4486993bfcc357731f2a66b7d4fdd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("08_MasterWorker_DistanciaVectores")]
 [assembly: System.Reflection.AssemblyTitleAttribute("08_MasterWorker_DistanciaVectores")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

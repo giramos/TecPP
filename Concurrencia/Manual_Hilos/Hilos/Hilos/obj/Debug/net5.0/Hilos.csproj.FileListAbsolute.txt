@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\bin\Debug\net5.0\Hilos.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\bin\Debug\net5.0\Hilos.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\bin\Debug\net5.0\Hilos.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\bin\Debug\net5.0\Hilos.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\bin\Debug\net5.0\Hilos.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\bin\Debug\net5.0\Hilos.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\obj\Debug\net5.0\Hilos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\obj\Debug\net5.0\Hilos.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\obj\Debug\net5.0\Hilos.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\obj\Debug\net5.0\Hilos.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\obj\Debug\net5.0\Hilos.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\obj\Debug\net5.0\Hilos.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\obj\Debug\net5.0\refint\Hilos.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\obj\Debug\net5.0\Hilos.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\obj\Debug\net5.0\Hilos.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\obj\Debug\net5.0\ref\Hilos.dll

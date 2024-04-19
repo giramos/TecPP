@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\11_DiccionarioPalabrasRepetidas\bin\Debug\net5.0\11_DiccionarioPalabrasRepetidas.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\11_DiccionarioPalabrasRepetidas\bin\Debug\net5.0\11_DiccionarioPalabrasRepetidas.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\11_DiccionarioPalabrasRepetidas\bin\Debug\net5.0\11_DiccionarioPalabrasRepetidas.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\11_DiccionarioPalabrasRepetidas\bin\Debug\net5.0\11_DiccionarioPalabrasRepetidas.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\11_DiccionarioPalabrasRepetidas\bin\Debug\net5.0\11_DiccionarioPalabrasRepetidas.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\11_DiccionarioPalabrasRepetidas\bin\Debug\net5.0\11_DiccionarioPalabrasRepetidas.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\11_DiccionarioPalabrasRepetidas\obj\Debug\net5.0\11_DiccionarioPalabrasRepetidas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\11_DiccionarioPalabrasRepetidas\obj\Debug\net5.0\11_DiccionarioPalabrasRepetidas.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\11_DiccionarioPalabrasRepetidas\obj\Debug\net5.0\11_DiccionarioPalabrasRepetidas.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\11_DiccionarioPalabrasRepetidas\obj\Debug\net5.0\11_DiccionarioPalabrasRepetidas.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\11_DiccionarioPalabrasRepetidas\obj\Debug\net5.0\11_DiccionarioPalabrasRepetidas.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\11_DiccionarioPalabrasRepetidas\obj\Debug\net5.0\11_DiccionarioPalabrasRepetidas.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\11_DiccionarioPalabrasRepetidas\obj\Debug\net5.0\refint\11_DiccionarioPalabrasRepetidas.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\11_DiccionarioPalabrasRepetidas\obj\Debug\net5.0\11_DiccionarioPalabrasRepetidas.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\11_DiccionarioPalabrasRepetidas\obj\Debug\net5.0\11_DiccionarioPalabrasRepetidas.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\11_DiccionarioPalabrasRepetidas\obj\Debug\net5.0\ref\11_DiccionarioPalabrasRepetidas.dll

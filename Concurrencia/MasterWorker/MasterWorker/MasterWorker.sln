@@ -11,13 +11,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_MasterWorker_ColaPalabra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_MasterWorker_NumerosCosecutivos", "04_MasterWorker_NumerosCosecutivos\04_MasterWorker_NumerosCosecutivos.csproj", "{E5913AA3-E96B-4910-B0EA-CB6A332B760C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_MasterWorker_ComplementoVector", "05_MasterWorker_ComplementoVector\05_MasterWorker_ComplementoVector.csproj", "{3BBC1B4F-EDA7-47E1-8C9A-C3C5CF5E700B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_MasterWorker_ComplementoVector", "05_MasterWorker_ComplementoVector\05_MasterWorker_ComplementoVector.csproj", "{3BBC1B4F-EDA7-47E1-8C9A-C3C5CF5E700B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_MasterWorker_InterserccionVectores", "06_MasterWorker_InterserccionVectores\06_MasterWorker_InterserccionVectores.csproj", "{04D47085-B78C-48C8-A6EB-6822785D7C5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_MasterWorker_InterserccionVectores", "06_MasterWorker_InterserccionVectores\06_MasterWorker_InterserccionVectores.csproj", "{04D47085-B78C-48C8-A6EB-6822785D7C5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_MasterWorker_SumaVectorialVectores", "07_MasterWorker_SumaVectorialVectores\07_MasterWorker_SumaVectorialVectores.csproj", "{D01FE683-0371-4826-8207-D8DFE181F1F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_MasterWorker_SumaVectorialVectores", "07_MasterWorker_SumaVectorialVectores\07_MasterWorker_SumaVectorialVectores.csproj", "{D01FE683-0371-4826-8207-D8DFE181F1F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_MasterWorker_DistanciaVectores", "08_MasterWorker_DistanciaVectores\08_MasterWorker_DistanciaVectores.csproj", "{20A23C49-D432-43A5-BFD9-EE38AB2CBDB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_MasterWorker_DistanciaVectores", "08_MasterWorker_DistanciaVectores\08_MasterWorker_DistanciaVectores.csproj", "{20A23C49-D432-43A5-BFD9-EE38AB2CBDB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Diccionario", "09_Diccionario\09_Diccionario.csproj", "{2F4B9501-FEEF-4C33-B04F-96FF817E9E88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_DiccionarioPorcentageVocales", "10_DiccionarioPorcentageVocales\10_DiccionarioPorcentageVocales.csproj", "{07E3F65D-1AFD-498D-A862-51A94D5BFACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_DiccionarioPalabrasRepetidas", "11_DiccionarioPalabrasRepetidas\11_DiccionarioPalabrasRepetidas.csproj", "{ADF38244-26D9-4C01-83BB-9BAD0CC8FAAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColaConcurrente", "ColaConcurrente\ColaConcurrente\ColaConcurrente.csproj", "{82FA164F-4538-4B83-B181-2BA2D0B51D09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListaGenerica", "ColaConcurrente\ListaGenerica\ListaGenerica.csproj", "{168323AE-B94C-4FF7-888F-6526BF9DA826}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +67,26 @@ Global
 		{20A23C49-D432-43A5-BFD9-EE38AB2CBDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20A23C49-D432-43A5-BFD9-EE38AB2CBDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20A23C49-D432-43A5-BFD9-EE38AB2CBDB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4B9501-FEEF-4C33-B04F-96FF817E9E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4B9501-FEEF-4C33-B04F-96FF817E9E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4B9501-FEEF-4C33-B04F-96FF817E9E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4B9501-FEEF-4C33-B04F-96FF817E9E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E3F65D-1AFD-498D-A862-51A94D5BFACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E3F65D-1AFD-498D-A862-51A94D5BFACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E3F65D-1AFD-498D-A862-51A94D5BFACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E3F65D-1AFD-498D-A862-51A94D5BFACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF38244-26D9-4C01-83BB-9BAD0CC8FAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF38244-26D9-4C01-83BB-9BAD0CC8FAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF38244-26D9-4C01-83BB-9BAD0CC8FAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF38244-26D9-4C01-83BB-9BAD0CC8FAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82FA164F-4538-4B83-B181-2BA2D0B51D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82FA164F-4538-4B83-B181-2BA2D0B51D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82FA164F-4538-4B83-B181-2BA2D0B51D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82FA164F-4538-4B83-B181-2BA2D0B51D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{168323AE-B94C-4FF7-888F-6526BF9DA826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168323AE-B94C-4FF7-888F-6526BF9DA826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168323AE-B94C-4FF7-888F-6526BF9DA826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168323AE-B94C-4FF7-888F-6526BF9DA826}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

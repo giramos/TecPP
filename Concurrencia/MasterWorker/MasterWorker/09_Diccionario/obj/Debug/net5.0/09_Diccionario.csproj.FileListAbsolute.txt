@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\09_Diccionario\bin\Debug\net5.0\09_Diccionario.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\09_Diccionario\bin\Debug\net5.0\09_Diccionario.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\09_Diccionario\bin\Debug\net5.0\09_Diccionario.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\09_Diccionario\bin\Debug\net5.0\09_Diccionario.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\09_Diccionario\bin\Debug\net5.0\09_Diccionario.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\09_Diccionario\bin\Debug\net5.0\09_Diccionario.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\09_Diccionario\obj\Debug\net5.0\09_Diccionario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\09_Diccionario\obj\Debug\net5.0\09_Diccionario.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\09_Diccionario\obj\Debug\net5.0\09_Diccionario.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\09_Diccionario\obj\Debug\net5.0\09_Diccionario.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\09_Diccionario\obj\Debug\net5.0\09_Diccionario.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\09_Diccionario\obj\Debug\net5.0\09_Diccionario.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\09_Diccionario\obj\Debug\net5.0\refint\09_Diccionario.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\09_Diccionario\obj\Debug\net5.0\09_Diccionario.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\09_Diccionario\obj\Debug\net5.0\09_Diccionario.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\09_Diccionario\obj\Debug\net5.0\ref\09_Diccionario.dll

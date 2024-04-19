@@ -72,7 +72,6 @@ namespace _02_MasterWorker_VectorContieneVector
         /// Número de trabajadores que se van a emplear en el cálculo.
         /// </summary>
         private int numeroHilos;
-        private static readonly object obj = new();
 
         public Master(int[] vector1, int[] vector2, int numeroHilos)
         {
@@ -114,12 +113,9 @@ namespace _02_MasterWorker_VectorContieneVector
                 thread.Join();
 
             int resultado = 0;
-            lock (obj)
-            {
-                foreach (Worker worker in workers)
-                    resultado += worker.Resultado;
-            }
-            
+            foreach (Worker worker in workers)
+                resultado += worker.Resultado;
+
             return resultado;
         }
     }
@@ -137,9 +133,6 @@ namespace _02_MasterWorker_VectorContieneVector
         /// </summary>
         private int resultado;
 
-        //objeto bloqueador
-        private static readonly object obj = new();
-
         internal int Resultado
         {
             get { return this.resultado; }
@@ -153,37 +146,51 @@ namespace _02_MasterWorker_VectorContieneVector
             this.indiceHasta = indiceHasta;
         }
 
-        /// <summary>
-        /// Método que realiza el cálculo
-        /// </summary>
+        ///// <summary>
+        ///// Método que realiza el cálculo
+        ///// </summary>
+        //internal void Calcular()
+        //{
+        //    this.resultado = 0;
+
+        //    for (int i = this.indiceDesde; i <= this.indiceHasta; i++) // 1º vector
+        //    {
+        //        bool coincide = true;
+        //        for (int j = 0; j < this.vector2.Length; j++) // 2º vector
+        //        {
+        //            // si el indice i+j esta fuera del rango del vector1 o los elementos no coinciden entre el v1 y v2
+        //            if (i + j >= this.vector1.Length || this.vector1[i + j] != this.vector2[j])
+        //            {
+        //                coincide = false;
+        //                break;
+        //            }
+        //        }
+        //        if (coincide)
+        //        {
+        //            resultado++;
+        //        }
+        //    }
+        //}
+
         internal void Calcular()
         {
             this.resultado = 0;
-            lock (obj)
+            for (int i = indiceDesde; i <= indiceHasta; i++)
             {
-                for (int i = this.indiceDesde; i <= this.indiceHasta; i++) // 1º vector
+                int j = 0; int aux = i;
+                while (vector1[aux].Equals(vector2[j]))
                 {
-                    bool coincide = true;
-                    for (int j = 0; j < this.vector2.Length; j++) // 2º vector
+                    j++; aux++;
+                    if (j == vector2.Length)
                     {
-                        // si el indice i+j esta fuera del rango del vector1 o los elementos no coinciden entre el v1 y v2
-                        if (i + j >= this.vector1.Length || this.vector1[i + j] != this.vector2[j])
-                        {
-                            coincide = false;
-                            break;
-                        }
-                    }
-                    if (coincide)
-                    {
-                        lock (obj)
-                        {
-                            resultado++;
-                        }
-
+                        resultado++;
+                        break;
                     }
                 }
             }
+
         }
+
 
     }
 }
