@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ColaConcurrente")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9771e548c4486993bfcc357731f2a66b7d4fdd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dda9836b597ad3d91597a33c78ca6291fe447671")]
 [assembly: System.Reflection.AssemblyProductAttribute("ColaConcurrente")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ColaConcurrente")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
