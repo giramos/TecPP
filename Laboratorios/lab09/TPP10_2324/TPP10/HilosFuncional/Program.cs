@@ -60,16 +60,67 @@ namespace HilosFuncional
 
             //EJERCICIO: Empleando un enfoque funcional, impleméntese la funcionalidad del ejercicio Expositor de HilosPOO.
             
-            Thread[] hilosExpositor = new Thread[4];
-            for (int i = 0;i < 4; i++)
+            //Thread[] hilosExpositor = new Thread[4];
+            //for (int i = 0;i < 4; i++)
+            //{
+            //    hilosExpositor[i] = new Thread(() =>
+            //    {
+            //        EjecutarRun(1 + i, i);
+            //    });
+            //    hilosExpositor[i].Name = "Hilo número: " + i; //Nombre del hilo.
+            //    hilosExpositor[i].Priority = ThreadPriority.Normal; //Prioridad
+            //    hilosExpositor[i].Start();
+            //}
+
+            //// Ejercicio fun
+            //Thread hiloFuncional = new Thread(Run);
+
+            ////En el método Start pasamos un argumento (si es necesario).
+            //hiloFuncional.Start(1);
+
+
+            //Thread[] hilosfunc = new Thread[4];
+
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    //¿Qué estamos enviando en el construtor de cada Thread?
+            //    hilosfunc[i] = new Thread(Run);
+
+            //    //Parámetros opcionales.
+            //    hilosfunc[i].Name = "Hilo número: " + i; //Nombre del hilo.
+            //    hilosfunc[i].Priority = ThreadPriority.Normal; //Prioridad
+            //}
+
+            //foreach (Thread hilo in hilosfunc)
+            //{
+            //    //Iniciamos el hilo con el método Start de la clase Thread.
+            //    hilo.Start(1);
+            //    //hilo.Join();
+            //}
+            
+            Thread[] hilosfunc = new Thread[4];
+
+            for (int i = 0; i < 4; i++)
             {
-                hilosExpositor[i] = new Thread(() =>
-                {
-                    EjecutarRun(1 + i, i);
-                });
-                hilosExpositor[i].Name = "Hilo número: " + i; //Nombre del hilo.
-                hilosExpositor[i].Priority = ThreadPriority.Normal; //Prioridad
-                hilosExpositor[i].Start();
+                //¿Qué estamos enviando en el construtor de cada Thread?
+                //hilosfunc[i] = new Thread(Run);
+                hilosfunc[i] = new Thread(
+                     valor =>
+                     {
+                         Run(valor);
+                     }
+             );
+
+                //Parámetros opcionales.
+                hilosfunc[i].Name = "Hilo número: " + i; //Nombre del hilo.
+                hilosfunc[i].Priority = ThreadPriority.Normal; //Prioridad
+            }
+
+            foreach (Thread hilo in hilosfunc)
+            {
+                //Iniciamos el hilo con el método Start de la clase Thread.
+                hilo.Start(1);
+                //hilo.Join();
             }
         }
 
@@ -99,6 +150,28 @@ namespace HilosFuncional
             Thread.Sleep(2000);
             Console.WriteLine("Datos obtenidos y almacenados");
 
+        }
+
+        static int _nVeces = 4;
+        public static void Run<T>(T _objeto)
+        {
+            int i = 0;
+            int? ob = _objeto as int?;
+            //¿Qué indica Thread.CurrentThread.ManagedThreadId?
+            Console.WriteLine("Comienza el hilo ID={0} que escribirá {1} veces cada 2000ms. (mínimo)", Thread.CurrentThread.ManagedThreadId, _nVeces);
+
+            while (i < _nVeces)
+            {
+                //Dormimos el proceso durante 2000 milisegundos
+                //¿Para qué es útil? ¿Y para qué no debe utilizarse?
+                Thread.Sleep(2000);
+                Console.WriteLine("Ejecución {0} del hilo [ID={1}; NOMBRE={2}; PRIORIDAD={3}] con valor {4}",
+                    i, Thread.CurrentThread.ManagedThreadId, Thread.CurrentThread.Name, Thread.CurrentThread.Priority, ob);
+                i++;
+                ob++;
+                
+            }
+            Console.WriteLine($"Fin del hilo ID = {Thread.CurrentThread.ManagedThreadId}.");
         }
     }
 }

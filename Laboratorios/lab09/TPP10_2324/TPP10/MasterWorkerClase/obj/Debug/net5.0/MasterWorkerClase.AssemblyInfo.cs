@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MasterWorkerClase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b23b117af829f3a3ac6d70d6800f9bd8270eb17")]
 [assembly: System.Reflection.AssemblyProductAttribute("MasterWorkerClase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MasterWorkerClase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

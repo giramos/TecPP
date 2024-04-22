@@ -7,14 +7,41 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "Hilos/1.0.0": {
+        "dependencies": {
+          "ColaConcurrente": "1.0.0",
+          "ListaGenerica": "1.0.0"
+        },
         "runtime": {
           "Hilos.dll": {}
+        }
+      },
+      "ColaConcurrente/1.0.0": {
+        "dependencies": {
+          "ListaGenerica": "1.0.0"
+        },
+        "runtime": {
+          "ColaConcurrente.dll": {}
+        }
+      },
+      "ListaGenerica/1.0.0": {
+        "runtime": {
+          "ListaGenerica.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Hilos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ColaConcurrente/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ListaGenerica/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

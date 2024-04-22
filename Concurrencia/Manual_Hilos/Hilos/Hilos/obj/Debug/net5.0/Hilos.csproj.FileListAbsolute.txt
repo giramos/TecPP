@@ -14,3 +14,9 @@ C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos
 C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\obj\Debug\net5.0\Hilos.pdb
 C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\obj\Debug\net5.0\Hilos.genruntimeconfig.cache
 C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\obj\Debug\net5.0\ref\Hilos.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\bin\Debug\net5.0\ListaGenerica.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\bin\Debug\net5.0\ListaGenerica.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\obj\Debug\net5.0\Hilos.csproj.AssemblyReference.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\obj\Debug\net5.0\Hilos.csproj.CopyComplete
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\bin\Debug\net5.0\ColaConcurrente.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\Manual_Hilos\Hilos\Hilos\bin\Debug\net5.0\ColaConcurrente.pdb

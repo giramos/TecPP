@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "ColaConcurrente/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "ListaGenerica": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ColaConcurrente.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ColaConcurrente.dll": {}
+        }
+      },
+      "ListaGenerica/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ListaGenerica.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ListaGenerica.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ColaConcurrente/1.0.0": {
+      "type": "project",
+      "path": "../ColaConcurrente/ColaConcurrente/ColaConcurrente.csproj",
+      "msbuildProject": "../ColaConcurrente/ColaConcurrente/ColaConcurrente.csproj"
+    },
+    "ListaGenerica/1.0.0": {
+      "type": "project",
+      "path": "../ColaConcurrente/ListaGenerica/ListaGenerica.csproj",
+      "msbuildProject": "../ColaConcurrente/ListaGenerica/ListaGenerica.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "ColaConcurrente >= 1.0.0",
+      "ListaGenerica >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\germa\\.nuget\\packages\\": {},
@@ -39,7 +77,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\Manual_Hilos\\Hilos\\ColaConcurrente\\ColaConcurrente\\ColaConcurrente.csproj": {
+              "projectPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\Manual_Hilos\\Hilos\\ColaConcurrente\\ColaConcurrente\\ColaConcurrente.csproj"
+            },
+            "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\Manual_Hilos\\Hilos\\ColaConcurrente\\ListaGenerica\\ListaGenerica.csproj": {
+              "projectPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\Manual_Hilos\\Hilos\\ColaConcurrente\\ListaGenerica\\ListaGenerica.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
