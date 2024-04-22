@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("02_MasterWorker_VectorContieneVector")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dda9836b597ad3d91597a33c78ca6291fe447671")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0e71db7b47565c0d0dd3966f2f166e7d2d88068")]
 [assembly: System.Reflection.AssemblyProductAttribute("02_MasterWorker_VectorContieneVector")]
 [assembly: System.Reflection.AssemblyTitleAttribute("02_MasterWorker_VectorContieneVector")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
