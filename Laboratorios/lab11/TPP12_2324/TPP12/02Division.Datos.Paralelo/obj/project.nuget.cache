@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zQfpXyI9/trbfIAdlUNbDgz+xq7ppdettE2c6t4XqmgI2aRmlAQh5b46y3f9vMUJ4a5h0N4flbY1pKY35ZvfzQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\UO202549\\Downloads\\TPP12_2324\\TPP12\\02Division.Datos.Paralelo\\02Division.Datos.Paralelo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\UO202549\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\UO202549\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

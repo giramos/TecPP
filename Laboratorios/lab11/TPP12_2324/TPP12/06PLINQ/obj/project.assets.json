@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "04Procesado.Tareas.Secuencial/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/04Procesado.Tareas.Secuencial.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/04Procesado.Tareas.Secuencial.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "04Procesado.Tareas.Secuencial/1.0.0": {
+      "type": "project",
+      "path": "../04Procesado.Tareas.Secuencial/04Procesado.Tareas.Secuencial.csproj",
+      "msbuildProject": "../04Procesado.Tareas.Secuencial/04Procesado.Tareas.Secuencial.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "04Procesado.Tareas.Secuencial >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\UO202549\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\UO202549\\Downloads\\TPP12_2324\\TPP12\\06PLINQ\\06PLINQ.csproj",
+      "projectName": "06PLINQ",
+      "projectPath": "C:\\Users\\UO202549\\Downloads\\TPP12_2324\\TPP12\\06PLINQ\\06PLINQ.csproj",
+      "packagesPath": "C:\\Users\\UO202549\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\UO202549\\Downloads\\TPP12_2324\\TPP12\\06PLINQ\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\UO202549\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\UO202549\\Downloads\\TPP12_2324\\TPP12\\04Procesado.Tareas.Secuencial\\04Procesado.Tareas.Secuencial.csproj": {
+              "projectPath": "C:\\Users\\UO202549\\Downloads\\TPP12_2324\\TPP12\\04Procesado.Tareas.Secuencial\\04Procesado.Tareas.Secuencial.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

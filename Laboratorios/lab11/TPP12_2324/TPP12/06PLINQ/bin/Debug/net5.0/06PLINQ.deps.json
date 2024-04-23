@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "06PLINQ/1.0.0": {
+        "dependencies": {
+          "04Procesado.Tareas.Secuencial": "1.0.0"
+        },
+        "runtime": {
+          "06PLINQ.dll": {}
+        }
+      },
+      "04Procesado.Tareas.Secuencial/1.0.0": {
+        "runtime": {
+          "04Procesado.Tareas.Secuencial.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "06PLINQ/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "04Procesado.Tareas.Secuencial/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
