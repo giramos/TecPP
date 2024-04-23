@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\Invoke\bin\Debug\net5.0\Invoke.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\Invoke\bin\Debug\net5.0\Invoke.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\Invoke\bin\Debug\net5.0\Invoke.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\Invoke\bin\Debug\net5.0\Invoke.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\Invoke\bin\Debug\net5.0\Invoke.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\Invoke\bin\Debug\net5.0\Invoke.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\Invoke\obj\Debug\net5.0\Invoke.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\Invoke\obj\Debug\net5.0\Invoke.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\Invoke\obj\Debug\net5.0\Invoke.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\Invoke\obj\Debug\net5.0\Invoke.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\Invoke\obj\Debug\net5.0\Invoke.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\Invoke\obj\Debug\net5.0\Invoke.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\Invoke\obj\Debug\net5.0\refint\Invoke.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\Invoke\obj\Debug\net5.0\Invoke.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\Invoke\obj\Debug\net5.0\Invoke.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\Invoke\obj\Debug\net5.0\ref\Invoke.dll

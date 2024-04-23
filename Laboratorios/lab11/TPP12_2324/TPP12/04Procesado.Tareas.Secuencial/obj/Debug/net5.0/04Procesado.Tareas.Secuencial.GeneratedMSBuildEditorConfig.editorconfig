@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _04Procesado.Tareas.Secuencial
-build_property.ProjectDir = C:\Users\UO202549\Downloads\TPP12_2324\TPP12\04Procesado.Tareas.Secuencial\
+build_property.ProjectDir = C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab11\TPP12_2324\TPP12\04Procesado.Tareas.Secuencial\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

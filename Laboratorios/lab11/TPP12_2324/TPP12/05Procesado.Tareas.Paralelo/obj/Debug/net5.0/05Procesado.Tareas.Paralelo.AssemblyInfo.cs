@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("05Procesado.Tareas.Paralelo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+470c6b45e47bf6a29df82df435f6784ea53eafdc")]
 [assembly: System.Reflection.AssemblyProductAttribute("05Procesado.Tareas.Paralelo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("05Procesado.Tareas.Paralelo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

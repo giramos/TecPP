@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\TPL\obj\Debug\net5.0\TPL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\TPL\obj\Debug\net5.0\TPL.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\TPL\obj\Debug\net5.0\TPL.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\TPL\obj\Debug\net5.0\TPL.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\TPL\obj\Debug\net5.0\TPL.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\TPL\bin\Debug\net5.0\TPL.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\TPL\bin\Debug\net5.0\TPL.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\TPL\bin\Debug\net5.0\TPL.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\TPL\bin\Debug\net5.0\TPL.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\TPL\bin\Debug\net5.0\TPL.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\TPL\bin\Debug\net5.0\TPL.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\TPL\obj\Debug\net5.0\TPL.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\TPL\obj\Debug\net5.0\refint\TPL.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\TPL\obj\Debug\net5.0\TPL.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\TPL\obj\Debug\net5.0\TPL.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\TPL\obj\Debug\net5.0\ref\TPL.dll

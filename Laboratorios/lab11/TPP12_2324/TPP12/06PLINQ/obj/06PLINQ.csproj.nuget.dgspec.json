@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UO202549\\Downloads\\TPP12_2324\\TPP12\\06PLINQ\\06PLINQ.csproj": {}
+    "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Laboratorios\\lab11\\TPP12_2324\\TPP12\\06PLINQ\\06PLINQ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UO202549\\Downloads\\TPP12_2324\\TPP12\\04Procesado.Tareas.Secuencial\\04Procesado.Tareas.Secuencial.csproj": {
+    "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Laboratorios\\lab11\\TPP12_2324\\TPP12\\04Procesado.Tareas.Secuencial\\04Procesado.Tareas.Secuencial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UO202549\\Downloads\\TPP12_2324\\TPP12\\04Procesado.Tareas.Secuencial\\04Procesado.Tareas.Secuencial.csproj",
+        "projectUniqueName": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Laboratorios\\lab11\\TPP12_2324\\TPP12\\04Procesado.Tareas.Secuencial\\04Procesado.Tareas.Secuencial.csproj",
         "projectName": "04Procesado.Tareas.Secuencial",
-        "projectPath": "C:\\Users\\UO202549\\Downloads\\TPP12_2324\\TPP12\\04Procesado.Tareas.Secuencial\\04Procesado.Tareas.Secuencial.csproj",
-        "packagesPath": "C:\\Users\\UO202549\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UO202549\\Downloads\\TPP12_2324\\TPP12\\04Procesado.Tareas.Secuencial\\obj\\",
+        "projectPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Laboratorios\\lab11\\TPP12_2324\\TPP12\\04Procesado.Tareas.Secuencial\\04Procesado.Tareas.Secuencial.csproj",
+        "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Laboratorios\\lab11\\TPP12_2324\\TPP12\\04Procesado.Tareas.Secuencial\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\UO202549\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\germa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,21 +60,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\UO202549\\Downloads\\TPP12_2324\\TPP12\\06PLINQ\\06PLINQ.csproj": {
+    "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Laboratorios\\lab11\\TPP12_2324\\TPP12\\06PLINQ\\06PLINQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UO202549\\Downloads\\TPP12_2324\\TPP12\\06PLINQ\\06PLINQ.csproj",
+        "projectUniqueName": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Laboratorios\\lab11\\TPP12_2324\\TPP12\\06PLINQ\\06PLINQ.csproj",
         "projectName": "06PLINQ",
-        "projectPath": "C:\\Users\\UO202549\\Downloads\\TPP12_2324\\TPP12\\06PLINQ\\06PLINQ.csproj",
-        "packagesPath": "C:\\Users\\UO202549\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UO202549\\Downloads\\TPP12_2324\\TPP12\\06PLINQ\\obj\\",
+        "projectPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Laboratorios\\lab11\\TPP12_2324\\TPP12\\06PLINQ\\06PLINQ.csproj",
+        "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Laboratorios\\lab11\\TPP12_2324\\TPP12\\06PLINQ\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\UO202549\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\germa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,14 +86,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\UO202549\\Downloads\\TPP12_2324\\TPP12\\04Procesado.Tareas.Secuencial\\04Procesado.Tareas.Secuencial.csproj": {
-                "projectPath": "C:\\Users\\UO202549\\Downloads\\TPP12_2324\\TPP12\\04Procesado.Tareas.Secuencial\\04Procesado.Tareas.Secuencial.csproj"
+              "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Laboratorios\\lab11\\TPP12_2324\\TPP12\\04Procesado.Tareas.Secuencial\\04Procesado.Tareas.Secuencial.csproj": {
+                "projectPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Laboratorios\\lab11\\TPP12_2324\\TPP12\\04Procesado.Tareas.Secuencial\\04Procesado.Tareas.Secuencial.csproj"
               }
             }
           }
@@ -114,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

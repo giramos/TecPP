@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("03Division.Datos.Paralelo.Locales")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+470c6b45e47bf6a29df82df435f6784ea53eafdc")]
 [assembly: System.Reflection.AssemblyProductAttribute("03Division.Datos.Paralelo.Locales")]
 [assembly: System.Reflection.AssemblyTitleAttribute("03Division.Datos.Paralelo.Locales")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

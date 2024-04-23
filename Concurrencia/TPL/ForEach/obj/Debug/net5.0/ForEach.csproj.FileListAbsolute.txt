@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\ForEach\bin\Debug\net5.0\ForEach.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\ForEach\bin\Debug\net5.0\ForEach.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\ForEach\bin\Debug\net5.0\ForEach.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\ForEach\bin\Debug\net5.0\ForEach.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\ForEach\bin\Debug\net5.0\ForEach.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\ForEach\bin\Debug\net5.0\ForEach.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\ForEach\obj\Debug\net5.0\ForEach.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\ForEach\obj\Debug\net5.0\ForEach.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\ForEach\obj\Debug\net5.0\ForEach.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\ForEach\obj\Debug\net5.0\ForEach.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\ForEach\obj\Debug\net5.0\ForEach.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\ForEach\obj\Debug\net5.0\ForEach.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\ForEach\obj\Debug\net5.0\refint\ForEach.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\ForEach\obj\Debug\net5.0\ForEach.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\ForEach\obj\Debug\net5.0\ForEach.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\TPL\ForEach\obj\Debug\net5.0\ref\ForEach.dll
