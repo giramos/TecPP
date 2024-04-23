@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("20_MasterWorker_Encode")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44ffc259bcdb0b1a77b420b01bf9d387f55f5bd2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4cf2888faf8ee21dee75dd6903b1d17eec1f09d")]
 [assembly: System.Reflection.AssemblyProductAttribute("20_MasterWorker_Encode")]
 [assembly: System.Reflection.AssemblyTitleAttribute("20_MasterWorker_Encode")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

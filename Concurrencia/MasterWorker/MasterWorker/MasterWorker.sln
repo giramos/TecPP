@@ -29,31 +29,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColaConcurrente", "ColaConc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListaGenerica", "ColaConcurrente\ListaGenerica\ListaGenerica.csproj", "{168323AE-B94C-4FF7-888F-6526BF9DA826}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_MasterWorker_ListaParesImparesApartir3Vectores", "12_MasterWorker_ListaParesImparesApartir3Vectores\12_MasterWorker_ListaParesImparesApartir3Vectores.csproj", "{CB292610-22EC-4025-87CD-D9364C447D0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_MasterWorker_ListaParesImparesApartir3Vectores", "12_MasterWorker_ListaParesImparesApartir3Vectores\12_MasterWorker_ListaParesImparesApartir3Vectores.csproj", "{CB292610-22EC-4025-87CD-D9364C447D0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_MasterWorker_MatrizPositivosNegativos", "13_MasterWorker_MatrizPositivosNegativos\13_MasterWorker_MatrizPositivosNegativos.csproj", "{324ED6A0-C45A-467A-8235-BABF167FE20C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_MasterWorker_MatrizPositivosNegativos", "13_MasterWorker_MatrizPositivosNegativos\13_MasterWorker_MatrizPositivosNegativos.csproj", "{324ED6A0-C45A-467A-8235-BABF167FE20C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_MasterWorker_MatrizTraspuesta", "14_MasterWorker_MatrizTraspuesta\14_MasterWorker_MatrizTraspuesta.csproj", "{0DC4EF42-80BB-4F2B-93B0-EA9788E48737}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_MasterWorker_MatrizTraspuesta", "14_MasterWorker_MatrizTraspuesta\14_MasterWorker_MatrizTraspuesta.csproj", "{0DC4EF42-80BB-4F2B-93B0-EA9788E48737}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_MasterWorker_VectoriEspejo", "15_MasterWorker_VectoriEspejo\15_MasterWorker_VectoriEspejo.csproj", "{F315EA3C-CBCC-4E3B-AE03-4BBA6D56AAB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_MasterWorker_VectoriEspejo", "15_MasterWorker_VectoriEspejo\15_MasterWorker_VectoriEspejo.csproj", "{F315EA3C-CBCC-4E3B-AE03-4BBA6D56AAB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_MasterWorker_ArrayStringVocales", "16_MasterWorker_ArrayStringVocales\16_MasterWorker_ArrayStringVocales.csproj", "{ACBB8F80-891E-49E7-8D38-80F761A73FAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_MasterWorker_ArrayStringVocales", "16_MasterWorker_ArrayStringVocales\16_MasterWorker_ArrayStringVocales.csproj", "{ACBB8F80-891E-49E7-8D38-80F761A73FAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_MasterWorker_UnionVectores", "17_MasterWorker_UnionVectores\17_MasterWorker_UnionVectores.csproj", "{12D9FACA-E4EE-4600-AED3-37CF92BBFCFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_MasterWorker_UnionVectores", "17_MasterWorker_UnionVectores\17_MasterWorker_UnionVectores.csproj", "{12D9FACA-E4EE-4600-AED3-37CF92BBFCFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_MasterWorker_VectorImparEspejoCentro", "18_MasterWorker_VectorImparEspejoCentro\18_MasterWorker_VectorImparEspejoCentro.csproj", "{F3FC249D-F91C-4093-B2B2-B797FBF44B13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_MasterWorker_VectorImparEspejoCentro", "18_MasterWorker_VectorImparEspejoCentro\18_MasterWorker_VectorImparEspejoCentro.csproj", "{F3FC249D-F91C-4093-B2B2-B797FBF44B13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_MasterWorker_ColaConcurrente", "19_MasterWorker_ColaConcurrente\19_MasterWorker_ColaConcurrente.csproj", "{2F12D1C3-9707-40A1-91CA-3D3733FB6D38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19_MasterWorker_ColaConcurrente", "19_MasterWorker_ColaConcurrente\19_MasterWorker_ColaConcurrente.csproj", "{2F12D1C3-9707-40A1-91CA-3D3733FB6D38}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObligatoriaSesion10_Lista", "ObligatoriaSesion10\ObligatoriaSesion10_Lista.csproj", "{91939945-AFA3-408F-87BA-ECBF08810EA0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObligatoriaSesion10", "ObligatoriaSesion10_Original\ObligatoriaSesion10.csproj", "{8E66541F-881A-41D7-AC56-66CB07A9B8F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_MasterWorker_Encode", "20_MasterWorker_Encode\20_MasterWorker_Encode.csproj", "{D5934C30-282D-48A9-BD28-72FC4EDB7A41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_MasterWorker_Encode", "20_MasterWorker_Encode\20_MasterWorker_Encode.csproj", "{D5934C30-282D-48A9-BD28-72FC4EDB7A41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_MasterWorker_ColaTrabajosVectorEspejo", "21_MasterWorker_ColaTrabajosVectorEspejo\21_MasterWorker_ColaTrabajosVectorEspejo.csproj", "{1C91D3BE-EAB6-4565-9436-229E4FC7D4D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21_MasterWorker_ColaTrabajosVectorEspejo", "21_MasterWorker_ColaTrabajosVectorEspejo\21_MasterWorker_ColaTrabajosVectorEspejo.csproj", "{1C91D3BE-EAB6-4565-9436-229E4FC7D4D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22_MasterWorker_ColaConcurrenteVectorModulo", "22_MasterWorker_ColaConcurrenteVectorModulo\22_MasterWorker_ColaConcurrenteVectorModulo.csproj", "{CE7EF4C2-93CE-4096-86DD-6C36215C6F1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22_MasterWorker_ColaConcurrenteVectorModulo", "22_MasterWorker_ColaConcurrenteVectorModulo\22_MasterWorker_ColaConcurrenteVectorModulo.csproj", "{CE7EF4C2-93CE-4096-86DD-6C36215C6F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23_MasterWorker_DiccionarioVocalesNumero", "23_MasterWorker_DiccionarioVocalesNumero\23_MasterWorker_DiccionarioVocalesNumero.csproj", "{C1E18747-DAB5-4278-9B90-D533781FC6F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{CE7EF4C2-93CE-4096-86DD-6C36215C6F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE7EF4C2-93CE-4096-86DD-6C36215C6F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE7EF4C2-93CE-4096-86DD-6C36215C6F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E18747-DAB5-4278-9B90-D533781FC6F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E18747-DAB5-4278-9B90-D533781FC6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E18747-DAB5-4278-9B90-D533781FC6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E18747-DAB5-4278-9B90-D533781FC6F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
