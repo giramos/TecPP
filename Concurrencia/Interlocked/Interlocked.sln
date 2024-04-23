@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interlocked", "Interlocked\Interlocked.csproj", "{99442B00-CFBD-4A32-88F9-EF9A5A86CBC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03Interlocked", "03Interlocked\03Interlocked.csproj", "{320BD337-1100-4917-9D5B-C7964485CA33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99442B00-CFBD-4A32-88F9-EF9A5A86CBC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99442B00-CFBD-4A32-88F9-EF9A5A86CBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99442B00-CFBD-4A32-88F9-EF9A5A86CBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99442B00-CFBD-4A32-88F9-EF9A5A86CBC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{320BD337-1100-4917-9D5B-C7964485CA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320BD337-1100-4917-9D5B-C7964485CA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320BD337-1100-4917-9D5B-C7964485CA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320BD337-1100-4917-9D5B-C7964485CA33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C6CA62E-8F6C-4FFA-856A-17909D2416B5}
+	EndGlobalSection
+EndGlobal

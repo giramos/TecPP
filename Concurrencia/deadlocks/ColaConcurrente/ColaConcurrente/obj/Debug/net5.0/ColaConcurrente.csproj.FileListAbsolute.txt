@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\ColaConcurrente\ColaConcurrente\bin\Debug\net5.0\ColaConcurrente.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\ColaConcurrente\ColaConcurrente\bin\Debug\net5.0\ColaConcurrente.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\ColaConcurrente\ColaConcurrente\bin\Debug\net5.0\ColaConcurrente.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\ColaConcurrente\ColaConcurrente\bin\Debug\net5.0\ListaGenerica.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\ColaConcurrente\ColaConcurrente\bin\Debug\net5.0\ListaGenerica.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\ColaConcurrente\ColaConcurrente\obj\Debug\net5.0\ColaConcurrente.csproj.AssemblyReference.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\ColaConcurrente\ColaConcurrente\obj\Debug\net5.0\ColaConcurrente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\ColaConcurrente\ColaConcurrente\obj\Debug\net5.0\ColaConcurrente.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\ColaConcurrente\ColaConcurrente\obj\Debug\net5.0\ColaConcurrente.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\ColaConcurrente\ColaConcurrente\obj\Debug\net5.0\ColaConcurrente.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\ColaConcurrente\ColaConcurrente\obj\Debug\net5.0\ColaConcurrente.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\ColaConcurrente\ColaConcurrente\obj\Debug\net5.0\ColaConcurrente.csproj.CopyComplete
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\ColaConcurrente\ColaConcurrente\obj\Debug\net5.0\ColaConcurrente.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\ColaConcurrente\ColaConcurrente\obj\Debug\net5.0\refint\ColaConcurrente.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\ColaConcurrente\ColaConcurrente\obj\Debug\net5.0\ColaConcurrente.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\ColaConcurrente\ColaConcurrente\obj\Debug\net5.0\ref\ColaConcurrente.dll

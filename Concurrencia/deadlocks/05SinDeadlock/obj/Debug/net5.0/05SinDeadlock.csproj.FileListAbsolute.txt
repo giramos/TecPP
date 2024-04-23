@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\05SinDeadlock\bin\Debug\net5.0\05SinDeadlock.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\05SinDeadlock\bin\Debug\net5.0\05SinDeadlock.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\05SinDeadlock\bin\Debug\net5.0\05SinDeadlock.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\05SinDeadlock\bin\Debug\net5.0\05SinDeadlock.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\05SinDeadlock\bin\Debug\net5.0\05SinDeadlock.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\05SinDeadlock\bin\Debug\net5.0\05SinDeadlock.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\05SinDeadlock\obj\Debug\net5.0\05SinDeadlock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\05SinDeadlock\obj\Debug\net5.0\05SinDeadlock.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\05SinDeadlock\obj\Debug\net5.0\05SinDeadlock.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\05SinDeadlock\obj\Debug\net5.0\05SinDeadlock.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\05SinDeadlock\obj\Debug\net5.0\05SinDeadlock.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\05SinDeadlock\obj\Debug\net5.0\05SinDeadlock.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\05SinDeadlock\obj\Debug\net5.0\refint\05SinDeadlock.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\05SinDeadlock\obj\Debug\net5.0\05SinDeadlock.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\05SinDeadlock\obj\Debug\net5.0\05SinDeadlock.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\05SinDeadlock\obj\Debug\net5.0\ref\05SinDeadlock.dll

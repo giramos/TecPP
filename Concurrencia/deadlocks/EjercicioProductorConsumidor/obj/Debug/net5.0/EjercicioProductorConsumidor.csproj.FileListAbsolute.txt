@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\EjercicioProductorConsumidor\bin\Debug\net5.0\EjercicioProductorConsumidor.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\EjercicioProductorConsumidor\bin\Debug\net5.0\EjercicioProductorConsumidor.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\EjercicioProductorConsumidor\bin\Debug\net5.0\EjercicioProductorConsumidor.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\EjercicioProductorConsumidor\bin\Debug\net5.0\EjercicioProductorConsumidor.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\EjercicioProductorConsumidor\bin\Debug\net5.0\EjercicioProductorConsumidor.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\EjercicioProductorConsumidor\bin\Debug\net5.0\EjercicioProductorConsumidor.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\EjercicioProductorConsumidor\obj\Debug\net5.0\EjercicioProductorConsumidor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\EjercicioProductorConsumidor\obj\Debug\net5.0\EjercicioProductorConsumidor.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\EjercicioProductorConsumidor\obj\Debug\net5.0\EjercicioProductorConsumidor.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\EjercicioProductorConsumidor\obj\Debug\net5.0\EjercicioProductorConsumidor.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\EjercicioProductorConsumidor\obj\Debug\net5.0\EjercicioProductorConsumidor.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\EjercicioProductorConsumidor\obj\Debug\net5.0\EjercicioProductorConsumidor.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\EjercicioProductorConsumidor\obj\Debug\net5.0\refint\EjercicioProductorConsumidor.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\EjercicioProductorConsumidor\obj\Debug\net5.0\EjercicioProductorConsumidor.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\EjercicioProductorConsumidor\obj\Debug\net5.0\EjercicioProductorConsumidor.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\EjercicioProductorConsumidor\obj\Debug\net5.0\ref\EjercicioProductorConsumidor.dll

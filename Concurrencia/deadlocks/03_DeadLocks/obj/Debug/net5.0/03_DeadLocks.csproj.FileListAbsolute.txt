@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\03_DeadLocks\bin\Debug\net5.0\03_DeadLocks.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\03_DeadLocks\bin\Debug\net5.0\03_DeadLocks.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\03_DeadLocks\bin\Debug\net5.0\03_DeadLocks.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\03_DeadLocks\bin\Debug\net5.0\03_DeadLocks.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\03_DeadLocks\bin\Debug\net5.0\03_DeadLocks.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\03_DeadLocks\bin\Debug\net5.0\03_DeadLocks.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\03_DeadLocks\obj\Debug\net5.0\03_DeadLocks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\03_DeadLocks\obj\Debug\net5.0\03_DeadLocks.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\03_DeadLocks\obj\Debug\net5.0\03_DeadLocks.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\03_DeadLocks\obj\Debug\net5.0\03_DeadLocks.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\03_DeadLocks\obj\Debug\net5.0\03_DeadLocks.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\03_DeadLocks\obj\Debug\net5.0\03_DeadLocks.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\03_DeadLocks\obj\Debug\net5.0\refint\03_DeadLocks.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\03_DeadLocks\obj\Debug\net5.0\03_DeadLocks.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\03_DeadLocks\obj\Debug\net5.0\03_DeadLocks.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\03_DeadLocks\obj\Debug\net5.0\ref\03_DeadLocks.dll
