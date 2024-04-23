@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\16_MasterWorker_ArrayStringVocales\bin\Debug\net5.0\16_MasterWorker_ArrayStringVocales.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\16_MasterWorker_ArrayStringVocales\bin\Debug\net5.0\16_MasterWorker_ArrayStringVocales.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\16_MasterWorker_ArrayStringVocales\bin\Debug\net5.0\16_MasterWorker_ArrayStringVocales.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\16_MasterWorker_ArrayStringVocales\bin\Debug\net5.0\16_MasterWorker_ArrayStringVocales.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\16_MasterWorker_ArrayStringVocales\bin\Debug\net5.0\16_MasterWorker_ArrayStringVocales.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\16_MasterWorker_ArrayStringVocales\bin\Debug\net5.0\16_MasterWorker_ArrayStringVocales.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\16_MasterWorker_ArrayStringVocales\obj\Debug\net5.0\16_MasterWorker_ArrayStringVocales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\16_MasterWorker_ArrayStringVocales\obj\Debug\net5.0\16_MasterWorker_ArrayStringVocales.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\16_MasterWorker_ArrayStringVocales\obj\Debug\net5.0\16_MasterWorker_ArrayStringVocales.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\16_MasterWorker_ArrayStringVocales\obj\Debug\net5.0\16_MasterWorker_ArrayStringVocales.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\16_MasterWorker_ArrayStringVocales\obj\Debug\net5.0\16_MasterWorker_ArrayStringVocales.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\16_MasterWorker_ArrayStringVocales\obj\Debug\net5.0\16_MasterWorker_ArrayStringVocales.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\16_MasterWorker_ArrayStringVocales\obj\Debug\net5.0\refint\16_MasterWorker_ArrayStringVocales.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\16_MasterWorker_ArrayStringVocales\obj\Debug\net5.0\16_MasterWorker_ArrayStringVocales.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\16_MasterWorker_ArrayStringVocales\obj\Debug\net5.0\16_MasterWorker_ArrayStringVocales.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\16_MasterWorker_ArrayStringVocales\obj\Debug\net5.0\ref\16_MasterWorker_ArrayStringVocales.dll

@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\MasterWorker\\MasterWorker\\11_DiccionarioPalabrasRepetidas\\11_DiccionarioPalabrasRepetidas.csproj",
-      "projectName": "11_DiccionarioPalabrasRepetidas",
-      "projectPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\MasterWorker\\MasterWorker\\11_DiccionarioPalabrasRepetidas\\11_DiccionarioPalabrasRepetidas.csproj",
+      "projectUniqueName": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\MasterWorker\\MasterWorker\\11_DiccionarioPalabrasRepetidas\\11_MasterWorker_DiccionarioPalabrasRepetidas.csproj",
+      "projectName": "11_MasterWorker_DiccionarioPalabrasRepetidas",
+      "projectPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\MasterWorker\\MasterWorker\\11_DiccionarioPalabrasRepetidas\\11_MasterWorker_DiccionarioPalabrasRepetidas.csproj",
       "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\MasterWorker\\MasterWorker\\11_DiccionarioPalabrasRepetidas\\obj\\",
       "projectStyle": "PackageReference",

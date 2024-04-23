@@ -516,7 +516,7 @@ namespace _03_MasterWorker_ColaPalabrasConsonates
 
     //    internal void Calcular()
     //    {
-    //        while (!cola.EstaVacia())
+    //        while (cola.Count()>0)
     //        {
     //            T palabra = cola.Extraer();
     //            if (TieneMasConsonantes(palabra))

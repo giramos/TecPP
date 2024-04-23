@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\04_MasterWorker_NumerosCosecutivos\bin\Debug\net5.0\04_MasterWorker_DiccionarioNumerosCosecutivos.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\04_MasterWorker_NumerosCosecutivos\bin\Debug\net5.0\04_MasterWorker_DiccionarioNumerosCosecutivos.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\04_MasterWorker_NumerosCosecutivos\bin\Debug\net5.0\04_MasterWorker_DiccionarioNumerosCosecutivos.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\04_MasterWorker_NumerosCosecutivos\bin\Debug\net5.0\04_MasterWorker_DiccionarioNumerosCosecutivos.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\04_MasterWorker_NumerosCosecutivos\bin\Debug\net5.0\04_MasterWorker_DiccionarioNumerosCosecutivos.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\04_MasterWorker_NumerosCosecutivos\bin\Debug\net5.0\04_MasterWorker_DiccionarioNumerosCosecutivos.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\04_MasterWorker_NumerosCosecutivos\obj\Debug\net5.0\04_MasterWorker_DiccionarioNumerosCosecutivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\04_MasterWorker_NumerosCosecutivos\obj\Debug\net5.0\04_MasterWorker_DiccionarioNumerosCosecutivos.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\04_MasterWorker_NumerosCosecutivos\obj\Debug\net5.0\04_MasterWorker_DiccionarioNumerosCosecutivos.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\04_MasterWorker_NumerosCosecutivos\obj\Debug\net5.0\04_MasterWorker_DiccionarioNumerosCosecutivos.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\04_MasterWorker_NumerosCosecutivos\obj\Debug\net5.0\04_MasterWorker_DiccionarioNumerosCosecutivos.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\04_MasterWorker_NumerosCosecutivos\obj\Debug\net5.0\04_MasterWorker_DiccionarioNumerosCosecutivos.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\04_MasterWorker_NumerosCosecutivos\obj\Debug\net5.0\refint\04_MasterWorker_DiccionarioNumerosCosecutivos.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\04_MasterWorker_NumerosCosecutivos\obj\Debug\net5.0\04_MasterWorker_DiccionarioNumerosCosecutivos.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\04_MasterWorker_NumerosCosecutivos\obj\Debug\net5.0\04_MasterWorker_DiccionarioNumerosCosecutivos.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\04_MasterWorker_NumerosCosecutivos\obj\Debug\net5.0\ref\04_MasterWorker_DiccionarioNumerosCosecutivos.dll

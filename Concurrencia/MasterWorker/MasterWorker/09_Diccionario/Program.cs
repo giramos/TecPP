@@ -99,15 +99,15 @@ namespace _09_Diccionario
             var dictionary = new Dictionary<T, IEnumerable<int>>();
             foreach (Worker<T> worker in workers)
             {
-                foreach (var key in worker.Dict.Keys)
+                foreach (var i in worker.Resulatado)
                 {
-                    if (dictionary.ContainsKey(key))
+                    if (dictionary.ContainsKey(i.Key))
                     {
-                        dictionary[key] = worker.Dict[key];
+                        dictionary[i.Key] = worker.dicc[i.Key];
                     }
                     else
                     {
-                        dictionary.Add(key, worker.Dict[key]);
+                        dictionary.Add(i.Key, worker.dicc[i.Key]);
                     }
                 }
             }
@@ -123,8 +123,9 @@ namespace _09_Diccionario
 
         private int to;
 
-        public Dictionary<T, IEnumerable<int>> Dict;
+        public Dictionary<T, IEnumerable<int>> dicc;
 
+        public Dictionary<T, IEnumerable<int>> Resulatado { get { return dicc; } }
         public Worker(T[] array, int v1, int v2)
         {
             this.array = array;
@@ -151,7 +152,7 @@ namespace _09_Diccionario
                 }
                 positions = new List<int>();
             }
-            Dict = dictionary;
+            dicc = dictionary;
         }
     }
 }

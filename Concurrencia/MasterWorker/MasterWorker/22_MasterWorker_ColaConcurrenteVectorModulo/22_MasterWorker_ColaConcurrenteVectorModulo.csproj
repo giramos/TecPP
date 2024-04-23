@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>_22_MasterWorker_ColaConcurrenteVectorModulo</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ColaConcurrente\ColaConcurrente\ColaConcurrente.csproj" />
+  </ItemGroup>
+
+</Project>

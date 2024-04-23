@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\MasterWorker\\MasterWorker\\09_Diccionario\\09_Diccionario.csproj",
-      "projectName": "09_Diccionario",
-      "projectPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\MasterWorker\\MasterWorker\\09_Diccionario\\09_Diccionario.csproj",
+      "projectUniqueName": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\MasterWorker\\MasterWorker\\09_Diccionario\\09_MasterWorker_DiccionarioPosicionesRepetidasVector.csproj",
+      "projectName": "09_MasterWorker_DiccionarioPosicionesRepetidasVector",
+      "projectPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\MasterWorker\\MasterWorker\\09_Diccionario\\09_MasterWorker_DiccionarioPosicionesRepetidasVector.csproj",
       "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\MasterWorker\\MasterWorker\\09_Diccionario\\obj\\",
       "projectStyle": "PackageReference",

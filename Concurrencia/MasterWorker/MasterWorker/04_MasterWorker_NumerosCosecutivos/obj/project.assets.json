@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\MasterWorker\\MasterWorker\\04_MasterWorker_NumerosCosecutivos\\04_MasterWorker_NumerosCosecutivos.csproj",
-      "projectName": "04_MasterWorker_NumerosCosecutivos",
-      "projectPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\MasterWorker\\MasterWorker\\04_MasterWorker_NumerosCosecutivos\\04_MasterWorker_NumerosCosecutivos.csproj",
+      "projectUniqueName": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\MasterWorker\\MasterWorker\\04_MasterWorker_NumerosCosecutivos\\04_MasterWorker_DiccionarioNumerosCosecutivos.csproj",
+      "projectName": "04_MasterWorker_DiccionarioNumerosCosecutivos",
+      "projectPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\MasterWorker\\MasterWorker\\04_MasterWorker_NumerosCosecutivos\\04_MasterWorker_DiccionarioNumerosCosecutivos.csproj",
       "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\MasterWorker\\MasterWorker\\04_MasterWorker_NumerosCosecutivos\\obj\\",
       "projectStyle": "PackageReference",

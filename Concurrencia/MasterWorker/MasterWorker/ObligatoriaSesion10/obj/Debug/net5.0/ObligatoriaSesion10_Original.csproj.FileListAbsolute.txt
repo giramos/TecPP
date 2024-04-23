@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ObligatoriaSesion10\bin\Debug\net5.0\ObligatoriaSesion10_Original.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ObligatoriaSesion10\bin\Debug\net5.0\ObligatoriaSesion10_Original.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ObligatoriaSesion10\bin\Debug\net5.0\ObligatoriaSesion10_Original.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ObligatoriaSesion10\bin\Debug\net5.0\ObligatoriaSesion10_Original.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ObligatoriaSesion10\bin\Debug\net5.0\ObligatoriaSesion10_Original.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ObligatoriaSesion10\bin\Debug\net5.0\ObligatoriaSesion10_Original.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ObligatoriaSesion10\obj\Debug\net5.0\ObligatoriaSesion10_Original.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ObligatoriaSesion10\obj\Debug\net5.0\ObligatoriaSesion10_Original.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ObligatoriaSesion10\obj\Debug\net5.0\ObligatoriaSesion10_Original.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ObligatoriaSesion10\obj\Debug\net5.0\ObligatoriaSesion10_Original.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ObligatoriaSesion10\obj\Debug\net5.0\ObligatoriaSesion10_Original.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ObligatoriaSesion10\obj\Debug\net5.0\ObligatoriaSesion10_Original.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ObligatoriaSesion10\obj\Debug\net5.0\refint\ObligatoriaSesion10_Original.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ObligatoriaSesion10\obj\Debug\net5.0\ObligatoriaSesion10_Original.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ObligatoriaSesion10\obj\Debug\net5.0\ObligatoriaSesion10_Original.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\MasterWorker\MasterWorker\ObligatoriaSesion10\obj\Debug\net5.0\ref\ObligatoriaSesion10_Original.dll

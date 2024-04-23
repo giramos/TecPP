@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QS0v6d8LHw884pMF2jWJsGNsXQ+340zNNUWpsrhbnZTqwbnUqJ4pLxQp99tCEz0fjvPhcjiQvfixr3hn/iFlKw==",
+  "dgSpecHash": "unimH+S/Rm+T5gfe1AMsPNzKn8RHvNXOTNB0DRjsbtgdFmst6xW5veDkLkx2k9ZDI8/k4hcSA6gNXmOTmPlz9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\MasterWorker\\MasterWorker\\10_DiccionarioPorcentageVocales\\10_DiccionarioPorcentageVocales.csproj",
+  "projectFilePath": "C:\\Users\\germa\\Desktop\\Nueva carpeta\\TecPP\\Concurrencia\\MasterWorker\\MasterWorker\\10_DiccionarioPorcentageVocales\\10_MasterWorker_DiccionarioPorcentageVocales.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
