@@ -124,7 +124,10 @@ namespace ForEach
                 lock (obj)
                 {
                     if (!threadIds.Contains(Thread.CurrentThread.ManagedThreadId))
+                    {
+                        Console.WriteLine("Identificador hilo: " + Thread.CurrentThread.ManagedThreadId); // Lo ponemos por pantalla
                         threadIds.Add(Thread.CurrentThread.ManagedThreadId);
+                    }
                 }
             });
             Console.WriteLine($"Número total de hilos: {threadIds.Count}");
@@ -205,7 +208,10 @@ namespace ForEach
                 lock (obj)
                 {
                     if (!threadIds.Contains(Thread.CurrentThread.ManagedThreadId))
+                    {
+                        Console.WriteLine("Identificador hilo: " + Thread.CurrentThread.ManagedThreadId); // Lo ponemos por pantalla
                         threadIds.Add(Thread.CurrentThread.ManagedThreadId);
+                    }
                 }
             });
             Console.WriteLine($"Número total de hilos: {threadIds.Count}"); ;
@@ -215,7 +221,26 @@ namespace ForEach
 
             Console.WriteLine("\nVector espejo:");
             ImprimirVector(vectorEspejo);
+
+
+            // MODULO  DE UN VECTOR CON RESULTADOS PARCIALES
+
+            var vectorModulo = GenerarVectorAleatorio(-100, 100, 100000);
+            long result = 0;
+            Parallel.ForEach(vectorModulo,
+            () => 0, // Method to initialize the local variable
+            (v, loopState, subtotal) => subtotal += v * v,
+            // Method to be executed when each partition has completed.
+            // finalResult is the final value of subtotal for a particular partition.
+            finalResult => Interlocked.Add(ref result, finalResult));
+            Console.WriteLine("The result obtained is: {0:N2}.", Math.Sqrt(result));
         }
+
+
+
+
+
+
 
         // Calcula la maxima diferencia minima entre dos vectores
         private static double CalcularMaximaDiferenciaMinima(double[] A, double[] B)
@@ -245,7 +270,10 @@ namespace ForEach
                 lock (obj)
                 {
                     if (!threadIds.Contains(Thread.CurrentThread.ManagedThreadId))
+                    {
+                        Console.WriteLine("Identificador hilo: " + Thread.CurrentThread.ManagedThreadId); // Lo ponemos por pantalla
                         threadIds.Add(Thread.CurrentThread.ManagedThreadId);
+                    }
                 }
             });
             Console.WriteLine($"Número total de hilos: {threadIds.Count}");
@@ -305,7 +333,10 @@ namespace ForEach
                 lock (obj)
                 {
                     if (!threadIds.Contains(Thread.CurrentThread.ManagedThreadId))
+                    {
+                        Console.WriteLine("Identificador hilo: " + Thread.CurrentThread.ManagedThreadId); // Lo ponemos por pantalla
                         threadIds.Add(Thread.CurrentThread.ManagedThreadId);
+                    }
                 }
             });
             Console.WriteLine($"Número total de hilos: {threadIds.Count}");
@@ -356,7 +387,10 @@ namespace ForEach
                 lock (obj)
                 {
                     if (!threadIds.Contains(Thread.CurrentThread.ManagedThreadId))
+                    {
+                        Console.WriteLine("Identificador hilo: " + Thread.CurrentThread.ManagedThreadId); // Lo ponemos por pantalla
                         threadIds.Add(Thread.CurrentThread.ManagedThreadId);
+                    }
                 }
             });
             Console.WriteLine($"Número total de hilos: {threadIds.Count}");

@@ -20,19 +20,19 @@ namespace Ops_conjuntos
             var setB = new HashSet<string> { "C", "D", "E", "F" };
 
             Console.WriteLine("Ejemplo Union");
-            var res = Union(setA,setB);
+            var res = Union(setA, setB);
             res.ToList().ForEach(x => Console.Write(x + " "));
 
             Console.WriteLine("\nEjemplo Interseccion");
-            res = Interseccion(setA,setB);
+            res = Interseccion(setA, setB);
             res.ToList().ForEach(x => Console.Write(x + " "));
 
             Console.WriteLine("\nEjemplo Diferencia");
-            res = Diferencia(setA,setB);
+            res = Diferencia(setA, setB);
             res.ToList().ForEach(x => Console.Write(x + " "));
 
             Console.WriteLine("\nEjemplo Diferencia simetrica");
-            res = DiferenciaSimetrica(setA,setB);
+            res = DiferenciaSimetrica(setA, setB);
             res.ToList().ForEach(x => Console.Write(x + " "));
 
             Console.WriteLine("\n");
@@ -99,31 +99,77 @@ namespace Ops_conjuntos
 
             Console.WriteLine("\n");
 
-            sw.Restart();
-            var result = CalcularUnionPLINQ(vectorA, vectorB);
-            sw.Stop();
-            result.ToList().ForEach(x => Console.Write(x + " "));
-            Console.WriteLine($"El tiempo en la unión con PLINQ es {sw.ElapsedMilliseconds} ms");
+            //sw.Restart();
+            //var result = CalcularUnionPLINQ(vectorA, vectorB);
+            //sw.Stop();
+            //result.ToList().ForEach(x => Console.Write(x + " "));
+            //Console.WriteLine($"El tiempo en la unión con PLINQ es {sw.ElapsedMilliseconds} ms");
 
-            sw.Restart();
-            result = CalcularInterseccionPLINQ(vectorA, vectorB);
-            sw.Stop();
-            result.ToList().ForEach(x => Console.Write(x + " "));
-            Console.WriteLine($"El tiempo en la intersección con PLINQ es {sw.ElapsedMilliseconds} ms");
+            //sw.Restart();
+            //result = CalcularInterseccionPLINQ(vectorA, vectorB);
+            //sw.Stop();
+            //result.ToList().ForEach(x => Console.Write(x + " "));
+            //Console.WriteLine($"El tiempo en la intersección con PLINQ es {sw.ElapsedMilliseconds} ms");
 
-            sw.Restart();
-            result = CalcularDiferenciaPLINQ(vectorA, vectorB);
-            sw.Stop();
-            result.ToList().ForEach(x => Console.Write(x + " "));
-            Console.WriteLine($"El tiempo en la diferencia con PLINQ es {sw.ElapsedMilliseconds} ms");
+            //sw.Restart();
+            //result = CalcularDiferenciaPLINQ(vectorA, vectorB);
+            //sw.Stop();
+            //result.ToList().ForEach(x => Console.Write(x + " "));
+            //Console.WriteLine($"El tiempo en la diferencia con PLINQ es {sw.ElapsedMilliseconds} ms");
 
-            sw.Restart();
-            result = CalcularDiferenciaSimetricaPLINQ(vectorA, vectorB);
-            sw.Stop();
-            result.ToList().ForEach(x => Console.Write(x + " "));
-            Console.WriteLine($"El tiempo en la diferencia simétrica con PLINQ es {sw.ElapsedMilliseconds} ms");
+            //sw.Restart();
+            //result = CalcularDiferenciaSimetricaPLINQ(vectorA, vectorB);
+            //sw.Stop();
+            //result.ToList().ForEach(x => Console.Write(x + " "));
+            //Console.WriteLine($"El tiempo en la diferencia simétrica con PLINQ es {sw.ElapsedMilliseconds} ms");
+
         }
-        [Obsolete]
+
+        // INVOKE => ESQUELETO
+
+        private static void CalcularOperacionesConjuntos(string[] vectorA, string[] vectorB, out HashSet<string> interseccion, out HashSet<string> diferencia, out HashSet<string> union, out HashSet<string> diferenciaSimetrica)
+        {
+            interseccion = new HashSet<string>();
+            diferencia = new HashSet<string>();
+            union = new HashSet<string>();
+            diferenciaSimetrica = new HashSet<string>();
+
+            Parallel.Invoke(
+                () => CalcularInterseccion(vectorA, vectorB, interseccion),
+                () => CalcularDiferencia(vectorA, vectorB, diferencia),
+                () => CalcularUnion(vectorA, vectorB, union),
+                () => CalcularDiferenciaSimetrica(vectorA, vectorB, diferenciaSimetrica)
+            );
+        }
+
+        private static void CalcularInterseccion(string[] vectorA, string[] vectorB, HashSet<string> interseccion)
+        {
+            // Lógica para calcular la intersección entre vectorA y vectorB
+            // Luego agregar los elementos resultantes a 'interseccion'
+        }
+
+        private void CalcularDiferencia(string[] vectorA, string[] vectorB, HashSet<string> diferencia)
+        {
+            // Lógica para calcular la diferencia entre vectorA y vectorB
+            // Luego agregar los elementos resultantes a 'diferencia'
+        }
+
+        private void CalcularUnion(string[] vectorA, string[] vectorB, HashSet<string> union)
+        {
+            // Lógica para calcular la unión entre vectorA y vectorB
+            // Luego agregar los elementos resultantes a 'union'
+        }
+
+        private void CalcularDiferenciaSimetrica(string[] vectorA, string[] vectorB, HashSet<string> diferenciaSimetrica)
+        {
+            // Lógica para calcular la diferencia simétrica entre vectorA y vectorB
+            // Luego agregar los elementos resultantes a 'diferenciaSimetrica'
+        }
+
+
+        ///        // PLINQ
+
+
         private static HashSet<string> CalcularDiferenciaSimetricaPLINQ(string[] vectorA, string[] vectorB)
         {
             var conjuntoA = vectorA.ToHashSet();
@@ -158,6 +204,11 @@ namespace Ops_conjuntos
 
             return conjuntoA.AsParallel().Union(conjuntoB).ToHashSet();
         }
+
+
+
+                            // TPL: FOR or FOREACH
+
 
         private static HashSet<string> CalcularDiferenciaSimetrica(string[] vectorA, string[] vectorB)
         {
@@ -353,6 +404,12 @@ namespace Ops_conjuntos
 
             return res;
         }
+
+
+
+
+
+                                    // SECUENCIAL
 
 
         //La unión de conjuntos A y B produce un tercer conjunto C con todos los elementos de A y B.

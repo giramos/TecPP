@@ -1,0 +1,16 @@
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab12\Lab12_Eng\Lab12_Eng\bin\Release\net5.0\Lab12_Eng.exe
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab12\Lab12_Eng\Lab12_Eng\bin\Release\net5.0\Lab12_Eng.deps.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab12\Lab12_Eng\Lab12_Eng\bin\Release\net5.0\Lab12_Eng.runtimeconfig.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab12\Lab12_Eng\Lab12_Eng\bin\Release\net5.0\Lab12_Eng.runtimeconfig.dev.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab12\Lab12_Eng\Lab12_Eng\bin\Release\net5.0\Lab12_Eng.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab12\Lab12_Eng\Lab12_Eng\bin\Release\net5.0\Lab12_Eng.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab12\Lab12_Eng\Lab12_Eng\obj\Release\net5.0\Lab12_Eng.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab12\Lab12_Eng\Lab12_Eng\obj\Release\net5.0\Lab12_Eng.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab12\Lab12_Eng\Lab12_Eng\obj\Release\net5.0\Lab12_Eng.AssemblyInfo.cs
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab12\Lab12_Eng\Lab12_Eng\obj\Release\net5.0\Lab12_Eng.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab12\Lab12_Eng\Lab12_Eng\obj\Release\net5.0\Lab12_Eng.sourcelink.json
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab12\Lab12_Eng\Lab12_Eng\obj\Release\net5.0\Lab12_Eng.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab12\Lab12_Eng\Lab12_Eng\obj\Release\net5.0\refint\Lab12_Eng.dll
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab12\Lab12_Eng\Lab12_Eng\obj\Release\net5.0\Lab12_Eng.pdb
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab12\Lab12_Eng\Lab12_Eng\obj\Release\net5.0\Lab12_Eng.genruntimeconfig.cache
+C:\Users\germa\Desktop\Nueva carpeta\TecPP\Laboratorios\lab12\Lab12_Eng\Lab12_Eng\obj\Release\net5.0\ref\Lab12_Eng.dll

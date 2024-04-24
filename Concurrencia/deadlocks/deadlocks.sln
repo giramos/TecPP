@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06PLINQ_sol", "06PLINQ_sol\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04Procesado.Tareas.Secuencial", "04Procesado.Tareas.Secuencial\04Procesado.Tareas.Secuencial.csproj", "{BE502F45-6ACD-4E2F-BA9C-1181115534D9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxValueApp", "MaxValue\MaxValueApp.csproj", "{06C90BDE-9D58-471C-BAF6-1D7D4F17C2A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{BE502F45-6ACD-4E2F-BA9C-1181115534D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE502F45-6ACD-4E2F-BA9C-1181115534D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE502F45-6ACD-4E2F-BA9C-1181115534D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C90BDE-9D58-471C-BAF6-1D7D4F17C2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C90BDE-9D58-471C-BAF6-1D7D4F17C2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C90BDE-9D58-471C-BAF6-1D7D4F17C2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C90BDE-9D58-471C-BAF6-1D7D4F17C2A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,12 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Net;
+using System.Net.Http.Headers;
+using System.Numerics;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -106,7 +109,146 @@ namespace Invoke
             // Imprimir el resultado final
             Console.WriteLine("La máxima diferencia mínima en valor absoluto es: {0}", resultadoFinal);
 
+
+
+            /////////////////////////////////////////////////////////////////////////////////////////
+            //            ///
+            //            Haciendo uso de TPL y partiendo de una lista de enteros aleatorios(10000, 1, 20) 
+            //impleméntese el cálculo en paralelo(almacenando los resultados en un diccionario común) de:
+            //            La media de los elementos del vector y almacenar el resultado en el diccionario con la clave “media”.
+            //	La moda de los elementos del vector y almacenar el resultado en el diccionario con la clave “moda”.
+
+            //Tras imprimir los resultados anteriores por pantalla, calcúlese e imprímase la moda de los elementos del vector haciendo uso de PLINQ.
+
+
+            var aleatorios = GenerarVectorAleatorio(1, 20,10000);
+            Dictionary<string, double> diccionario = new();
+            //var media = 0.0;
+            //var moda = 0.0;
+            Parallel.Invoke(
+                () => CalcularMedia(aleatorios, diccionario),
+                () => CalcularModa(aleatorios, diccionario),
+                () => CalcularMediana(aleatorios, diccionario)
+            );
+
+            // imprimimos los resultados por pantalla
+            foreach (var elemento in diccionario)
+            {
+                Console.WriteLine(elemento.Key + " " + elemento.Value);
+            }
+
+
+            ////////////////////// Otra manera de hacer La medida y la moda ////////////////////
+            ///
+            Ejercicio5(aleatorios);
         }
+
+        public static void Ejercicio5(int[] vector)
+        {
+            Dictionary<string, double> diccionario = new Dictionary<string, double>();
+            double media = 0;
+            double moda = 0;
+            Parallel.Invoke(
+                () => media = MediaVector(vector),
+                () => moda = ModaVector(vector)
+                );
+            diccionario.Add("media", media);
+            diccionario.Add("moda", moda);
+            Console.WriteLine("La media del vector es: " + diccionario["media"]);
+            Console.WriteLine("La moda del vector es: " + diccionario["moda"]);
+
+            moda = vector.AsParallel().GroupBy(n => n).Distinct().OrderByDescending(par => par.Count()).First().ToArray()[0];
+            Console.WriteLine("La moda con PLINQ es: " + moda);
+
+        }
+
+        public static double MediaVector(int[] vector)
+        {
+            //short media = 0;
+            //for (int i = 0;i<vector.Length;i++)
+            //{
+            //    media += vector[i];
+            //}
+            //return media / vector.Length; 
+
+            return vector.Aggregate(0.0, (semilla, n) => semilla + n) / vector.Length;
+        }
+
+        public static double ModaVector(int[] vector)
+        {
+            //Dos formas 
+            //return vector.GroupBy(n => n).Distinct().OrderByDescending(par => par.Count()).First().ToArray()[0];
+            return vector.GroupBy(n => n)
+                .Select(par => new { Numero = par.Key, Repeticiones = par.Count() })
+                .OrderByDescending(elem => elem.Repeticiones)
+                .First().Numero;
+        }
+
+        public static void CalcularMediana(int[] vector, Dictionary<string, double> diccionario)
+        {
+            // Ordenar el vector de enteros de manera ascendente
+            Array.Sort(vector);
+
+            double mediana;
+
+            int n = vector.Length;
+
+            if (n % 2 == 0)
+            {
+                // Si la cantidad de elementos es par, la mediana es el promedio de los dos valores en el medio
+                int medio1 = vector[n / 2 - 1];
+                int medio2 = vector[n / 2];
+                mediana = (medio1 + medio2) / 2.0;
+            }
+            else
+            {
+                // Si la cantidad de elementos es impar, la mediana es el valor en el medio
+                mediana = vector[n / 2];
+            }
+
+            // Almacenar el resultado en el diccionario bajo la clave "mediana"
+            lock (diccionario)
+            {
+                diccionario.Add("mediana", mediana);
+            }
+        }
+
+        private static void CalcularMedia(int[] vector, Dictionary<string, double> diccionario)
+        {
+            var resultadoMedia = vector.Average();
+
+            lock (diccionario)
+            {
+                diccionario.Add("media", resultadoMedia);
+            }
+        }
+
+        private static void CalcularModa(int[] vector, Dictionary<string, double> diccionario)
+        {
+
+            //var valoresYRepeticiones = vector.AsParallel() // haciendo uso de plinq
+            var valoresYRepeticiones = vector
+                .GroupBy(elValor => elValor)
+                .Select(grupo => new { Valor = grupo.Key, Repeticiones = grupo.Count() })
+                .OrderByDescending(pareja => pareja.Repeticiones);
+
+            int mayorRepeticiones = valoresYRepeticiones.First().Repeticiones;
+
+            var resultadoModa = valoresYRepeticiones
+                .Where(pareja => pareja.Repeticiones == mayorRepeticiones)
+                .Select(pareja => pareja.Valor)
+                .ToArray();
+
+
+            foreach (var elemento in resultadoModa)
+            {
+                lock (diccionario)
+                {
+                    diccionario.Add("moda", elemento);
+                }
+            }
+        }
+
         static double CalcularDiferenciaMinimaPares(double[] arrayPar, double[] arrayImpar)
         {
             double diferenciaMinima = double.MaxValue;
@@ -204,7 +346,12 @@ namespace Invoke
                         lock (threadIds)
                         {
                             if (!threadIds.Contains(Thread.CurrentThread.ManagedThreadId))
+                            {
+                                Console.WriteLine("Identificador hilo: " + Thread.CurrentThread.ManagedThreadId); // Lo ponemos por pantalla
                                 threadIds.Add(Thread.CurrentThread.ManagedThreadId);
+                            }
+
+                            
                         }
                     }
                 },
@@ -213,10 +360,10 @@ namespace Invoke
                     for (int i = mitad; i < universe.Length; i++)
                     {
                         sumaSeg += universe[i];
-                        lock (threadIds)
+                        if (!threadIds.Contains(Thread.CurrentThread.ManagedThreadId))
                         {
-                            if (!threadIds.Contains(Thread.CurrentThread.ManagedThreadId))
-                                threadIds.Add(Thread.CurrentThread.ManagedThreadId);
+                            Console.WriteLine("Identificador hilo: " + Thread.CurrentThread.ManagedThreadId); // Lo ponemos por pantalla
+                            threadIds.Add(Thread.CurrentThread.ManagedThreadId);
                         }
                     }
                 }

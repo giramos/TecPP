@@ -48,6 +48,14 @@ namespace TPL
            .Sum());
         }
 
+        // SUMA VECTORIAL PLINQ
+        static int[] SumarVectoresPLINQ(int[] vectorA, int[] vectorB)
+        {
+            return vectorA.AsParallel()
+                .Zip(vectorB, (a, b) => a + b)
+                .ToArray();
+        }
+
         private static double DiferenciaMitadesVector(int[] array)
         {
             int mitad = array.Length / 2;

@@ -243,6 +243,20 @@ namespace For
             return sumaCuadradosImpares;
         }
 
+        // SUMA VECTORIAL
+
+        static int[] SumarVectores(int[] vectorA, int[] vectorB)
+        {
+            int[] resultado = new int[vectorA.Length];
+
+            Parallel.For(0, vectorA.Length, i =>
+            {
+                resultado[i] = vectorA[i] + vectorB[i];
+            });
+
+            return resultado;
+        }
+
         //private static int DiferenciaMitadesVector(int[] universe)
         //{
         //    int mitad = universe.Length / 2;

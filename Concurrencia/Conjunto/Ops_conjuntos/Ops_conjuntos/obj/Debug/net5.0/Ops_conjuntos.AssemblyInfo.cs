@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ops_conjuntos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0fa3a010499c448c08d664730f6b8626474bdcc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6b4a599fdd8cd1847fe752022ce536986613dca")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ops_conjuntos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ops_conjuntos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

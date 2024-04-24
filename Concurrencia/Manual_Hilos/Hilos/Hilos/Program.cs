@@ -427,6 +427,48 @@ namespace Hilos
             SharedBoundVariables();
             MaingACopy();
             WithParameters();
+
+            // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+            // EJERCICIO CALCULAR POTENCIAS CON MI COLA
+
+            CalcularPotencias(2, 3);
+        }
+
+        /// <summary>
+        /// Calcula las potencias
+        /// </summary>
+        /// <param name="numero"></param>
+        /// <param name="numHilos"></param>
+        public static void CalcularPotencias(int numero, int numHilos)
+        {
+            Cola<double> cola = new Cola<double>(); //Inicializamos estructura de datos concurrente 
+            Thread[] hilos = new Thread[numHilos]; //Inicializamos el vector de hilos 
+            for (int i = 0; i < numHilos; i++) //Creamos los hilos 
+            {
+                hilos[i] = new Thread(() => //Se le pasa un action como tarea 
+                {
+                    for (int j = 1; j <= 10; j++)
+                    {
+                        cola.Añadir(Math.Pow(numero, j));
+                    }
+                    Interlocked.Increment(ref numero);
+                }
+                );
+            }
+            foreach (var hilo in hilos) //Ejecutamos los hilos 
+            {
+                hilo.Start();
+                hilo.Join(); //Sincronizarlos. No hay mas hilos hasta que el que realice el Join() finalice. 
+            }
+
+            int nElem = cola.NumeroDeElementos;  //Recorremos la cola, mientras la vaciamos
+            for (int i = 0; i < nElem; i++)
+            {
+                var aux = cola.Extraer();
+                Console.WriteLine(aux);
+            }
         }
 
         static int global = 1;
