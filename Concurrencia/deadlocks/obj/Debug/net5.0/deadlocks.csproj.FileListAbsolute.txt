@@ -1,5 +1,0 @@
-C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\obj\Debug\net5.0\deadlocks.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\obj\Debug\net5.0\deadlocks.AssemblyInfoInputs.cache
-C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\obj\Debug\net5.0\deadlocks.AssemblyInfo.cs
-C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\obj\Debug\net5.0\deadlocks.csproj.CoreCompileInputs.cache
-C:\Users\germa\Desktop\Nueva carpeta\TecPP\Concurrencia\deadlocks\obj\Debug\net5.0\deadlocks.sourcelink.json
