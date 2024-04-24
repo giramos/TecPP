@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Ops_conjuntos/1.0.0": {
+        "runtime": {
+          "Ops_conjuntos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ops_conjuntos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
